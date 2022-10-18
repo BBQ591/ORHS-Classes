@@ -1,0 +1,55 @@
+NJROTC I CP	S,T,E,M	913331
+GPA Weight: 0	Grading Scale: General	NCAA Approved? NA
+Length: Semester	Number of Credits: 1.0	Grade Level:  9, 10, 11, 12
+Naval Science 1 introduces the historical, political and economic impact of the Navy on the American Nation, and outlines the principles of citizenship, leadership and the basics of the historical documents and organization of our national government and its defense structure.
+Prerequisites:	None
+Counseling Notes:	Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.
+
+NJROTC II CP	S,T,E,M	923332
+GPA Weight: 0	Grading Scale: General	NCAA Approved? NA
+Length: Semester	Number of Credits: 1.0	Grade Level:  9, 10, 11, 12
+Naval Science 2 emphasizes the historical, political and economic impact of the Navy on the American Nation and the basics of science relevant to the Navy and intends to help Cadets: (a) Establish commendable citizenship standards, high leadership goals, good study habits and a sense of moral responsibility. (b)Learn more about the history, organization and profession of the Navy. (c) Gain a deeper awareness of the vital importance of the world ocean to the continued well-being of the United States and her citizens – economically, politically, militarily and environmentally. (d) Firmly establish a sound appreciation for the various sciences (e) introduce the importance of astronomy, communications technology, meteorology, electronics and logistics to the Navy and naval science.
+Prerequisites:	NJROTC I
+Counseling Notes:	Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.
+
+NJROTC  III CP	S,T,E,M	933333
+GPA Weight: 0	Grading Scale: General	NCAA Approved? NA
+Length: Semester	Number of Credits: 1.0	Grade Level: 10, 11, 12
+Naval Science 3 expands understanding of the historical, political and economic impact of the Navy on the American Nation and intends to help Cadets: (a) Deepen knowledge of and appreciation for the organization and profession of the Navy. (b) Gain an understanding of the basic concepts of military justice, international and maritime law, sea power and national security. (c) Introduce practical naval and maritime skills to students and demonstrate how these skills can be applied in a variety of leadership situations.
+Prerequisites:	NJROTC II
+Counseling Notes:	Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.  Successful completion of 3 credits of JROTC substitutes for ½ credit of Personal Finance and ½ credit of U.S. Government.
+
+NJROTC IV CP	S,T,E,M	943334
+GPA Weight: 0	Grading Scale: General	NCAA Approved? NA
+Length: Semester	Number of Credits: 1.0	Grade Level: 10, 11, 12
+Naval Science 4 broadens a cadet’s understanding of leadership as a key component in a Navy career and its impact on American citizenship. (a) Learn leadership responsibilities through opportunities within the NJROTC unit. (b) Provide professionally guided independent study on leadership and citizenship. (c) Use selected readings in Naval Leadership resources to broaden understanding of the basic theory of leadership, details of responsibilities of leadership and qualities that outstanding leader’s exhibit.
+Prerequisites:	NJROTC III
+Counseling Notes:	Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.  Successful completion of 3 years of JROTC substitutes for ½ credit of Personal Finance and ½ credit of U.S. Government.
+
+NJROTC V CP	S,T,E,M	953334
+GPA Weight: 0	Grading Scale: General	NCAA Approved? NA
+Length: Semester	Number of Credits: 1.0	Grade Level: 11, 12
+Naval Science 5 broadens a cadet’s understanding of leadership as a key component in a Navy career and its impact on American citizenship. (a) Learn leadership responsibilities through opportunities within the NJROTC unit. (b) Provide professionally guided independent study on leadership and citizenship. (c) Use selected readings in Naval Leadership resources to broaden understanding of the basic theory of leadership, details of responsibilities of leadership and qualities that outstanding leader’s exhibit.
+Prerequisites:	NJROTC IV
+Counseling Notes:	Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.  Successful completion of 3 years of JROTC substitutes for ½ credit of Personal Finance and ½ credit of U.S. Government.
+
+NJROTC VI CP	S,T,E,M	963334
+GPA Weight: 0	Grading Scale: General	NCAA Approved? NA
+Length: Semester	Number of Credits: 1.0	Grade Level: 11, 12
+Naval Science 6 broadens a cadet’s understanding of leadership as a key component in a Navy career and its impact on American citizenship. (a) Learn leadership responsibilities through opportunities within the NJROTC unit. (b) Provide professionally guided independent study on leadership and citizenship. (c) Use selected readings in Naval Leadership resources to broaden understanding of the basic theory of leadership, details of responsibilities of leadership and qualities that outstanding leader’s exhibit.
+Prerequisites:	NJROTC V
+Counseling Notes:	Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.  Successful completion of 3 years of JROTC substitutes for ½ credit of Personal Finance and ½ credit of U.S. Government.
+
+NJROTC VII CP	S,T,E,M	963334
+GPA Weight: 0	Grading Scale: General	NCAA Approved? NA
+Length: Semester	Number of Credits: 1.0	Grade Level: 11, 12
+Naval Science 7 broadens a cadet’s understanding of leadership as a key component in a Navy career and its impact on American citizenship. (a) Learn leadership responsibilities through opportunities within the NJROTC unit. (b) Provide professionally guided independent study on leadership and citizenship. (c) Use selected readings in Naval Leadership resources to broaden understanding of the basic theory of leadership, details of responsibilities of leadership and qualities that outstanding leader’s exhibit.
+Prerequisites:	NJROTC V
+Counseling Notes:	Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.  Successful completion of 3 years of JROTC substitutes for ½ credit of Personal Finance and ½ credit of U.S. Government.
+
+NJROTC VIII CP	S,T,E,M	963334
+GPA Weight: 0	Grading Scale: General	NCAA Approved? NA
+Length: Semester	Number of Credits: 1.0	Grade Level: 11, 12
+Naval Science 8 broadens a cadet’s understanding of leadership as a key component in a Navy career and its impact on American citizenship. (a) Learn leadership responsibilities through opportunities within the NJROTC unit. (b) Provide professionally guided independent study on leadership and citizenship. (c) Use selected readings in Naval Leadership resources to broaden understanding of the basic theory of leadership, details of responsibilities of leadership and qualities that outstanding leader’s exhibit.
+Prerequisites:	NJROTC V
+Counseling Notes:	Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.  Successful completion of 3 years of JROTC substitutes for ½ credit of Personal Finance and ½ credit of U.S. Government.

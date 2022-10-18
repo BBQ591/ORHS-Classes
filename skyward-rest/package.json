@@ -1,0 +1,41 @@
+{
+  "name": "skyward-rest",
+  "version": "1.0.1",
+  "description": "Unofficial Rest API for Skyward",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.3",
+    "cheerio": "^1.0.0-rc.2",
+    "eslint": "^5.15.0"
+  },
+  "devDependencies": {
+    "ava": "^1.3.1",
+    "dotenv": "^7.0.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  },
+  "scripts": {
+    "test": "ava",
+    "watch": "npx ava --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaelinator/skyward-rest.git"
+  },
+  "keywords": [
+    "Skyward",
+    "rest",
+    "api",
+    "get",
+    "grab",
+    "scrape",
+    "grades"
+  ],
+  "author": "Kael Kirk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kaelinator/skyward-rest/issues"
+  },
+  "homepage": "https://github.com/Kaelinator/skyward-rest#readme"
+}

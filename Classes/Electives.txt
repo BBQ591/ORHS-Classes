@@ -1,0 +1,493 @@
+Welding I 	S,T,E,M 	605786 
+GPA Weight: 1 	Grading Scale: General; CIC if certification obtained 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 9,10,11,12 
+Welding I students will learn basics skills and knowledge related to cutting and welding applications. Course content includes safe practices, career research, leadership development, and basic arc welding and thermal cutting skills. Combined with the second and third year courses, Basic Principles of Welding and Welding. Applications and Certification, the student should be prepared for Entry Level Welder Certification, as defined by American Welding Society QC10.A written safety test must be passed with 100% before student is allowed to work in the lab. Membership in Skills USA is encouraged. Students will take certification tests for various welding processes and positions. Students who complete the three-course sequence should be prepared for Entry Level Welding Certification, as defined by American Welding Society, QC10. 
+Pathway Info: 	http://tn.gov/education/article/cte-cluster-advanced-manufacturing 
+Prerequisites: 	None. 
+Counseling Notes: 	This is the first course in the Welding path of study. Students who wish to pursue CCTE concentrator status must take 3 courses in a single pathway.  Welding gloves, safety glasses, and steel-toed leather boots are required for Lab Safety. 
+
+Welding II 	S,T,E,M 	615786 
+GPA Weight: 1 	Grading Scale: Honors; CIC if certification obtained 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 9,10,11,12 
+Welding II is a course designed to follow Introduction to Welding, in which students will learn more advanced skills and knowledge related to cutting and welding applications. Development of welding and cutting skills will be continued in the context of a series of projects. Combined with the third course, Advanced Welding applications and Certification, the student should be prepared for Entry Level Welding Certification, as defined by American Welding Society QC10. Students will take certification tests for various welding processes and positions. Students that complete the three-course sequence should be prepared for Entry Level Welding Certification, as defined by American Welding Society, QC10. 
+Pathway Info: 	http://tn.gov/education/article/cte-cluster-advanced-manufacturing 
+Prerequisites: 	Welding I and instructor recommendation 
+Counseling Notes: 	This is the second course in the Welding path of study. Students who wish to pursue CCTE concentrator status must take 3 courses in a single pathway.  Welding gloves, safety glasses, and steel-toed leather boots are required for Lab Safety. 
+
+DE Welding 	S,T,E,M 	605787 
+GPA Weight: 1.0 	Grading Scale: Dual Enrollment; Honors if not dually enrolled 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 11,12 
+DE Welding is a course designed to teach more advanced techniques and skills related to cutting and welding applications. Welding and cutting skills developed in Welding 1 and Welding 2 will be used to satisfactorily complete a series of industry certification tests. Following the completion of this course, including successful passage defined by American Welding Society QC10. 
+Pathway Info: 	http://tn.gov/education/article/cte-cluster-advanced-manufacturing 
+Prerequisites: 	Welding 2 and teacher recommendation. 
+Counseling Notes: 	This is the third course in the Welding path of study and may be repeated for additional hours of credit and certification. Students who wish to pursue CCTE concentrator status must take 3 courses in a single pathway. Welding gloves, safety glasses, and steel-toed leather boots are required for Lab Safety. Students will take certification tests for various welding processes and positions. Certification: Entry-Level American Welding Society, QC10. Dual Enrollment is available through Tennessee College of Applied Technology, Knoxville. 
+
+Broadcasting 1 	S,T,E,M 	605759 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 9,10,11,12 
+This is a foundational course in the Arts, A/V Technology & Communications cluster for students interested in A/V production occupations. Upon completion of this course, proficient students will be to explain and complete the phases of the production process including pre-production, production, and post-production. Students will establish basic skills in operating cameras and the technology and engineering of other production equipment. Standards in this course include career exploration, an overview of the history and evolution, and legal issues affecting A/V production. Students will learn digital editing, news research and writing, and ways to create complete informative news items. Much of the work produced will air on the school television channel. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-arts-av-tech 
+Prerequisites: 	None 
+Counseling Notes: 	This is an introductory course to the A/V Production (Broadcasting) pathway. Students who wish to pursue CCTE concentrator status must take 3 courses in a single pathway. 
+ 
+Dual Credit Broadcasting 2 Honors 	S,T,E,M 	605764 
+GPA Weight: 1 	Grading Scale: Local Dual Credit; Honors if no dual credit is awarded 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 9,10,11,12 
+This is the second course in the A/V Production program of study intended to prepare students for careers in audio/video production. Students will advance in technical skill in utilizing industry equipment related to video shooting and editing, and planning productions. Upon completion of this course, proficient students will be able to plan, capture, and edit productions of increasing complexity, individually and collaboratively in teams. In addition to more robust career preparation, standards in this course include an investigation of concerns affecting A/V production businesses, such as ethical and legal issues, technology/engineering, funding, and the organization of professional roles in various industries. Much of the work produced will air on the school television channel. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-arts-av-tech 
+Prerequisites: 	Broadcasting 1 
+Counseling Notes: 	This is the second course in the A/V Production (Broadcasting) pathway. Students who wish to pursue CCTE concentrator status must take 3 courses in a single pathway. This course has a project opportunity for honors credit and/or dual credit with PSCC. 
+ 
+Broadcasting 3 Honors 	S,T,E,M 	605765 
+GPA Weight: .5 	Grading Scale: Honors 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 10,11,12 
+This is an applied-knowledge course intended to prepare students to pursue careers and postsecondary learning in audio/video production. Students in this course will apply knowledge and skills from previous courses in the program of study to create productions both independently and in teams. Students will use industry equipment and technology to complete all phases of the production process, including planning, coordinating, capturing, editing, and distributing productions. Standards in this course include policies and regulations, independent and collaborative productions, distribution of media, and the production of live events. Upon completion of this course, proficient students will be prepared for a career in audio/video production or to transition to a postsecondary program for further study. All work produced will air on the school television channel. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-arts-av-tech 
+Prerequisites: 	Broadcasting 2 
+Counseling Notes: 	This is the third course in the A/V Production (Broadcasting) pathway. Students who wish to pursue CCTE concentrator status must take 3 courses in a single pathway. This course has a project opportunity for honors credit and/or dual credit with PSCC.  
+
+Applied Arts Practicum 	S,T,E,M 	619393 
+GPA Weight: .5 	Grading Scale: Honors 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 11, 12 
+The Applied Arts Practicum is a capstone course intended to provide students with the opportunity to apply the skills and knowledge learned in previous Arts, A/V Technology, & Communications courses within a professional, working environment. In addition to developing an understanding of the professional and ethical issues encountered by professionals in these careers, students learn to refine their skills in problem solving, research, communication, teamwork, and project management through the completion of a courselong project. The course is highly customizable to meet local system needs.  Instruction may be delivered through school laboratory training or through work-based learning arrangements such as internships, service learning, and job shadowing. Upon completion of the practicum, proficient students will be prepared to pursue postsecondary study in arts, A/V technology, or communications programs; or seek additional training or employment with the aid of the portfolio, which documents the student’s work completed throughout the program of study. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-arts-av-tech 
+Prerequisites: 	Broadcasting or Digital Arts 3 
+Counseling Notes: 	This is the capstone course in the A/V Production (Broadcasting) and Digital Arts pathways. Students who wish to pursue CCTE concentrator status must take 3 courses in a single pathway.  
+ 
+Digital Arts & Design 1 	S,T,E,M 	615759	615760  
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 9,10,11,12 
+This is a foundational course in the Arts, A/V Technology & Communications academy for students interested in art and design professions. The primary aim of this course is to build a strong understanding of the principles and elements of design and the design process. Upon completion of this course, proficient students will be able to utilize industry tools to conceptualize and create communications solutions which effectively reach targeted audiences. Students will acquire basic skills in illustration, typography, and photography. Standards in this course include career exploration, an overview of the history of design, basic business management, and legal issues. Skills learned in this path of study translate well into other STEM design applications, such as CAD. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-arts-av-tech 
+Prerequisites: 	None 
+Counseling Notes: 	This is an introductory course to the Digital Arts & Design pathway. Students who wish to CCTE concentrator status must take 3 courses in a single pathway. Only this Digital Arts class can satisfy the fine art graduation requirement and count toward an Arts and A/V Communication area of focus simultaneously. 
+ 	 
+Digital Arts & Design 2 	S,T,E,M 	605761 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 9,10,11,12 
+This is a course that builds on the basic principles and the design process learned in the introductory Digital Arts & Design I course. Upon completion of this course, proficient students will be able to perform advanced software operations to create photographs and illustrations of increasing complexity. Students will employ design principles and use industry software to create layouts for a variety of applications. Standards in this course also include an overview of art and design industries, career exploration, and business management. 
+Skills learned in this path of study translate well into other STEM design applications, such as 3D modeling. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-arts-av-tech 
+Prerequisites: 	Digital Arts & Design 1 
+Counseling Notes: 	This is the second course in the Digital Arts & Design pathway. Students who wish to pursue CCTE concentrator status must take 3 courses in a single pathway.  
+ 
+Digital Arts & Design 3 	S,T,E,M 	605762 
+GPA Weight: 1 	Grading Scale: Honors; CIC if certification obtained; Dual Credit if project completed  	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 11,12 
+This is the third course in the Digital Arts & Design program of study. Applying design skills developed in prior courses, students will expand their creative and critical thinking skills to create comprehensive multimedia projects and three-dimensional designs. Upon completion of this course, proficient students will be able to use industry-standard software to create multimedia projects, web pages, three- dimensional models, and animations. Students will utilize research techniques to plan and enhance project outcomes. Standards in this course also include professionalism and ethics, career exploration, and business and project management. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-arts-av-tech 
+Prerequisites: 	Digital Arts & Design 2 
+Counseling Notes: 	This is the third course in the Digital Arts & Design pathway. Students who wish to pursue CCTE concentrator status must take 3 courses in a single pathway. This course has a project opportunity for honors credit and/or dual credit with PSCC. Students may wish to pursue Adobe Certification in this course. There is a requested $25 per month student-covered Adobe Creative Cloud fee. Certification: Adobe Photoshop and Illustrator 
+ 
+Applied Arts Practicum 	S,T,E,M 	619393 
+GPA Weight: .5 	Grading Scale: Honors 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 12 
+The Applied Arts Practicum is a capstone course intended to provide students with the opportunity to apply the skills and knowledge learned in previous Arts, A/V Technology, & Communications courses within a professional, working environment. In addition to developing an understanding of the professional and ethical issues encountered by professionals in these careers, students learn to refine their skills in problem solving, research, communication, teamwork, and project management through the completion of a course-long project. The course is highly customizable to meet local system needs. Instruction may be delivered through school laboratory training or through work-based learning arrangements such as internships, service learning, and job shadowing. Upon completion of the practicum, proficient students will be prepared to pursue postsecondary study in arts, A/V technology, or communications programs; or seek additional training or employment with the aid of the portfolio, which documents the student’s work completed throughout the program of study. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-arts-av-tech 
+Prerequisites: 	Broadcasting or Digital Arts 3 
+Counseling Notes: 	This is the capstone course in the A/V Production (Broadcasting) and Digital Arts pathways. Students who wish to pursue CCTE concentrator status must take 3 courses in a single pathway.
+
+BioSTEM I 	S, T, E, M 	642107 
+GPA Weight: 0.5 	Grading Scale: Honors 	NCAA Approved? 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 9, 10. 11. 12 
+BioSTEM I is a foundational course in the STEM cluster for students interested in learning more about careers in science, technology, engineering, and mathematics with emphasis in biotechnology. This course covers basic skills required for BioSTEM fields of study. Upon completion of this course, proficient students are able to identify and explain the steps in both the engineering design and the scientific inquiry process. Students conduct research to develop meaningful questions, define simple problem scenarios and scientific investigations, develop fundamental design solutions, conduct basic mathematical modeling and data analysis, and effectively communicate solutions and scientific explanation to others. 
+Pacing Guide: 	 None
+Prerequisites: 	None 
+Counseling Notes: 	This course is a substitute for Genetics 1 and Genetics 2. This course satisfies one of three credits required for an elective focus when taken in conjunction with other BioSTEM courses. This course satisfies the third science graduation requirement, and it may be used toward a Math/Science area of focus or a BioSTEM area of focus. 
+ 	 
+BioSTEM II 	S, T, E, M 	642108 
+GPA Weight: 0.5 	Grading Scale: Honors 	NCAA Approved? 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 9, 10. 11. 12 
+BioSTEM II is a project-based learning experience for students who wish to further explore the dynamic range of BioSTEM fields introduced in BioSTEM I. Building on the content and critical thinking frameworks of BioSTEM I, this course asks students to apply the scientific inquiry and engineering design processes to a course-long project selected by the instructor with the help of student input. Instructors design a project in one of the BioSTEM fields of medical laboratory science, research science, food science, forensic science or environmental science that reflects the interest of the class as a whole; the students then apply the steps of the scientific inquiry process throughout the course to ask questions, test hypotheses, model solutions, and communicate results. In some cases, instructors may be able to design hybrid projects that employ elements of several of the BioSTEM fields. Upon completion of this course, proficient students will have a thorough understanding of how scientists research problems and methodically apply BioSTEM knowledge and skills; and they will be able to present and defend a scientific explanation to comprehensive BioSTEM scenarios.  
+Pacing Guide: 	 None
+Prerequisites: 	BioSTEM I 
+Counseling Notes: 	 This course satisfies one of three credits required for an elective focus when taken in conjunction with other BioSTEM courses. This course satisfies the third science graduation requirement, and it may be used toward a Math/Science area of focus or a BioSTEM area of focus. 
+ 
+BioSTEM III 	S, T, E, M 	642109 
+GPA Weight: 0.5 	Grading Scale: Honors 	NCAA Approved? 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 10. 11. 12 
+BioSTEM III is an applied course in the STEM career cluster which allows students to work in groups to solve a problem or answer a scientific question drawn from real-world scenarios within their schools or communities. This course builds on BioSTEM I and BioSTEM II by applying scientific knowledge and skills to a team project. Upon completion of this course, proficient students will be able to effectively use skills such as project management, team communication, leadership, and decision making. They will also be able to effectively transfer the teamwork skills from the classroom to a work setting. 
+Pacing Guide: 	 
+Prerequisites: 	BioSTEM II 
+Counseling Notes: 	 Coming soon! This course satisfies one of three credits required for an elective focus when taken in conjunction with other BioSTEM courses. This course satisfies the third science graduation requirement, and it may be used toward a Math/Science area of focus or a BioSTEM area of focus. 
+ 
+BioSTEM Practicum 	S, T, E, M 	642110 
+GPA Weight: 1.0 	Grading Scale: Dual Enrollment 	NCAA Approved? 
+Length: Semester	Number of Credits: 1.0	Grade Level: 10. 11. 12 
+BioSTEM Practicum is the fourth course in the STEM cluster for students interested in learning more about careers in science, technology, engineering and mathematics with emphasis in Biotechnology. This course provides opportunity for students to use skills and content learned during the first three courses in a real world university or industry lab setting. Upon completion of this course, proficient students are able to identify, explain, and execute lab-based research utilizing the scientific inquiry processes. They will conduct research to develop meaningful questions, define simple problem scenarios and scientific investigations, develop fundamental design solutions, conduct basic mathematical modeling and data analysis, and effectively communicate solutions and scientific explanations to others. Students also will gain knowledge in how a biotechnology business works. Note: For clarity, some standards include example applications to science, technology, engineering, and mathematics. Teachers are encouraged to align instruction to one or more of these areas, depending on area of expertise and student interest. 
+Pacing Guide: 	 
+Prerequisites: 	BioSTEM III 
+Counseling Notes: 	 Coming soon! 
+  
+Introduction to Business and Marketing 	S,T,E,M 	605905 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1 	Grade Level: 9,10,11 
+Introduction to Business and Marketing is an introductory course designed to give students an overview of the Business Management and Administration, Marketing, and Finance career clusters. The course helps students prepare for the growing complexities of the business world by examining basic principles of business, marketing, and finance in addition to exploring key aspects of leadership, ethical and social responsibilities, and careers. Students’ academic skills in communications, mathematics, and economics are reinforced with activities modeled in the context of business topics. Upon completion of this course, proficient students will be equipped with the foundational skills to succeed in any of the Business, Marketing, or Finance programs of study and will be prepared to make an informed decision regarding which pathways they would like to pursue in high school.    
+Course Info: 	http://tn.gov/education/article/cte-cluster-business-management-administration 
+Prerequisites: 	None 
+Counseling Notes: 	Proficiency in Microsoft Word is necessary for success in this course. Students who did not take the full semester class of Computer Applications while in middle school are strongly encouraged to take Computer Applications either prior to or concurrently with this course.   
+ 
+Computer Applications A Honors 	S,T,E,M 	623718 
+GPA Weight: 1 	Grading Scale: Honors; CIC if certification obtained 	NCAA Approved? No 
+Length: Year-long skinny at lunch 	Number of Credits: .5 	Grade Level: 9,10,11 
+Computer Applications A is a foundational course intended to teach students the computing fundamentals and concepts involved in the use of common software applications including Microsoft Office 2016 Word, Excel, and PowerPoint. Upon completion of this course, students will gain basic proficiency in word processing, spreadsheets, and presentations. In addition, students will have engaged in key critical thinking skills and will have practiced ethical and appropriate behavior required for the responsible use of technology. Standards in this course are aligned with Tennessee State Standards for Literacy in Technical Subjects and Tennessee State Standards in Mathematics. The course credit for this class is a universal credit for any area of focus. Students will have the opportunity to earn Microsoft Office Specialist Certifications for free.   
+Course Info: 	http://tn.gov/education/article/cte-cluster-business-management-administration
+Prerequisites: 	None 
+Counseling Notes: 	The credit for this course is an elective for any area of focus. Students take this class all year when paired on the other side of the lunch period. For students waiving world language and/or fine art, Computer Applications is a universal enhancer credit for any area of focus. Students who complete a combination of Word, PPT, Excel, and Access certifications have opportunities to earn Dual Credit at RSCC and/or PSCC. 
+  
+Computer Applications A Honors 	S,T,E,M 	603718 
+GPA Weight: 1 	Grading Scale: Honors; CIC if certification obtained 	NCAA Approved? No 
+Length: Term 	Number of Credits: .5 	Grade Level: 9,10,11,12 
+Computer Applications A is a foundational course intended to teach students the computing fundamentals and concepts involved in the use of common software applications including Microsoft Office 2016 Word, Excel, and PowerPoint. Upon completion of this course, students will gain basic proficiency in word processing, spreadsheets, and presentations. In addition, students will have engaged in key critical thinking skills and will have practiced ethical and appropriate behavior required for the responsible use of technology. Standards in this course are aligned with Tennessee State Standards for Literacy in Technical Subjects and Tennessee State Standards in Mathematics. The course credit for this class is a universal credit for any area of focus. Students will have the opportunity to earn Microsoft Office Specialist Certifications for free.   
+Course Info: 	http://tn.gov/education/article/cte-cluster-business-management-administration 
+Prerequisites: 	None 
+Counseling Notes: 	The credit for this course is an elective for any area of focus. Students may take this class during a regular period in the day or take it during a lunch or guided study period in lieu of a regular guided study. The ORHS Business Academy teachers will be happy to “test” the students to determine their level of proficiency in Microsoft Office Word, Microsoft Office Excel, and/or Microsoft Office PowerPoint. Students who pass all the Proficiency Tests may enroll in the Advanced Microsoft Office 2, Honors course as 9th graders. For students waiving world language and/or fine art, Computer Applications is a universal enhancer credit for any area of focus. Students who complete a combination of Word, PPT, Excel, and Access certifications have opportunities to earn Dual Credit at RSCC and/or PSCC. 
+ 	 
+Computer Applications B Honors 	S,T,E,M 	613718 643718* 
+GPA Weight: 1 	Grading Scale: Honors; CIC if certification obtained 	NCAA Approved? No 
+Length: Term Or Year-long skinny at lunch 	Number of Credits: .5 	Grade Level: 9,10,11,12 
+Computer Applications B is a course intended for students to learn the concepts associated with key application software, basic computing fundamentals, and ethics and appropriate behavior while using technology as a tool in the classroom and in life. The applications taught in this course are Microsoft Access and Publisher. Skills learned in Computer Applications A in Word, Excel, and PPT will be enhanced. Students will also have the opportunity to earn Microsoft Office Specialist Certifications for free through this course. Some colleges/universities recognize certifications and will award credit and/or the student may be exempt from beginning computer course(s).   
+Course Info: 	http://tn.gov/education/article/cte-cluster-business-management-administration 
+Prerequisites: 	Computer Applications A 
+Counseling Notes: 	Students enrolled in Computer Applications B will have the opportunity to learn, practice, and certify in Microsoft products (MOS Certification). The credit for this course is an elective for any area of focus. The ORHS Business Academy teachers will be happy to “test” the students to determine their level of proficiency in Microsoft Office Word, Microsoft Office Excel, Microsoft Office Access and/or Microsoft Office PowerPoint. Students who pass all the Proficiency Tests may enroll in the Advanced Computer Applications, Honors course as 9th graders. In addition, Computer Applications is a universal enhancer credit for any area of focus for students who waive world language and/or fine art. Students who complete a combination of Word, PPT, Excel, and Access certifications have opportunities to earn Dual Credit at RSCC and/or PSCC. 
+ 
+Computer Applications Honors 	S,T,E,M 	633718 
+GPA Weight: 1 	Grading Scale: Honors; CIC if certification obtained 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1 	Grade Level: 9,10,11,12 
+Computer Applications is a foundational course intended to teach students the computing fundamentals and concepts involved in the use of common software applications including Microsoft Office 2016 Word, Excel, and PowerPoint. Upon completion of this course, students will gain basic proficiency in word processing, spreadsheets, and presentations. In addition, students will have engaged in key critical thinking skills and will have practiced ethical and appropriate behavior required for the responsible use of technology. Standards in this course are aligned with Tennessee State Standards for Literacy in Technical Subjects and Tennessee State Standards in Mathematics. The course credit for this class is a universal credit for any area of focus. Students will have the opportunity to earn Microsoft Office Specialist Certifications for free.   
+Course Info: 	http://tn.gov/education/article/cte-cluster-business-management-administration 
+Prerequisites: 	None 
+Counseling Notes: 	The credit for this course is an elective for any area of focus. Students may take this class during a regular period in the day or take it during a lunch or guided study period in lieu of a regular guided study. The ORHS Business Academy teachers will be happy to “test” the students to determine their level of proficiency in Microsoft Office Word, Microsoft Office Excel, and/or Microsoft Office PowerPoint. Students who pass all the Proficiency Tests may enroll in the Advanced Microsoft Office 2, Honors course as 9th graders. For students waiving world language and/or fine art, Computer Applications is a universal enhancer credit for any area of focus. Students who complete a combination of Word, PPT, Excel, and Access certifications have opportunities to earn Dual Credit at RSCC and/or PSCC. 
+ 	 
+Advanced Computer Applications + MOS Certification 	S,T,E,M 	603730 
+GPA Weight: 1 	Grading Scale: Industry Certification/Dual Credit 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 9,10,11,12 
+This course prepares students to continue postsecondary training in business related programs, provides advanced training for students pursuing a career in administrative and information support, and supports obtaining an industry certification. Microsoft Office programs will be taught at an expert level.  Course content and projects are meant to simulate workplace scenarios and draw on skills related to communications, operations, management, and teamwork in order to accomplish information management goals. Upon completion of this course, proficient students will be fluent in a variety of information management software applications and will be prepared to sit for the Microsoft Office Specialist (MOS) certifications.  The completion of this course prepares students to pursue the Microsoft Office Specialist (MOS) certification(s) by taking the exam(s) at an official testing center (ORHS is an official testing center). Certification exams are available in Word, Excel, Access, PowerPoint, and Outlook. The students will be able to take the certification exams for free. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-business-management-administration \
+Prerequisites: 	Computer Applications A or acceptable scores on proficiency tests in Word, Excel, and PowerPoint 
+Counseling Notes: 	Students who complete this course as juniors or are enrolled in this course as seniors may apply to work in local businesses for additional work-experience course credit (one or two additional credits) during their senior year. See Work-Based Learning. Students who complete a combination of Word, PPT, Excel, and Access certifications have opportunities to earn Dual Credit at RSCC and/or PSCC. 
+ 
+Accounting I CP 	S,T,E,M 	603779 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 10,11,12 
+This course provides an introduction to the field of accounting. The principles of debit and credit, the accounting cycle, the analyzing and recording of business transactions, and the preparation of business reports for service and merchandising businesses organized either as sole proprietorships, partnerships, or corporations are studied. Current terminology, business forms, and procedures are used. Students will work through an entire accounting cycle for a service business organized as a sole proprietorship and a merchandising business organized as a corporation. One or more business simulations will also be used in this course. Computerized accounting programs will be used to reinforce and expand accounting concepts as time allows. The reasoning, organizing, and decision-making skills taught makes CP Accounting I a good course for any student planning a business career or any other professional career. A workbook is required. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-finance 
+Prerequisites: 	Instructor approval 
+Counseling Notes: 	Students who complete this course as juniors or are enrolled in this course as seniors may apply to work in local businesses for additional work-experience course credit (one or two additional credits) during their senior year. See Work-Based Learning. 
+ 
+Accounting I Honors 	S,T,E,M 	613779 
+GPA Weight: .5 	Grading Scale: Honors 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 10,11,12 
+Honors Option—any student wishing to take CP Accounting I for honors credit will be expected to complete additional assignments, independent projects, and take a comprehensive accounting examination. These additional assignments will be completed on an individualized instructional basis and will be graded. Students may elect this option once enrolled in the course. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-finance
+Prerequisites: 	None 
+Counseling Notes: 	Students who complete this course as juniors or are enrolled in this course as seniors may apply to work in local businesses for additional work-experience course credit (one or two additional credits) during their senior year. See Work-Based Learning. 
+ 
+DE Accounting 1 	S,T,E,M 	623779 
+GPA Weight: 1.0 	Grading Scale: Dual Enrollment 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 10,11,12 
+CP Accounting I, Dual Enrollment Option: students may choose to enroll in Roane State Community College’s beginning Accounting course while taking CP Accounting I at ORHS. Upon successfully passing the courses, students would receive one credit at ORHS and 3 credits at RSCC. It is suggested that students enroll in the RSCC course during the spring semester after having taken one semester of high school accounting. Lottery scholarship money is available to pay for the course. However, students would be responsible for a one-time registration fee and the cost of the textbook. More information will be provided at the beginning of the ORHS Accounting course. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-finance
+Prerequisites: 	3.0 GPA and a 19 in Reading on the ACT 
+Counseling Notes: 	Only students planning to attend RSCC are encouraged to take this option since this one course does not fulfill the requirements of Accounting I at UTK and therefore would not transfer. Students who complete this course as juniors or are enrolled in this course as seniors may apply to work in local businesses for additional work-experience course credit (one or two additional credits) during their senior year. See Work-Based Learning. 
+ 
+Accounting II CP 	S,T,E,M 	603780 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 11,12 
+CP Accounting II CP is an advanced study of concepts, principles and techniques that build on the competencies acquired in Accounting I CP.  Students will apply these concepts, principles, and techniques used to keep the electronic and manual financial records of a sole proprietorship, partnership and corporation. Departmental, management, cost and not-for-profit accounting systems are explored. Computer-based accounting programs will be used to reinforce and expand accounting concepts as time allows. The reasoning, organizing, and decision-making skills taught make Accounting II CP an excellent course for any student planning a business career or any other professional career.  
+Course Info: 	http://tn.gov/education/article/cte-cluster-finance 
+Prerequisites: 	Accounting 1 CP and instructor approval 
+Counseling Notes: 	Students who complete this course as juniors or are enrolled in this course as seniors may apply to work in local businesses for additional work-experience course credit (one or two additional credits) during their senior year. See Work-Based Learning. 
+ 
+Accounting II Honors 	S,T,E,M 	613780 
+GPA Weight: .5 	Grading Scale:  Honors 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 11,12 
+Accounting II Honors is an advanced study of concepts, principles and techniques that build on the competencies acquired in Accounting I. Students will apply these concepts, principles, and techniques used to keep the electronic and manual financial records of a sole proprietorship, partnership and corporation. Departmental, management, cost and not-for-profit accounting systems are explored. Computer-based accounting programs will be used to reinforce and expand accounting concepts as time allows. The reasoning, organizing, and decision-making skills taught make Accounting 2 Honors an excellent course for any student planning a business career or any other professional career. For the honors option--extra fractional quality point value--any student wishing to take Accounting II CP for honors credit will be expected to complete additional assignments, independent projects, and take a comprehensive accounting examination. These additional assignments will be completed on an individualized instructional basis and will be graded. Students may elect this option once enrolled in the course.  
+Course Info: 	http://tn.gov/education/article/cte-cluster-finance 
+Prerequisites: 	Accounting I CP with at least a C average and instructor approval 
+Counseling Notes: 	Students who complete this course as juniors or are enrolled in this course as seniors may apply to work in local businesses for additional work-experience course credit (one or two additional credits) during their senior year. See Work-Based Learning. 
+ 	 
+DE Accounting II 	S,T,E,M 	623780 
+GPA Weight: 1.0 	Grading Scale: Dual Enrollment 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 11,12 
+DE Accounting II, Dual Enrollment Option: students may choose to enroll in Roane State Community College’s second level Accounting course while taking Accounting II CP at ORHS. Upon successfully passing the courses, students would receive one credit at ORHS and 3 credits at RSCC. 6 credits in Accounting from RSCC would satisfy UTK’s first level Accounting course. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-finance 
+Prerequisites: 	CP Accounting 1 with at least a C average and instructor approval; 19 in Reading on the ACT; 3.0 GPA 
+Counseling Notes: 	This course can be taken for dual enrollment credit through RSCC. Students should apply for the dual enrollment grant for both fall and spring, enrolling in one 3-credit course per term for a total of 6 hours. Students who complete this course as juniors or are enrolled in this course as seniors may apply to work in local businesses for additional work-experience course credit (one or two additional credits) during their senior year. See Work-Based Learning. 
+ 
+Marketing and Management 	S,T,E,M 	605030 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 10,11,12 
+Marketing and Management I: Principles focuses on the study of marketing concepts and their practical applications. Students will examine the risks and challenges that marketers face to establish a competitive edge in the sale of products and services. Topics covered include foundational marketing functions such as promotion, distribution, and selling, as well as coverage of economics fundamentals, international marketing, and career development. Upon completion of this course, proficient students will understand the economic principles, the marketing mix, and product development and selling strategies. 
+Pacing Guide: 	Enter a link to your course pacing guide. 
+Prerequisites: 	Computer Applications A or Introduction to Business and Marketing 
+Counseling Notes: 	Students who complete this course as juniors or are enrolled in this course as seniors may apply to work in local businesses for additional work-experience course credit (one or two additional credits) during their senior year. See Work-Based Learning. Successful completion of Marketing and Management meets the .5 credit graduation requirement for Economics and a credit toward a Business Academy area of focus simultaneously. 
+ 
+Entrepreneurship 	S,T,E,M 	605934 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 10,11,12 
+Entrepreneurship is an applied knowledge course that begins with the discovery process of generating new business ideas. Students research local, national, and international social and economic trends and analyze the feasibility of their own proposed businesses, both from a market demand and revenue-producing standpoint. Based on their entrepreneurial endeavors, students will prepare, write, and revise a business plan. In preparation for the business plan, students will conduct market research, study ownership structures, evaluate risks, examine startup costs, determine essential vendors, and identify sources of capital and financing options. Students will also draft, refine, and rehearse entrepreneurship pitches developed from their business plans to present during course intervals and to give final presentations at the conclusion of the course. Upon conclusion of this course, proficient students will be able to articulate, and defend, elements of a full business plan for a new business. 
+Course Info:
+Prerequisites: 	Computer Applications A or Introduction to Business and Marketing 
+Counseling Notes: 	Students who complete this course as juniors or are enrolled in this course as seniors may apply to work in local businesses for additional work-experience course credit (one or two additional credits) during their senior year. See Work-Based Learning. Successful completion of Marketing and Management meets the .5 credit graduation requirement for Economics and a credit toward a Business Academy area of focus simultaneously. 
+ 
+Work-Based Learning 	S,T,E,M 	603798 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 12 
+Student must have completed an additional Business Academy course during the junior year or be enrolled in the course as a senior. Work-Based Learning (Work-Based Learning: Career Practicum) is a capstone course intended to provide students with opportunities to apply the skills and knowledge learned in previous Business Academy and general education courses within a professional work environment. The course allows students to earn high school credit for select models of work-based learning, which allow students to interact with the industry professionals in order to extend and deepen classroom work and support the development of postsecondary and career readiness knowledge and skills. Through Work-Based Learning, students participate in individual work-based learning experiences in professional settings when they meet the hours required for fulltime course equivalent. Upon completion of the Work-Based Learning experience, students will be prepared for postsecondary and career opportunities aligned with their interests and demonstrate professional-quality employability skills relevant to their chosen career paths. Students will participate in class instruction during 8th period every day for approximately the first three weeks of school and will continue once a month on the first Wednesday of each month for the remainder of the year. (Due to the school calendar, some meetings may potentially be rescheduled throughout the year). Both the classroom performance and the WBL on-the-job component are to be evaluated in determining a student’s composite grade. Students must maintain 90% attendance both in school and at work. Please note that students who participate in the work-based learning program may be subject to alcohol and/or drug testing by the third-party organization/employer.  The third-party organization/employer may require parental consent to conduct the testing depending on the student’s age. 
+Course Info:
+Prerequisites: 	Computer Applications A or Introduction to Business and Marketing and at least one additional Business Academy course 
+Counseling Notes: 	Students must complete an online application for this program at registration time during their junior year. Candidates must be approved by Student Services before being allowed to interview. Business employers will interview and hire the student(s) of their choice. 
+ 
+Virtual Enterprises, International TM 	S,T,E,M 	603757 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 11, 12 
+Virtual Enterprises, International™ (VE) is a simulated business environment. The VE students will be involved in actual on-the-job work experiences including accounting, personnel, administration, management, and marketing. The only difference between the VE company and an actual business is that no material goods are produced or legal tender exchanged; however, services will be provided. Working in a team, the student will develop and enhance oral and written communication skills through initiative, responsibility, and creativity. The VE experience will weave together several academic disciplines and occupational subjects, thereby overcoming fragmentation of subjects. The course will link learning to application and real-life experiences. The goal is to create a learning environment that, through a series of activities, integrates school and workplace to enhance learning. Laboratory facilities and experiences simulate those found in business and industry. The VE course includes the creation/operation of a virtual business. This practice company will design, produce and market a virtual product to other practice companies via the Internet. Students in the Business Academy will come together to utilize and combine their skills and expertise in the business environment. Students will use a variety of software.  
+Course Info: 	http://tn.gov/education/article/cte-cluster-business-management-administration 
+Prerequisites: 	Computer Applications A or Introduction to Business and Marketing and completion of an additional Business Academy Course (Exception: Current sophomores or juniors in Accounting I CP may apply for VE.) 
+Counseling Notes: 	Students must complete an application for this program at registration time during their junior year. Candidates will participate in a formal job interview as a part of the selection process. Students enrolled in this course as seniors may apply to work in local businesses for work 	-experience credit (one or two additional credits). See Work-Based Learning. 
+
+Early Childhood Education Careers 1 	S,T,E,M 	605650 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 9,10,11 
+Careers in early childhood education include but are not limited to childcare providers, nannies, and preschool teachers. This course studies the foundation of childhood development services, careers, provider responsibilities and aptitudes, and fundamentals of child development. Students will create a course portfolio. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-education-training 
+Prerequisites:	Completion of application, interview by instructor, and instructor 
+Counseling Notes: 	recommendationRequirements: Complete an Early Childhood Education Application (available in the  Guidance Office and Early Childhood Education Classroom CS-250) and submit two letters of recommendation. Interviews will be conducted with each student. Applicants must have good attendance, discipline, and academic records. Students need to be focusing on a future career with young children and eager to work one-on-one with preschoolers. 
+ 
+Early Childhood Education Careers 2 	S,T,E,M 	605660 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 9, 10,11,12 
+This is a course for students interested in learning more about becoming an early childhood teacher, nanny, or childcare provider. This course covers the components of curriculum planning, learning, screening and assessing, special populations, and educational technology. Students in this course will observe educators in action, practice specific skills, and add personal work products to a course portfolio. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-education-training 
+Prerequisites: 	Early Childhood Education Careers 1 and instructor recommendation 
+Counseling Notes: 	Applicants must have good attendance, discipline, and academic records. Students need to be focusing on a future career with young children and eager to work one-on-one with 
+  
+DE Early Childhood Education Careers 3 	S,T,E,M 	605661
+GPA Weight: 1.0 	Grading Scale: Dual Enrollment 	NCAA Approved? No 
+Length: Year-long on a block 	Number of Credits: 1.0 	Grade Level: 11,12 
+This is an applied knowledge course for students interested in learning more about becoming an early childhood teacher, nanny, or childcare provider. This course encompasses the components of the learning environment, planning age appropriate activities, using activities for learning, and developing communication skills. Students in this course will participate in a work-based learning component of instruction and add work products to a course portfolio. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-education-training 
+Prerequisites:	Early Childhood Education Careers 2 and instructor signature; dual enrollment application and instructor recommendation 
+Counseling Notes: 	Applicants must have good attendance, discipline, and academic records. Students need to be focusing on a future career with young children and eager to work one-on- one with preschoolers. *This course meets all year during the 3rd period lunch block.  Therefore, students will have a 55-minute lunch period during 4th block and then a 35-minute period as a teacher aide during 4th block.  Therefore, this course is a co-requisite of 4th block lunch and 4th block Service Learning. 
+ 
+Early Childhood Education Careers Work- Based Learning/Student Teacher 	S,T,E,M 	605698 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 11,12 
+This is an applied knowledge course for students interested in learning more about becoming an early childhood teacher, nanny, or childcare provider. The course standards cover understanding the components professionalism, policies, regulation, and teaching to learn principles. Students in this course will participate in a work-based learning component of instruction and add work products to a course portfolio. Work-Based Learning (WBL) activities are part of a structured system, open to students that have completed ECEC II. Only juniors or seniors (16 years or older) may participate. WBL activities allow students to apply classroom theories and explore career options at the work site, as well as connect classroom learning to work. Students will be placed in work sites that focus on a career interest. Examples include: Oak Ridge Schools – preschool, elementary, middle schools. Please note that students who participate in the work-based learning program may be subject to alcohol and/or drug testing by the third-party organization/employer.  The third-party organization/employer may require parental consent to conduct the testing depending on the student’s age. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-education-training 
+Prerequisites:	DE Early Childhood Education Careers 3 
+Counseling Notes:	None
+
+NJROTC I CP 	S,T,E,M 	913331 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? NA 
+Length: Semester 	Number of Credits: 1.0 	Grade Level:  9, 10, 11, 12 
+Naval Science 1 introduces the historical, political and economic impact of the Navy on the American Nation, and outlines the principles of citizenship, leadership and the basics of the historical documents and organization of our national government and its defense structure. 
+Course Info: None
+Prerequisites:	None 
+Counseling Notes: 	Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus. 
+ 
+NJROTC II CP 	S,T,E,M 	923332 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? NA 
+Length: Semester 	Number of Credits: 1.0 	Grade Level:  9, 10, 11, 12 
+Naval Science 2 emphasizes the historical, political and economic impact of the Navy on the American Nation and the basics of science relevant to the Navy and intends to help Cadets: (a) Establish commendable citizenship standards, high leadership goals, good study habits and a sense of moral responsibility. (b)Learn more about the history, organization and profession of the Navy. (c) Gain a deeper awareness of the vital importance of the world ocean to the continued well-being of the United States and her citizens – economically, politically, militarily and environmentally. (d) Firmly establish a sound appreciation for the various sciences (e) introduce the importance of astronomy, communications technology, meteorology, electronics and logistics to the Navy and naval science. 
+Course Info: None
+Prerequisites: 	NJROTC I 
+Counseling Notes: 	Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus. 
+ 
+NJROTC  III CP 	S,T,E,M 	933333 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? NA 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 10, 11, 12 
+Naval Science 3 expands understanding of the historical, political and economic impact of the Navy on the American Nation and intends to help Cadets: (a) Deepen knowledge of and appreciation for the organization and profession of the Navy. (b) Gain an understanding of the basic concepts of military justice, international and maritime law, sea power and national security. (c) Introduce practical naval and maritime skills to students and demonstrate how these skills can be applied in a variety of leadership situations.
+Course Info: None
+Prerequisites: 	NJROTC II 
+Counseling Notes: 	Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.  Successful completion of 3 credits of JROTC substitutes for ½ credit of Personal Finance and ½ credit of U.S. Government. 
+ 
+NJROTC IV CP 	S,T,E,M 	943334 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? NA 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 10, 11, 12 
+Naval Science 4 broadens a cadet’s understanding of leadership as a key component in a Navy career and its impact on American citizenship. (a) Learn leadership responsibilities through opportunities within the NJROTC unit. (b) Provide professionally guided independent study on leadership and citizenship. (c) Use selected readings in Naval Leadership resources to broaden understanding of the basic theory of leadership, details of responsibilities of leadership and qualities that outstanding leader’s exhibit. 
+Course Info: None
+Prerequisites: 	NJROTC III 
+Counseling Notes: 	Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.  Successful completion of 3 years of JROTC substitutes for ½ credit of Personal Finance and ½ credit of U.S. Government. 
+
+NJROTC V CP 	S,T,E,M 	953334 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? NA 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 11, 12 
+Naval Science 5 broadens a cadet’s understanding of leadership as a key component in a Navy career and its impact on American citizenship. (a) Learn leadership responsibilities through opportunities within the NJROTC unit. (b) Provide professionally guided independent study on leadership and citizenship. (c) Use selected readings in Naval Leadership resources to broaden understanding of the basic theory of leadership, details of responsibilities of leadership and qualities that outstanding leader’s exhibit. 
+Course Info: None
+Prerequisites: 	NJROTC IV 
+Counseling Notes: 	Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.  Successful completion of 3 years of JROTC substitutes for ½ credit of Personal Finance and ½ credit of U.S. Government. 
+ 
+NJROTC VI CP 	S,T,E,M 	963334 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? NA 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 11, 12 
+Naval Science 6 broadens a cadet’s understanding of leadership as a key component in a Navy career and its impact on American citizenship. (a) Learn leadership responsibilities through opportunities within the NJROTC unit. (b) Provide professionally guided independent study on leadership and citizenship. (c) Use selected readings in Naval Leadership resources to broaden understanding of the basic theory of leadership, details of responsibilities of leadership and qualities that outstanding leader’s exhibit. 
+Course Info: None
+Prerequisites: 	NJROTC V 
+Counseling Notes: 	Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.  Successful completion of 3 years of JROTC substitutes for ½ credit of Personal Finance and ½ credit of U.S. Government. 
+
+Health Science Education 	S,T,E,M 	605504 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 9, 10 
+Health Science Education is an introductory course designed to prepare students to pursue careers in the fields of public health, therapeutics, health services administration, diagnostics, and support services. Upon completion of this course, a proficient student will be able to identify careers in these fields, compare the features of healthcare systems, explain the legal and ethical ramifications of the healthcare setting, and begin to perform foundational healthcare skills. This course will serve as a strong foundation for all the Health Science programs of study as well as the Health Services Administration program of study. This is the foundational course in all programs of study in the Health Science career cluster. It is also an option for the first course in the Health Services Administration program of study in the Business cluster. For more information on the benefits and requirements of implementing these programs in full, please visit the Health Science website. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-health-science 
+Prerequisites: 	None 
+Counseling Notes: 	None 
+  
+Medical Therapeutics 	S,T,E,M 	605506 
+GPA Weight: 1 	Grading Scale: General; CIC if certification obtained 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 10,11,12 
+Medical Therapeutics is an applied course designed to prepare students to pursue careers in therapeutic services, this could include careers such as dental, medical assistance, nursing, pharmacy, respiratory, social work, nutritionist, physician, psychologist, veterinarian and others. Upon completion of this course, a proficient student will be able to identify careers in therapeutics services; assess, monitor, evaluate, and report patient/client health status; and identify the purpose and components of treatments. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-health-science 
+Prerequisites: 	None 
+Counseling Notes: 	This course does not have prerequisites but serves to prepare students to be clinical interns and/or for the Dual Enrollment Nursing Education course. 
+ 
+Anatomy and Physiology Honors 	S,T,E,M 	423251 
+GPA Weight: .5 	Grading Scale: Honors 	NCAA Approved? Yes 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 11,12 
+Anatomy and Physiology is the study of the body’s structures and respective functions at the molecular, cellular, tissue, organ, systemic, and organism levels. Students explore the body systems through laboratory investigations, models, diagrams, and/or comparative studies of the anatomy of other organisms. The study of anatomy and physiology prepares students for a variety of pursuits such as health care, sports, and fitness careers, as well as for taking an active part in their own health and wellness. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-health-science 
+Prerequisites: 	Chemistry 
+Counseling Notes: 	A $20 lab fee is requested. 
+ 
+Dual Enrollment  Gross Anatomy 	S,T,E,M 	420343 
+GPA Weight: 1.0 	Grading Scale: Dual Enrollment 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 11,12 
+Students will learn the gross anatomy of the following systems: skeletal, muscular, nervous, circulatory, respiratory, digestive, urinary, and reproductive. The lab component of the course parallels & reinforces lecture concepts using prosected cadavers. Students will learn names & functions of anatomical structures and concepts to help them succeed in a college program. They will understand the "big picture" of how anatomic systems work together, as well as understand and apply clinical relevance of anatomic structure. Lectures meet two times per week via digital lectures. Students also attend one 2-hr. lab per week. Lectures are relayed in individual high schools Labs are hosted at the LMU DCOM Medical School in Knoxville. Students must bring their own device. Students will meet with an ORHS instructor to work on coursework daily. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-health-science 
+Prerequisites: 	Must apply & be accepted to LMU. Successful completion of High School Anatomy & Physiology. 
+Counseling Notes: 	  The Dual Enrollment Grant is not used for this course; it is being offered tuition-free.  However, students must purchase a textbook and scrubs at a cost of ~$100.  Students must also be able to provide their own transportation to LMU in Knoxville once per week. 
+  
+DE Clinical Services 	S,T,E,M 	605511 
+GPA Weight: 1.0 	Grading Scale: Dual Enrollment 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 12 
+First semester – medical terminology (RSCC Medical Terminology HIMT 1300 dual enrollment – 3 college credits.) Medical Terminology is a course designed to provide students with the opportunity to develop working knowledge of the language of healthcare professionals. Students will acquire vocabulary building and problem solving skills by learning prefixes, suffixes, roots, combining forms, and abbreviations commonly used in medical fields. Utilizing a body systems approach, students will define, interpret, and pronounce medical terms relating to structure and function, pathology, diagnosis, clinical procedures, and pharmacology. Upon completion of this course, proficient students will be able to apply problem-solving skills to the documentation of medical phenomena and will be able to communicate fluently in the language of medicine when working in healthcare settings.  Cost: none. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-health-science 
+Prerequisites: 	Medical Therapeutics and/or Rehabilitation Careers with a minimum 80% grade average. 
+Counseling Notes: 	Must register for both semesters, classes will meet 1st and 2nd periods. Enrollment limited to 15 students. Progression into the clinical internship practicum component second semester is also contingent upon continual attainment of the Health Science Academy clinical internship quality indicators during the first semester course. 
+
+Clinical Internship Honors-Pharmacy Tech 	 S,T,E,M 	605501/606133 
+GPA Weight: .5 	Grading Scale: Honors 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 12 
+Second Semester – Clinical Internship/elective course: Students may choose to complete a clinical internship after completing Medical Therapeutics and/or Rehabilitation Careers. The internships are designed to be completed in a hospital, long term care facility, rehab center, medical office, or other health care facility. During the internship, student may also enroll in elective course listed below. COSTS: Clinical Internship embroidered uniform, physical exam/TB test, immunizations, CPR Certification. Elective course Pharmacological Sciences (pharmacy technician certification training) 1 credit; 12th only. 
+Pharmacy Technicians assist and support licensed pharmacists in providing health care and medications to patients. Topics include federal laws, medication used in major body systems, calculations, and pharmacy operations. Mathematics is reinforced in this course. Work-based learning strategies include internship in at least two different contemporary pharmacy settings (i.e. hospital, community). This certification training course is offered second semester with clinical internship. Costs:  None. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-health-science 
+Prerequisites: 	Medical Therapeutics and/or Rehabilitation Careers with a minimum 80% grade average. Student application, instructor/advisory board approval 
+Counseling Notes: 	Must register for both semesters, classes will meet 1st and 2nd periods.  Enrollment limited to 15 students. Progression into the clinical internship practicum component second semester is also contingent upon continual attainment of the Health Science Academy clinical internship quality indicators during the first semester course. Upon successful completion of this course students earn a credit in Pharmacy Tech, and after graduation, the student is eligible to take the Pharmacy Technician Certification Board (PTCB) exam. 
+ 
+Dual Enrollment Nursing Education 	S,T,E,M 	606000 
+GPA Weight: 1.0 	Grading Scale: Dual Enrollment 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 11,12 
+Offered from Tennessee College of Applied Technology on Oak Ridge Schools Campus. Nursing Education consists of 18 units of study dealing with direct bedside nursing care. Students can be registered by the Tennessee 
+Department of Health—after the completion of the course, 100 hours clinical and theory, passing a state test (both written and skills)—and will be job ready. Jobs include registered nurse, clinical nurse specialist, nurse practitioner, nurse midwife, nurse anesthetist, forensic nurse, and other occupations. This Dual Enrollment course includes theory and clinical training in basic nursing skills; patient personal care and hygiene/ communication, and interpersonal interaction; ethical and legal responsibilities; infection control methods; safety measures; rehabilitation and restorative care; and patient mental health needs. Employment as a Certified Nurse Assistant typically requires the person to meet general health standards, and requires heavy physical tasks such as lifting, pushing, or pulling required objects up to 50 lbs. It also requires lifting clients who might weigh up to 200 pounds. For employment, aides must be in good health; a physical exam might be required; and a criminal background check is generally a prerequisite. Aides should be tactful, patient, understanding, emotionally stable, and dependable. They should desire to help people. Upon successful completion of the course materials and 120 required hours of training (one period per day in a semester-long class plus 25 evenings of clinical experience hours), students will be awarded a certificate and a grade report that serve as documentation of the successful completion and the training hours attended. These students are then eligible to sit for the State of Tennessee’s Nurse Aid Test to become a Certified Nurse Assistant (CNA). 
+Course Info: 	http://tn.gov/education/article/cte-cluster-health-science 
+Prerequisites: 	Medical Therapeutics; 2.5 GPA 
+Counseling Notes: 	Enrollment is by submitted application and instructor/advisory board approval only. Enrollment is limited to 15 students per semester. Continuing dual enrollment grant eligibility requires maintaining a B average in dual enrollment coursework. Approximate costs: Background check: $27 (you must provide a receipt before registering—it is nonrefundable). Liability insurance $15 Maroon scrubs for clinical practicum: $40 Written and skills CNA test: $90. Students should have proper shoes and a watch with a second hand. 
+
+Coding A L 	S,T,E,M 	313625 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Year-long skinny at lunch 	Number of Credits: .5 	Grade Level: 9,10,11,12 
+This course is an introduction to coding concepts such as conditions, loops, functions, and objects. The concepts will be learned by building computer programs and games. Emphasis will be given to problem solving through structured program development. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-information-technology 
+Prerequisites: 	Open to any student 
+Counseling Notes: 	This course cannot be used as a graduation requirement in mathematics, but it can be used toward an Information Technology or Math and Science area of focus.  This course meets during the lunch period 
+ 	 
+Coding B L 	S,T,E,M 	313632 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Year-long skinny at lunch 	Number of Credits: .5 	Grade Level: 9,10,11,12 
+This course is a continuation of Coding A, but is flexible enough to accommodate students who did not take Coding B or who have no programming experience. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-information-technology 
+Prerequisites: 	Open to any student 
+Counseling Notes: 	This course cannot be used as a graduation requirement in mathematics, but it can be used toward an Information Technology or Math and Science area of focus.  This class meets during the lunch period. 
+ 
+Coding I 	S,T,E,M 	313626 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1 	Grade Level: 9,10,11,12 
+This course is an introduction to coding concepts such as conditions, loops, functions, and objects. The concepts will be learned by building computer programs and games. Emphasis will be given to problem solving through structured program development. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-information-technology 
+Prerequisites: 	Open to any student 
+Counseling Notes: 	This course cannot be used as a graduation requirement in mathematics, but it can be used toward an Information Technology or Math and Science area of focus.   
+ 
+Cybersecurity I 	S,T,E,M 	313620 
+GPA Weight: 1 	Grading Scale: General 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1 	Grade Level: 9,10,11,12 
+Cybersecurity I is a course intended to teach students the basic concepts of cybersecurity. The course places an emphasis on security integration, application of cybersecurity practices and devices, ethics, and best practices management. The fundamental skills in this course cover both in house and external threats to network security and design, how to enforce network level security policies, and how to safeguard an organization’s information. Upon completion of this course, proficient students will be demonstrate and understanding of cybersecurity concepts, identify fundamental principles of networking systems, understand network infrastructure and network security, and be able to demonstrate h 	ow to implement various aspects of security within a networking system. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-information-technology 
+Prerequisites: 	Open to any student who has successfully completed Algebra1 with an A or B. 
+Counseling Notes: 	This course cannot be used as a graduation requirement in mathematics, but it can be used toward an Information Technology or Math and Science area of focus.   
+
+AP Computer Science Principles 	S,T,E,M 	323635 
+GPA Weight: 1.0 	Grading Scale: Honors; Advanced Placement if exam taken 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 9,10,11,12 
+AP Computer Science Principles focuses on foundational computing skills to help students understand the relevance of those computing skills to their college and career plans. Multidisciplinary in nature, this course teaches students how to analyze problems, use creative thinking, and create computational artifacts including programs. Throughout the course, students will collaborate to investigate real-world issues using computing. The course focuses on seven major ideas in computing: Creativity, Abstraction, Data and Information, Algorithms, 
+Programming, Internet, and Global Impact. AP computer science options include both AP Computer Science A (G02H45) and AP Computer Science Principles (G02H44). Both courses can substitute for 4th year math if the student has reached the mathematics college readiness benchmark of 22 on the ACT. https://www.tn.gov/education/instruction/academic-standards/computer-science.html  
+Pacing Guide: 	http://www.ortn.edu/central-office/teaching-and-learning/curriculum/high-school 
+Prerequisites: 	Open to any student who has successfully completed Algebra1 with an A or B. 
+Counseling Notes: 	Students may use this course to satisfy the requirement of being enrolled in a 4th mathematics course as long as they have already earned credits in the three State Board of Education required math courses for graduation and a 22 on the math portion of the ACT. 
+ 
+AP Computer Science A 	S,T,E,M 	313635 
+GPA Weight: 1.0 	Grading Scale: Honors; Advanced Placement if exam taken 	NCAA Approved? Yes 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 10,11,12 
+Students will follow the Advanced Placement Computer Science curriculum outline. AP booklets with a detailed course description are available through the AP Computer Science teacher or the Guidance Office. The major emphasis of this course is on programming methodology, algorithms, and data structures using JAVA. Applications are used to develop student awareness of the need for particular algorithms and data structures, as well as to provide topics for programming assignments to which the students can apply their knowledge. Treatments of computer systems and social implications of computing are integrated into the course work and not isolated as separate units. AP computer science options include both AP Computer Science A (G02H45) and AP Computer Science Principles (G02H44). Both courses can substitute for 4th year math if the student has reached the mathematics college readiness benchmark of 22 on the ACT. 
+Pacing Guide: https://www.tn.gov/education/instruction/academic-standards/computer-science.html  
+Prerequisites:	Open to any student who has at least one semester of programming experience or has successfully completed Algebra 2. 
+Counseling Notes:	Students may use this course to satisfy the requirement of being enrolled in a 4th mathematics course as long as they have already earned credits in the three State Board of Education required math courses for graduation and a 22 on the math portion of the ACT. 
+
+Foundations of Technology 	S,T,E,M 	600303 
+GPA Weight: 1  	Grading Scale: Honors; CIC if certification is obtained  	NCAA Approved? No  
+Length: Semester  	Number of Credits: 1.0  	Grade Level: 9,10,11,12  
+Foundations of Technology prepares students to understand and apply technological concepts and processes that are the cornerstone for the high school technology program. Group and individual activities engage students in creating ideas, developing innovations, and engineering practical solutions. Technology content, resources, and laboratory/classroom activities apply student applications of science, mathematics, and other school subjects in authentic situations. 
+Pathway Info:  	https://www.tn.gov/education/career-and-technical-education/career-clusters/cte-clusterstem.html 
+Prerequisites:  	None.  
+Counseling Notes:	This is an introductory course to the Engineering by Design STEM pathway. Students who wish to pursue CCTE concentrator status must take 3 courses in a single pathway. Certifications: AutoDESK Inventor, Fusion 360, and Revit OSHA-10, Snap-on Precision Measurement Instruments (PMI) 
+
+Technological Design 	S,T,E,M  	600302 
+GPA Weight: 1  	Grading Scale: Honors; CIC if certification is obtained  	NCAA Approved? No  
+Length: Semester  	Number of Credits: 1.0  	Grade Level: 9,10,11,12  
+In Technological Design, engineering scope, content, and professional practices are presented through practical applications. Students in engineering teams apply technology, science, and mathematics concepts and skills to solve engineering design problems and innovate designs. Students research, develop, test, and analyze engineering designs using criteria such as design effectiveness, public safety, human factors, and ethics. 
+Pathway Info:  	https://www.tn.gov/education/career-and-technical-education/career-clusters/cte-clusterstem.html  
+Prerequisites:  	None.  
+Counseling Notes:  	This is the second course in the Engineering by Design STEM pathway. Students who wish to pursue CCTE concentrator status must take 3 courses in a single pathway. Certifications: AutoDESK Inventor, Fusion 360, and Revit OSHA-10, Snap-on Precision Measurement Instruments (PMI) 
+ 
+DE Advanced STEM Applications 	S,T,E,M 	600304 
+GPA Weight: 1  	Grading Scale: DE 	NCAA Approved? No  
+Length: Semester  	Number of Credits: 1.0  	Grade Level: 9,10,11,12  
+Advanced Technological Applications is a course in which students study components of the designed world. Units include: Engineering Design, Graphics and Spatial Skills, in which students develop the ability to communicate different information of technical drawings and display and understanding of geometric construction. Cybersecurity, in which students learn how we manage our lives digitally from banking and paying bills to online shopping and completing applications, recognizing that personal and company information needs to be kept secure. It is important that students understand cybersecurity to keep their digital lives safe and spot cyber scams. Biotechnology, which has become entrenched in our daily lives in ways that we do not even realize. As our understanding of the applicability of biotechnology grows, we further explore solutions to resolve technological constraints that once inhibited our society’s advancement. Information Technology, modeling and prediction based on visualization of data and testing design involves changing inputs on the fly to see the effects on the outcomes; and Robotics, in which students learn how robotics and automation technologies have a significant impact on our daily lives. From temperature controls in our homes to high tech manufacturing to agricultural applications, automating inputs, processes and outputs has the potential to make our lives easier, safer and more interesting. Students are engaged in context rich applications such as home automation, agricultural crop harvest, prosthetics and self-driving cars. Engineering Design focuses on how engineers apply their creativity, resourcefulness, mathematical, scientific, and technical knowledge and skills in the creation or refinement of technological products/systems. A key approach will be the employment of a sophisticated, sequential, and iterative design and development process to solve authentic engineering tasks/problems. Units include Fundamentals of Design Engineering, Elements of Design, Structural Design/Modeling/Prototyping/Protecting Ideas, Product and Systems Engineering, and Analysis Management. 
+Pathway Info: In the junior and senior years, students are eligible to take this course also for dual enrollment Advanced STEM Applications with TCAT or take an aligned course by dual enrolling in RSCC DE Robotics, below. https://www.tn.gov/education/career-and-technicaleducation/career-clusters/cte-cluster-stem.html  
+Prerequisites:	None.  
+Counseling Notes: 	This is the third and fourth course in the Engineering by Design STEM pathway. Students who wish to pursue CCTE concentrator status must take 3 courses in a single pathway. 
+Certifications: AutoDESK Inventor, Fusion 360, and Revit OSHA-10, Snap-on Precision Measurement Instruments (PMI) 
+
+DE Robotics 	S,T,E,M 	606089 
+GPA Weight: 1.0 	Grading Scale: Dual Enrollment 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 11,12 
+DE Robotics is an advanced course in the STEM career cluster for students interested in learning more about careers in engineering that include pneumatic, electro pneumatic, and hydraulic control circuits in complex systems. Upon completion of this course, proficient students will be able to explain the inter-relationships of components and modules within a complex robotics system. They will understand the differences between hydraulic and pneumatic fluid power and can explain the scientific principles that apply. They will troubleshoot and demonstrate continuous improvement models for iterative prototyping. This course explores modern materials and manufacturing methods, incorporating finance, ethics, and engineering design. The integrated approach teaches students to improve many facets of engineering design including safety, quality, and efficiency. Students will analyze, design, and build robotics systems. While implementing these designs, students will continually hone their interpersonal skills, creative abilities, and understanding of the design process. 
+Pathway Info: 	https://www.tn.gov/education/career-and-technical-education/career-clusters/cte-cluster-stem.html 
+Prerequisites: 	None. 
+Counseling Notes: 	This course may be repeated for multiple Dual Enrollment credits. It aligns with FIRST Robotics competition and provides students with programming experience and build time inside the school day. Students who wish to pursue CCTE concentrator status must take 3 courses in a single pathway.  This course must be taken for Dual Enrollment credit with RSCC. Only Juniors and Seniors are eligible for the Dual Enrollment Grant.   Certification: LabVIEW. AutoDESK, SolidWorks, and/or Siemens Level I 
+
+Automotive and Aviation I 	S,T,E,M 	605880 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 9,10 
+A primary focus of this coursework is to allow students to explore career opportunities and requirements of professional transportation occupations, including automotive and aviation. In addition to acquiring foundational knowledge of safety procedures and industry regulations, students will gain essential understanding of automotive and aircraft structures, transportation logistics, basic procedures, and navigation. Upon completion of this course sequence, proficient students will be prepared for both maintaining personal automobile and other small engines, to further study in advanced automotive/aviation maintenance and/or aviation flight courses in postsecondary institutions. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-transportation-distribution-logistics 
+Prerequisites: 	None 
+Counseling Notes:  	Students will need to purchase coveralls, safety glasses, mechanics gloves, and steeltoed boots 
+ 
+Automotive and Aviation II 	S,T,E,M 	605881 
+GPA Weight: 0 	Grading Scale: General 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 1.0 	Grade Level: 9,10 
+A primary focus of this coursework is to allow students to explore career opportunities and requirements of professional transportation occupations, including automotive and aviation. In addition to acquiring foundational knowledge of safety procedures and industry regulations, students will gain essential understanding of automotive and aircraft structures, transportation logistics, basic procedures, and navigation. Upon completion of this course sequence, proficient students will be prepared for both maintaining personal automobile and other small engines, to further study in advanced automotive/aviation maintenance and/or aviation flight courses in postsecondary institutions. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-transportation-distribution-logistics 
+Prerequisites: 	Automotive and Aviation I 
+Counseling 	Students will need to purchase coveralls, safety glasses, mechanics gloves, and steel-
+ 
+DE Automotive and Aviation I, II, III, or IV 	S,T,E,M 	615880, 615881, 615882, 615883 
+GPA Weight: 1.0 	Grading Scale: Dual Enrollment 	NCAA Approved? No 
+Length: Semester 	Number of Credits: 2.0 	Grade Level: 11,12 
+Dual enrollment students learn to service suspension and steering systems and brake systems. Upon completing the automotive and aviation sequence of courses, students may earn certification an ASE Certified Maintenance and Light Repair Technician, Snap-On Precision Measurement Instruments certification, and/or FAA Part 107 UAS drone pilot certification. Hours earned in the Maintenance and Light Repair courses may be used toward meeting National Automotive Technicians Education Foundation (NATEF) standards and Tennessee Department of Education standards. NATEF requires that 95% of the P-1 tasks, 80% of the P-2 tasks, and 50% of the P-3 tasks will be accomplished. These tasks are notated in these standards. 
+Course Info: 	http://tn.gov/education/article/cte-cluster-transportation-distribution-logistics 
+Prerequisites: 	None 
+Counseling Notes: 	Because dual enrollment with Tennessee Colleges of Applied Technology in Knoxville is an integral part of this course sequence, students must be in 11th and 12th grades to qualify for the dual enrollment grant that pays the tuition. Students must maintain a B average in their TCAT-K coursework to remain eligible for the grant.  Students will need to purchase coveralls, safety glasses, mechanics gloves, and steel-toed boots. 
+

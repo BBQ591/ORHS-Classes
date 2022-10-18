@@ -1,33 +1,39 @@
 {
   "expo": {
     "name": "ORHS_Scheduling",
-    "slug": "ORHS_Scheduling",
-    "version": "1.0.0",
+    "slug": "ORHS-Classes",
+    "version": "5.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./wildcats.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./wildcats.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "ORHS.ClassesMAIN"
     },
     "android": {
+      "package": "com.BrianQu.ORHS_Scheduling",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "versionCode": 32
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7be44ffe-dd99-45a9-bd20-e0ac7ee3ad07"
+      }
     }
   }
 }

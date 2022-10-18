@@ -1,0 +1,47 @@
+Coding A L	S,T,E,M	313625
+GPA Weight: 0	Grading Scale: General	NCAA Approved? No
+Length: Year-long skinny at lunch	Number of Credits: .5	Grade Level: 9,10,11,12
+This course is an introduction to coding concepts such as conditions, loops, functions, and objects. The concepts will be learned by building computer programs and games. Emphasis will be given to problem solving through structured program development.
+Course Info:	http://tn.gov/education/article/cte-cluster-information-technology
+Prerequisites:	Open to any student
+Counseling Notes:	This course cannot be used as a graduation requirement in mathematics, but it can be used toward an Information Technology or Math and Science area of focus.  This course meets during the lunch period
+
+Coding B L	S,T,E,M	313632
+GPA Weight: 0	Grading Scale: General	NCAA Approved? No
+Length: Year-long skinny at lunch	Number of Credits: .5	Grade Level: 9,10,11,12
+This course is a continuation of Coding A, but is flexible enough to accommodate students who did not take Coding B or who have no programming experience.
+Course Info:	http://tn.gov/education/article/cte-cluster-information-technology
+Prerequisites:	Open to any student
+Counseling Notes:	This course cannot be used as a graduation requirement in mathematics, but it can be used toward an Information Technology or Math and Science area of focus.  This class meets during the lunch period.
+
+Coding I	S,T,E,M	313626
+GPA Weight: 0	Grading Scale: General	NCAA Approved? No
+Length: Semester	Number of Credits: 1	Grade Level: 9,10,11,12
+This course is an introduction to coding concepts such as conditions, loops, functions, and objects. The concepts will be learned by building computer programs and games. Emphasis will be given to problem solving through structured program development.
+Course Info:	http://tn.gov/education/article/cte-cluster-information-technology
+Prerequisites:	Open to any student
+Counseling Notes:	This course cannot be used as a graduation requirement in mathematics, but it can be used toward an Information Technology or Math and Science area of focus.  
+
+Cybersecurity I	S,T,E,M	313620
+GPA Weight: 1	Grading Scale: General	NCAA Approved? No
+Length: Semester	Number of Credits: 1	Grade Level: 9,10,11,12
+Cybersecurity I is a course intended to teach students the basic concepts of cybersecurity. The course places an emphasis on security integration, application of cybersecurity practices and devices, ethics, and best practices management. The fundamental skills in this course cover both in house and external threats to network security and design, how to enforce network level security policies, and how to safeguard an organization’s information. Upon completion of this course, proficient students will be demonstrating and understanding of cybersecurity concepts, identify fundamental principles of networking systems, understand network infrastructure and network security, and be able to demonstrate how to implement various aspects of security within a networking system.
+Course Info:	http://tn.gov/education/article/cte-cluster-information-technology
+Prerequisites:	Open to any student who has successfully completed Algebra1 with an A or B.
+Counseling Notes:	This course cannot be used as a graduation requirement in mathematics, but it can be used toward an Information Technology or Math and Science area of focus.  
+
+AP Computer Science Principles	S,T,E,M	323635
+GPA Weight: 1.0	Grading Scale: Honors; Advanced Placement if exam taken	NCAA Approved? No
+Length: Semester	Number of Credits: 1.0	Grade Level: 9,10,11,12
+AP Computer Science Principles focuses on foundational computing skills to help students understand the relevance of those computing skills to their college and career plans. Multidisciplinary in nature, this course teaches students how to analyze problems, use creative thinking, and create computational artifacts including programs. Throughout the course, students will collaborate to investigate real-world issues using computing. The course focuses on seven major ideas in computing: Creativity, Abstraction, Data and Information, Algorithms, Programming, Internet, and Global Impact. AP computer science options include both AP Computer Science A (G02H45) and AP Computer Science Principles (G02H44). Both courses can substitute for 4th year math if the student has reached the mathematics college readiness benchmark of 22 on the ACT. https://www.tn.gov/education/instruction/academic-standards/computer-science.html 
+Pacing Guide:	http://www.ortn.edu/central-office/teaching-and-learning/curriculum/high-school
+Prerequisites:	Open to any student who has successfully completed Algebra1 with an A or B.
+Counseling Notes:	Students may use this course to satisfy the requirement of being enrolled in a 4th mathematics course as long as they have already earned credits in the three State Board of Education required math courses for graduation and a 22 on the math portion of the ACT.
+
+AP Computer Science A	S,T,E,M	313635
+GPA Weight: 1.0	Grading Scale: Honors; Advanced Placement if exam taken	NCAA Approved? Yes
+Length: Semester	Number of Credits: 1.0	Grade Level: 10,11,12
+Students will follow the Advanced Placement Computer Science curriculum outline. AP booklets with a detailed course description are available through the AP Computer Science teacher or the Guidance Office. The major emphasis of this course is on programming methodology, algorithms, and data structures using JAVA. Applications are used to develop student awareness of the need for particular algorithms and data structures, as well as to provide topics for programming assignments to which the students can apply their knowledge. Treatments of computer systems and social implications of computing are integrated into the course work and not isolated as separate units. AP computer science options include both AP Computer Science A (G02H45) and AP Computer Science Principles (G02H44). Both courses can substitute for 4th year math if the student has reached the mathematics college readiness benchmark of 22 on the ACT. https://www.tn.gov/education/instruction/academic-standards/computer-science.html 
+Pacing Guide:	http://www.ortn.edu/central-office/teaching-and-learning/curriculum/high-school
+Prerequisites:	Open to any student who has at least one semester of programming experience or has successfully completed Algebra 2.
+Counseling Notes:	Students may use this course to satisfy the requirement of being enrolled in a 4th mathematics course as long as they have already earned credits in the three State Board of Education required math courses for graduation and a 22 on the math portion of the ACT.

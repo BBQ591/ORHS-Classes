@@ -1,0 +1,84 @@
+Music for Listeners	S,T,E,M	203505
+GPA Weight: 0	Grading Scale: General	NCAA Approved? NA
+Length: Semester	Number of Credits: 1	Grade Level: 9,10,11,12
+Music for listeners is a research intensive and writing class analyzing the history of music and its role in society through the past 700 years. The class culminates in a major research project on a selected era of music history. 
+Prerequisites:	None
+Counseling Notes:	None
+
+Band, Regular	S,T,E,M	210996
+GPA Weight: 0	Grading Scale: General	NCAA Approved? NA
+Length: Year-long on a block	Number of Credits: 2	Grade Level: 9,10,11,12
+Band is a year-long music performance class. Band members are expected to participate in marching band during the fall semester and concert band throughout the year. Students enrolled in band are expected to attend all performances and rehearsals. Students are expected to attend summer band camp and all after school rehearsals, generally two per week during marching season, but additional rehearsals may be called. Students are expected to perform at all football games, including playoff games, and up to three weekend marching contests. Students participating in marching band receive a ½ credit in Wellness C. After football season, this band performs at concerts and attends concert festivals. Regional (All East) and state clinics are an option for Regular Band students. Advanced credit is not available through the Regular Band.
+Prerequisites:	None
+Counseling Notes:	Students are expected to sign up for both semesters of this course.
+
+Band, Honors	S,T,E,M	230996
+GPA Weight: .5	Grading Scale: Honors	NCAA Approved? NA
+Length: Year-long on a block	Number of Credits: 2	Grade Level: 9,10,11,12
+Band, Honors is a music performance class that includes all the requirements of Regular Band. In addition, students must audition for a concert clinic such as All State East or participate in another director approved non-audition concert clinic. Honors Band students are expected to maintain the highest standards of musicianship and citizenship.
+Prerequisites:	Students will audition for placement in course.
+Counseling Notes:	Students are expected to sign up for both semesters of this course.
+
+Color Guard	S,T,E,M	200996
+GPA Weight: 0	Grading Scale: General	NCAA Approved? NA
+Length: Semester	Number of Credits: 1	Grade Level: 9,10,11,12
+This class is for students who have been selected as a member of the Guard. This class is open by audition only. Participation in Competitive Marching Band Guard (CMB) is based on one’s    knowledge and skills in the Fall CMB music and sets. Summer Band camp is highly recommended because it focuses solely on the Fall CMB music and sets. Students without adequate knowledge and skills in the Fall CMB music and sets are welcome and may participate as an alternate in the CMB. Guard members are expected to attend all after school rehearsals, generally two per week during marching season, but additional rehearsals may be called. Guard members also perform with the marching band at all functions including football games, playoff games and marching contests. Students who participate in color guard receive a ½ credit in Wellness   C.
+Prerequisites:	None
+Counseling Notes:	None
+
+Choir	S,T,E,M	260995
+GPA Weight: 0	Grading Scale: General	NCAA Approved? NA
+Length: Semester	Number of Credits: 1.0	Grade Level: 9,10,11,12
+This class is open to all singers. The curriculum emphasizes beginning music skills including; sight reading, basic music theory, music history and vocal performance skills using a wide variety of musical styles. Some after school rehearsals and performances are required. Position available for student accompanist.
+Prerequisites:	None
+Counseling Notes:	None
+
+Select Choir	S,T,E,M	200995
+GPA Weight: .25	Grading Scale: General	NCAA Approved? NA
+Length: Year-long on a block	Number of Credits: 2.0	Grade Level: 9,10,11,12
+This class is open to intermediate - advanced voiced singers by audition only. The curriculum emphasizes sight reading, music theory, music history and vocal performance skills using a wide variety of musical styles. Several after school rehearsals and performances are required. Position available for student accompanist.
+Prerequisites:	Students will audition for placement in course.
+Counseling Notes:	Students are expected to sign up for both semesters of this course.
+
+Ensemble Choir, Honors	S,T,E,M	240995
+GPA Weight: .5	Grading Scale: Honors	NCAA Approved? NA
+Length: Year-long on a block	Number of Credits: 2	Grade Level: 10,11,12
+This is an intense, fast moving class that performs advanced high school and college level music. The curriculum emphasizes sight reading, music theory, music history and vocal performance skills using a wide variety of musical styles but focusing heavily on Renaissance and Chamber music. Many after school rehearsal performances are required especially during the month of December. Students receive honors credit for this class. Limited to 16-20 singers. Position available for student accompanist.
+Prerequisites:	This class is open to advanced singers by audition only
+Counseling Notes:	Students are expected to sign up for both semesters of this course.
+
+AP Theory and Harmony	S,T,E,M	223535
+GPA Weight: 1.0	Grading Scale: Honors; Advanced Placement if exam taken	NCAA Approved? NA
+Length: Semester	Number of Credits: 1.0	Grade Level: 11,12
+AP music theory is a college preparatory class designed for the student who plans to continue their musical education in college. This is an intense, fast moving class that includes fundamentals of music, part writing, composition, and aural skills. Teacher approval and signature is required for this class.
+Prerequisites:	Students must have at least one previous year of formal study in instrumental or vocal music and be able to read standard music notation.
+Counseling Notes:	None
+
+String Orchestra-9	S,T,E,M	273530
+GPA Weight: 0	Grading Scale: General	NCAA Approved? NA
+Length: Year-long on a block	Number of Credits: 2	Grade Level: 9
+String Orchestra is a performance group at Oak Ridge High School giving several performances throughout the year. The orchestra participates in festivals and competitions as a group as well as students playing individually in All-State and festival orchestras. Prior playing experience is required.
+Prerequisites:	None
+Counseling Notes:	Students are expected to sign up for both semesters of this course.
+
+String Orchestra, 9 Honors	S,T,E,M	263530
+GPA Weight: .5	Grading Scale: Honors	NCAA Approved? NA
+Length: Year-long on a block	Number of Credits: 2.0	Grade Level: 9
+Orchestra Honors is a music performance class that includes all the requirements of regular orchestra. In addition, students must audition for a concert clinic such as All State East or participate in another director approved non-audition concert clinic. Honors orchestra students are expected to maintain the highest standards of musicianship and citizenship.
+Prerequisites:	String Orchestra. Students must be recommended for this course.
+Counseling Notes:	Students are expected to sign up for both semesters of this course.
+
+String Orchestra	S,T,E,M	283530
+GPA Weight: 0	Grading Scale: General	NCAA Approved? NA
+Length: Year-long on a block	Number of Credits: 2.0	Grade Level: 10, 11, 12
+String Orchestra is a performance group at Oak Ridge High School giving several performances throughout the year. The orchestra participates in festivals and competitions as a group as well as students playing individually in All-State and festival orchestras. Prior playing experience is required.
+Prerequisites:	None
+Counseling Notes:	Students are expected to sign up for both semesters of this course.
+
+String Orchestra, Honors	S,T,E,M	293530
+GPA Weight: .5	Grading Scale: Honors	NCAA Approved? NA
+Length: Year	Number of Credits: 2.0	Grade Level: 10,11,12
+Orchestra Honors is a music performance class that includes all the requirements of regular orchestra. In addition, students must audition for a concert clinic such as All State East or participate in another director approved non-audition concert clinic. Honors orchestra students are expected to maintain the highest standards of musicianship and citizenship.
+Prerequisites:	String Orchestra
+Counseling Notes:	Students are expected to sign up for both semesters of this course.
+
