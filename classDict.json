@@ -1645,5 +1645,86 @@
     "Notes": "These courses meet during the lunch block.  These courses are universal enhancer Career Academies for students who waive world language and/or fine art.  They can also count toward a math or humanities area of focus.",
     "Description": "These courses provide additional academic support.  Student progress is monitored regularly to determine the necessity for intervention.   Placement is by teacher recommendation only.",
     "Subject": ["Special Programs"]
+  },
+  "English 12": {
+    "GPA": "4.0",
+    "Credits": ["1.0"],
+    "Subject": ["English"],
+    "Length": ["Semester"],
+    "Description": "This course is designed for continued refinement of critical reading skills, literary analysis and writing skills with an emphasis on synthesizing multiple sources. Students who take this course enroll in post-secondary institutions that primarily include community colleges and technical/trade schools. Literary selections range from classic British Literature to contemporary pieces and informational text. Students will also focus on vocabulary acquisition, research and presentation skills, and ACT preparation.  A yearlong Major Theme project is required.",
+    "Prerequisites": "English 11",
+    "Counseling Notes": "None"
+  },
+  "English 12 CP": {
+    "GPA": "4.0",
+    "Credits": ["1.0"],
+    "Subject": ["English"],
+    "Length": ["Semester"],
+    "Description": "This course continues a four-year progression of literary analysis in various literary genres. Students develop critical thinking and discussion skills through the study of British Literature. Students will conduct research, plan and write in expository, argumentative, and narrative modes, and review the principles of grammar and language. A research project is required.",
+    "Prerequisites": "English 11",
+    "Counseling Notes": "None"
+  },
+  "AP English Literature and Composition": {
+    "GPA": "5.0",
+    "Credits": ["1.0"],
+    "Subject": ["English"],
+    "Length": ["Semester"],
+    "Description": "This course is designed for students who want a demanding college level course and who plan to take the Advanced Placement Examination in English Literature and Composition at the end of senior year. This course focuses on British and American literature and requires students to write advanced literary analysis and read challenging works that span the Anglo-Saxon to modern eras. Students should expect to spend at least an hour outside of class each day on homework. In addition, a capstone research project focuses on a literary period and two major works of the period. Students should also be aware that issues that might form particular social, historical, or cultural viewpoints be considered controversial, including references to ethnicities, nationalities, religions, races, dialects, gender, or class, may be addressed in tests that are appropriate for the AP English Literature and Composition course. Fair representation of issues and peoples may occasionally include controversial material. Since AP students have chosen a program that directly involves them in college level work, participation in this course depends on a level of maturity consistent with the age of high school students who have engaged in thoughtful analyses of a variety of texts.",
+    "Prerequisites": "English 11",
+    "Counseling Notes": "Students are encouraged to take the AP English Literature exam at the end of the year."
+  },
+  "Creative Writing": {
+    "GPA": "4.0",
+    "Credits": ["1.0"],
+    "Subject": ["English"],
+    "Length": ["Semester"],
+    "Description": "Prerequisite –Sophomore, junior, or senior students who have a ‘C” grade or higher in their college preparatory English classes. This course is open to any student who is interested in the study and practice of descriptive and narrative writing. Poetry, short stories, children’s stories, personal essays, and scripts provide models for students to discuss and imitate. Students work on finding individual voice, enhancing description, developing characters, improvising with imagery and language, experimenting with different genres and forms, and increasing selfconfidence. Journal writing and peer editing are critical elements of the course. Students are expected to develop and submit some work for publication or competition. With instructor approval, a second half credit may be earned for an additional semester's work.",
+    "Prerequisites": "English 9",
+    "Counseling Notes": "None"
+  },
+  "Technical Writing": {
+    "GPA": "4.0",
+    "Credits": ["1.0"],
+    "Subject": ["English"],
+    "Length": ["Semester"],
+    "Description": "Technical writing is often broadly defined as any writing that takes place in the workplace. To be more specific, it is any writing that is intended to convey information, especially that which is related to scientific or technical information or processes. Students who take this course will be expected to read, analyze, and evaluate a variety of technical literature, in addition to producing their own in multiple formats and on numerous topics. The writing process will be a cornerstone of the course, with added emphasis on the importance of revision and peerediting. By the end of the course, students will be required to produce multiple products of varying lengths, including emails, memos, product and process descriptions, proposals, press releases, user guides, and one long work such as a manual, prospectus, or a white paper.",
+    "Prerequisites": "English 9",
+    "Counseling Notes": "None"
+  },
+  "Journalism I and II- Oak Log": {
+    "GPA": "4.0",
+    "Credits": ["2.0"],
+    "Subject": ["English"],
+    "Length": ["Year-long on a block"],
+    "Description": "Admission to Oak Log requires permission of the adviser, and students must be upperclassmen. Students plan and produce the school yearbook. Students must conduct interviews and write articles. They assist in page design and also compose copy, write headlines and captions, take photographs, and use laptop computers for internet publishing. Students leave campus to sell advertising to help finance the book's production. Oak Log work requires after-school time. Students must work independently and meet deadlines. Additional credits may be earned for enrollment in consecutive years.  Journalism meets the requirements for an area of focus in humanities.",
+    "Prerequisites": "English 9; Application and approval of instructor",
+    "Counseling Notes": "*Students are encouraged to take this course both semesters.  However, students who only register for one semester must take Journalism in the fall.  The fall semester is a prerequisite for the spring semester."
+  },
+  "English Language Development 9, 10,11, 12": {
+    "GPA": "4.0",
+    "Credits": ["2.0"],
+    "Subject": ["English"],
+    "Length": ["Year-long on a block"],
+    "Description": "This course is designed for students identified as English learners. This course offers explicit instruction in listening, speaking, reading, and writing with emphasis placed on the development of academic language proficiency. Instruction is aligned with both the WIDA Standards and the Tennessee state standards. All English learners participate in WIDA English language assessments which are designed to measure an EL’s social and academic English proficiency. Daily attendance, completion of assigned work, and language practice will make for success in this course. Additionally, this course provides support for English learners in content classes in order to build academic success.",
+    "Prerequisites": "Preapproval by the ELL teacher is required based on the TN state ESL regulations.",
+    "Counseling Notes": "This course may serve as either an elective or English credit. It may be taken one or two times per year as determined by language proficiency assessment scores.  This course can also count towards a humanities area of focus."
+  },
+  "Detective Fiction and Mystery Literature": {
+    "GPA": "4.0",
+    "Credits": ["0.5"],
+    "Subject": ["English"],
+    "Length": ["Term"],
+    "Description": "A comprehensive study of Detective Fiction and Mystery Literature for grades 10-12, after students have completed at least English 9. Students will read several novels and short stories, focusing on the elements of detective fiction, in world, American, and British literature.",
+    "Prerequisites": "English 9",
+    "Counseling Notes": "None"
+  },
+  "World Mythology": {
+    "GPA": "4.0",
+    "Credits": ["0.5"],
+    "Subject": ["English"],
+    "Length": ["Term"],
+    "Description": "Mythology is the study of a (usually older) culture’s search for answers about “life, the Universe, and everything” (Douglas Adams). This can range from questions about earth and humanity’s origins, to explanations of natural phenomena, to stories about human behavior (and misbehavior), to when and how existence ends. The best place to begin is with a refresher on Greek myth and its Roman counterparts. Those will serve as a point of comparison as the course examines the myths and cultures of the Egyptians, the Hindu, the Irish, and the Norse. As time allows, study will shift to Central/South American and Asian mythologies. Students will also be expected to complete an independent research project on a Native American myth. Goals of the course will be for students to learn the major figures and stories of each older culture’s myths, to understand how environment and culture influence a society’s view of the world, and to look past superficial differences in order to realize the common origins and elements that connect all humans.",
+    "Prerequisites": "English 9",
+    "Counseling Notes": "None"
   }
 }

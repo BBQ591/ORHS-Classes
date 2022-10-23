@@ -394,7 +394,7 @@
     "Credits": ["1.0"],
     "Subject": ["Science"]
   },
-  "423233": {
+  "413231": {
     "name": "AP Physics 1",
     "GPA": "5.0",
     "Credits": ["1.0"],
@@ -1097,7 +1097,7 @@
   "703445": {
     "name": "AP United States Government & Politics (with personal finance)",
     "GPA": "5.0",
-    "Credits": ["1.5"],
+    "Credits": ["1"],
     "Subject": ["Social Studies"],
     "Length": ["Semester"],
     "Description": "The Advanced Placement course in United States Government and Politics is a year-long course designed to give students a critical perspective on politics and government. This course involves both the study of general concepts used to interpret U. S. politics and an examination of the various institutions, groups, beliefs, and ideas that make up the American political system. Students will develop understanding of the typical patterns of political processes and behavior and apply reasoning to assess the causes and consequences of political events. Students will examine, analyze, and interpret basic data relevant to U.S. government and politics. This class will meet the State graduation requirement for one-half credit in U.S. government and prepare the student for the AP examination in United States Government and Politics. Depending on the score received on the AP examination, students can receive college credits; therefore, the course is taught with college-level textbooks and rigor.",
@@ -1873,5 +1873,25 @@
     "Description": "This course is designed for students identified as English learners. This course offers explicit instruction in listening, speaking, reading, and writing with emphasis placed on the development of academic language proficiency. Instruction is aligned with both the WIDA Standards and the Tennessee state standards. All English learners participate in WIDA English language assessments which are designed to measure an EL’s social and academic English proficiency. Daily attendance, completion of assigned work, and language practice will make for success in this course. Additionally, this course provides support for English learners in content classes in order to build academic success.",
     "Prerequisites": "Preapproval by the ELL teacher is required based on the TN state ESL regulations.",
     "Counseling Notes": "This course may serve as either an elective or English credit. It may be taken one or two times per year as determined by language proficiency assessment scores.  This course can also count towards a humanities area of focus."
+  },
+  "803015": {
+    "name": "Detective Fiction and Mystery Literature",
+    "GPA": "4.0",
+    "Credits": ["0.5"],
+    "Subject": ["English"],
+    "Length": ["Term"],
+    "Description": "A comprehensive study of Detective Fiction and Mystery Literature for grades 10-12, after students have completed at least English 9. Students will read several novels and short stories, focusing on the elements of detective fiction, in world, American, and British literature.",
+    "Prerequisites": "English 9",
+    "Counseling Notes": "None"
+  },
+  "803016": {
+    "name": "World Mythology",
+    "GPA": "4.0",
+    "Credits": ["0.5"],
+    "Subject": ["English"],
+    "Length": ["Term"],
+    "Description": "Mythology is the study of a (usually older) culture’s search for answers about “life, the Universe, and everything” (Douglas Adams). This can range from questions about earth and humanity’s origins, to explanations of natural phenomena, to stories about human behavior (and misbehavior), to when and how existence ends. The best place to begin is with a refresher on Greek myth and its Roman counterparts. Those will serve as a point of comparison as the course examines the myths and cultures of the Egyptians, the Hindu, the Irish, and the Norse. As time allows, study will shift to Central/South American and Asian mythologies. Students will also be expected to complete an independent research project on a Native American myth. Goals of the course will be for students to learn the major figures and stories of each older culture’s myths, to understand how environment and culture influence a society’s view of the world, and to look past superficial differences in order to realize the common origins and elements that connect all humans.",
+    "Prerequisites": "English 9",
+    "Counseling Notes": "None"
   }
 }

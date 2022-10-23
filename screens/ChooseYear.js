@@ -8,6 +8,7 @@ import {
   TextInput,
   Alert,
   ActivityIndicator,
+  Button,
 } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 export default function ChooseYear({ navigation, route }) {
@@ -33,6 +34,31 @@ export default function ChooseYear({ navigation, route }) {
     "Fine Arts": 0,
     "Career Academies": 0,
     "Special Programs": 0,
+  };
+  React.useLayoutEffect(() => {
+    navigation.setOptions({
+      headerRight: () => (
+        <Button onPress={() => pressHandler10()} title="Reset" />
+      ),
+    });
+  }, [navigation]);
+  const pressHandler10 = () => {
+    Alert.alert(
+      "WARNING",
+
+      "ARE YOU SURE YOU WANT TO RESET ALL OF YOUR CLASSES?",
+      [
+        { text: "CANCEL", onPress: () => console.log("OK Pressed") },
+        {
+          text: "YES",
+          onPress: () => {
+            AsyncStorage.clear();
+            setisVisible3(true);
+            setYears(["Freshman", "Sophomore", "Junior", "Senior"]);
+          },
+        },
+      ]
+    );
   };
   const convertData = (alphaKeys, graduation) => {
     var theList;
@@ -72,7 +98,6 @@ export default function ChooseYear({ navigation, route }) {
     takenClasses.push(["Click Here to Add Previously Taken Classes!", 0, 0]);
     const _storeData2 = async (takenClasses, credits, graduation) => {
       try {
-        await AsyncStorage.setItem("Graduation", JSON.stringify(graduation));
         await AsyncStorage.setItem(
           "takenClasses",
           JSON.stringify(takenClasses)
@@ -245,6 +270,7 @@ export default function ChooseYear({ navigation, route }) {
         console.log("error saving data");
       }
     };
+    console.log(takenCredits);
     _storeData2(takenClasses, takenCredits, graduation);
     setisVisible(false);
     setisVisible2(false);
@@ -374,12 +400,14 @@ export default function ChooseYear({ navigation, route }) {
     "Junior",
     "Senior",
   ]);
-  var counter = 0;
+  console.log(years, "hi");
   useEffect(() => {
+    console.log("HIIIIIIII");
     const _retrieveData = async () => {
       // AsyncStorage.clear();
       try {
         var graduation = await AsyncStorage.getItem("Graduation");
+        console.log(graduation);
         if (graduation != null) {
           return [false, JSON.parse(graduation)];
         } else {
@@ -387,8 +415,8 @@ export default function ChooseYear({ navigation, route }) {
         }
       } catch (error) {}
     };
-
     _retrieveData().then((graduationYear) => {
+      console.log(graduationYear);
       if (graduationYear[0] == true) {
         setisVisible3(true);
       }
@@ -426,8 +454,7 @@ export default function ChooseYear({ navigation, route }) {
       }
       // setisVisible(graduationYear[0]);
     });
-  }, [counter]);
-  counter += 1;
+  }, []);
 
   var text1 = null;
   var graduationTesting = null;
@@ -462,64 +489,85 @@ export default function ChooseYear({ navigation, route }) {
         "Playground",
       ]);
     }
-    scraper.gettingSessionID(username, password).then((authent) => {
-      if (authent != "No username or password or it is invalid") {
-        setisVisible2(true);
+    if ((username === "demoUsername") & (password === "12345")) {
+      setisVisible2(true);
+      convertData(
+        ["313102", "323108", "303133", "333108", "313103"],
+        graduationTesting
+      );
+    } else {
+      scraper.gettingSessionID(username, password).then((authent) => {
+        if (authent != "No username or password or it is invalid") {
+          setisVisible2(true);
 
-        scraper.scrapeReport(authent).then(({ raw }) => {
-          const recurse = (course1, indexers, corNumID, Graduation) => {
-            scraper
-              .scrapeGradebook(
-                {
-                  course: course1,
-                },
-                authent
-              )
-              .then(({ data }) => {
-                console.log(data);
-                alphaKeys.push(data);
-                indexers += 1;
-                if (indexers >= corNumID.length) {
-                  // TODO: change 20 to length and call function
-                  return convertData(alphaKeys, Graduation);
-                }
-                recurse(corNumID[indexers], indexers, corNumID, Graduation);
-              });
-          };
-          const test = (" " + raw).slice(1);
-          const sourceStr = test;
-          const searchStr = "'corNumID'";
-          const indexes = [
-            ...sourceStr.matchAll(new RegExp(searchStr, "gi")),
-          ].map((a) => a.index);
-          const corNumID = [];
-          var letter;
-          var currNum;
-          var ind;
-          for (var curr in indexes) {
-            ind = 13;
-            currNum = "";
-            letter = test[indexes[curr] + ind];
-            while (letter != "'") {
-              currNum = currNum + letter;
-              ind += 1;
-              letter = test[indexes[curr] + ind];
+          scraper.scrapeReport(authent).then(({ raw }) => {
+            const recurse = (course1, indexers, corNumID, Graduation) => {
+              scraper
+                .scrapeGradebook(
+                  {
+                    course: course1,
+                  },
+                  authent
+                )
+                .then(({ data }) => {
+                  console.log(data);
+                  alphaKeys.push(data);
+                  indexers += 1;
+                  if (indexers >= corNumID.length) {
+                    // TODO: change 20 to length and call function
+                    return convertData(alphaKeys, Graduation);
+                  }
+                  recurse(corNumID[indexers], indexers, corNumID, Graduation);
+                });
+            };
+            // const test = (" " + raw).slice(1);
+            // const sourceStr = test;
+            // const searchStr = "'corNumID'";
+            // const indexes = [
+            //   ...sourceStr.matchAll(new RegExp(searchStr, "ig")),
+            // ].map((a) => a.index);
+            const sstr = raw;
+            const indexes = [];
+            console.log(raw);
+            for (let index = 0; index < sstr.length; index++) {
+              if (
+                sstr.substring(index, index + 10).indexOf("'cornumid'") != -1
+              ) {
+                console.log(sstr.substring(index, index + 9));
+                indexes.push(index);
+              }
             }
-            corNumID.push(parseInt(currNum));
-          }
-          console.log(corNumID);
-          recurse(corNumID[0], 0, corNumID, graduationTesting);
-        });
-      } else {
-        setisVisible(true);
-        Alert.alert(
-          "ERROR",
 
-          'PLEASE ENTER VALID SKYWARD CREDENTIALS (USERNAME DOES NOT HAVE "@ORTN.EDU")',
-          [{ text: "OK", onPress: () => console.log("OK Pressed") }]
-        );
-      }
-    });
+            console.log(indexes);
+            const corNumID = [];
+            var letter;
+            var currNum;
+            var ind;
+            for (var curr in indexes) {
+              ind = 13;
+              currNum = "";
+              letter = raw[indexes[curr] + ind];
+              while (letter != "'") {
+                currNum = currNum + letter;
+                ind += 1;
+                letter = raw[indexes[curr] + ind];
+              }
+              corNumID.push(parseInt(currNum));
+            }
+            console.log(corNumID);
+            recurse(corNumID[0], 0, corNumID, graduationTesting);
+          });
+        } else {
+          setisVisible(true);
+          Alert.alert(
+            "ERROR",
+
+            'PLEASE ENTER VALID SKYWARD CREDENTIALS (USERNAME DOES NOT HAVE "@ORTN.EDU")',
+            [{ text: "OK", onPress: () => console.log("OK Pressed") }]
+          );
+        }
+      });
+    }
   };
   const cancelling = () => {};
   const inputtingGraduation = () => {
