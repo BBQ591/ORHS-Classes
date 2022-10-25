@@ -560,19 +560,85 @@ function Schedule({ navigation, route }) {
       year,
     });
   };
+  const toDeleteLunch = (Class) => {
+    for (let i = 0; i < creditDict[Class].Credits.length; i++) {
+      requirements[creditDict[Class].Subject[i]] -= parseFloat(
+        creditDict[Class].Credits[i]
+      );
+    }
+    console.log("hi");
+    lunchClass[0] = "Click Here to Add Class!";
+    const _storeData = async () => {
+      try {
+        if (year == "Freshman") {
+          await AsyncStorage.setItem("lunchFresh", lunchClass[0]),
+            await AsyncStorage.setItem(
+              "requirements",
+              JSON.stringify(requirements)
+            );
+        }
+        if (year == "Sophomore") {
+          await AsyncStorage.setItem("lunchSoph", lunchClass[0]),
+            await AsyncStorage.setItem(
+              "requirements",
+              JSON.stringify(requirements)
+            );
+        }
+        if (year == "Junior") {
+          await AsyncStorage.setItem("lunchJun", lunchClass[0]),
+            await AsyncStorage.setItem(
+              "requirements",
+              JSON.stringify(requirements)
+            );
+        }
+        if (year == "Senior") {
+          await AsyncStorage.setItem("lunchSen", lunchClass[0]),
+            await AsyncStorage.setItem(
+              "requirements",
+              JSON.stringify(requirements)
+            );
+        }
+        if (year == "Playground") {
+          await AsyncStorage.setItem("lunchPlay", lunchClass[0]),
+            await AsyncStorage.setItem(
+              "requirements",
+              JSON.stringify(requirements)
+            );
+        }
+      } catch (error) {
+        // Error saving data
+      }
+    };
+    _storeData();
+    setDummy(!dummy);
+  };
   const [dummy, setDummy] = useState(false);
   const testing = (name, number) => {
-    let swipeBtns = [
-      {
-        text: "Delete",
-        backgroundColor: "red",
-        underlayColor: "rgba(0, 0, 0, 1, 0.6)",
-        onPress: () => {
-          toDelete(name, number);
+    if (number != -1) {
+      let swipeBtns = [
+        {
+          text: "Delete",
+          backgroundColor: "red",
+          underlayColor: "rgba(0, 0, 0, 1, 0.6)",
+          onPress: () => {
+            toDelete(name, number);
+          },
         },
-      },
-    ];
-    return swipeBtns;
+      ];
+      return swipeBtns;
+    } else {
+      let swipeBtns = [
+        {
+          text: "Delete",
+          backgroundColor: "red",
+          underlayColor: "rgba(0, 0, 0, 1, 0.6)",
+          onPress: () => {
+            toDeleteLunch(name);
+          },
+        },
+      ];
+      return swipeBtns;
+    }
   };
   var count = 0;
   return (
@@ -692,31 +758,62 @@ function Schedule({ navigation, route }) {
           }
         }
       })}
-      <TouchableOpacity
-        onPress={() => pressHandler("Year-long skinny at lunch", "")}
-      >
-        <View
-          style={{
-            justifyContent: "center",
-            width: "100%",
-            height: 80,
-            marginTop: 0,
-            backgroundColor: "grey",
-            padding: "0%",
-            textAlign: "center",
-          }}
+      {lunchClass[0] != "Click Here to Add Class!" && (
+        <Swipeout right={testing(lunchClass[0], -1)}>
+          <TouchableOpacity
+            onPress={() => pressHandler("Year-long skinny at lunch", "")}
+          >
+            <View
+              style={{
+                justifyContent: "center",
+                width: "100%",
+                height: 80,
+                marginTop: 0,
+                backgroundColor: "grey",
+                padding: "0%",
+                textAlign: "center",
+              }}
+            >
+              <Text
+                style={{
+                  alignSelf: "center",
+                  fontSize: 18,
+                  color: "white",
+                }}
+              >
+                Lunch Class: {lunchClass[0]}
+              </Text>
+            </View>
+          </TouchableOpacity>
+        </Swipeout>
+      )}
+      {lunchClass[0] == "Click Here to Add Class!" && (
+        <TouchableOpacity
+          onPress={() => pressHandler("Year-long skinny at lunch", "")}
         >
-          <Text
+          <View
             style={{
-              alignSelf: "center",
-              fontSize: 18,
-              color: "white",
+              justifyContent: "center",
+              width: "100%",
+              height: 80,
+              marginTop: 0,
+              backgroundColor: "grey",
+              padding: "0%",
+              textAlign: "center",
             }}
           >
-            Lunch Class: {lunchClass[0]}
-          </Text>
-        </View>
-      </TouchableOpacity>
+            <Text
+              style={{
+                alignSelf: "center",
+                fontSize: 18,
+                color: "white",
+              }}
+            >
+              Lunch Class: {lunchClass[0]}
+            </Text>
+          </View>
+        </TouchableOpacity>
+      )}
     </ScrollView>
   );
 }

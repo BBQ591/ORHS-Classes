@@ -51,7 +51,13 @@ export default function Home({ navigation, route }) {
             return (
               <TouchableOpacity onPress={() => pressHandler(item)}>
                 <View style={styles.items}>
-                  <Text style={{ fontSize: 20, color: "white" }}>
+                  <Text
+                    style={{
+                      fontSize: 20,
+                      color: "white",
+                      textAlign: "center",
+                    }}
+                  >
                     {item.Name}
                   </Text>
                 </View>

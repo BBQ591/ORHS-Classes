@@ -117,7 +117,7 @@
     {
       "Name": "NIC Computer Applications A",
       "GPA": "1",
-      "Length": ["Year-long skinny at lunch"],
+      "Length": ["Term", "Year-long skinny at lunch"],
       "Credits": [".5"],
       "Prerequisites": "None",
       "Notes": "The credit for this course is an elective for any area of focus. Students may take this class during a regular period in the day or take it during a lunch period. The ORHS Business Academy teachers will be happy to “test” the students to determine their level of proficiency in Microsoft Office Word, Microsoft Office Excel, and/or Microsoft Office PowerPoint. Students who pass all the Proficiency Tests may enroll in the Advanced Computer Applications Honors course as 9th graders. For students waiving world language and/or fine art, Computer Applications is a universal enhancer credit for any area of focus. Students who complete a combination of Word, PPT, Excel, and Access certifications have opportunities to earn Dual Credit at RSCC and/or PSCC.",
@@ -418,81 +418,81 @@
       "Name": "NJROTC I CP",
       "GPA": "0",
       "Length": ["Semester"],
-      "Credits": ["1.0"],
+      "Credits": ["1.0", "1"],
       "Prerequisites": "None",
       "Notes": "Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.",
       "Description": "Naval Science 1 introduces the historical, political and economic impact of the Navy on the American Nation, and outlines the principles of citizenship, leadership and the basics of the historical documents and organization of our national government and its defense structure.",
-      "Subject": ["Career Academies"]
+      "Subject": ["Career Academies", "Wellness"]
     },
     {
       "Name": "NJROTC II CP",
       "GPA": "0",
       "Length": ["Semester"],
-      "Credits": ["1.0"],
+      "Credits": ["1.0", "1.0"],
       "Prerequisites": "NJROTC I",
       "Notes": "Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.",
       "Description": "Naval Science 2 emphasizes the historical, political and economic impact of the Navy on the American Nation and the basics of science relevant to the Navy and intends to help Cadets: (a) Establish commendable citizenship standards, high leadership goals, good study habits and a sense of moral responsibility. (b)Learn more about the history, organization and profession of the Navy. (c) Gain a deeper awareness of the vital importance of the world ocean to the continued well-being of the United States and her citizens – economically, politically, militarily and environmentally. (d) Firmly establish a sound appreciation for the various sciences (e) introduce the importance of astronomy, communications technology, meteorology, electronics and logistics to the Navy and naval science.",
-      "Subject": ["Career Academies"]
+      "Subject": ["Career Academies", "Wellness"]
     },
     {
       "Name": "NJROTC  III CP",
       "GPA": "0",
       "Length": ["Semester"],
-      "Credits": ["1.0"],
+      "Credits": ["1.0", "1.0"],
       "Prerequisites": "NJROTC II",
       "Notes": "Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.  Successful completion of 3 credits of JROTC substitutes for ½ credit of Personal Finance and ½ credit of U.S. Government.",
       "Description": "Naval Science 3 expands understanding of the historical, political and economic impact of the Navy on the American Nation and intends to help Cadets: (a) Deepen knowledge of and appreciation for the organization and profession of the Navy. (b) Gain an understanding of the basic concepts of military justice, international and maritime law, sea power and national security. (c) Introduce practical naval and maritime skills to students and demonstrate how these skills can be applied in a variety of leadership situations.",
-      "Subject": ["Career Academies"]
+      "Subject": ["Career Academies", "Wellness"]
     },
     {
       "Name": "NJROTC IV CP",
       "GPA": "0",
       "Length": ["Semester"],
-      "Credits": ["1.0"],
+      "Credits": ["1.0", "1.0"],
       "Prerequisites": "NJROTC III",
       "Notes": "Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.  Successful completion of 3 years of JROTC substitutes for ½ credit of Personal Finance and ½ credit of U.S. Government.",
       "Description": "Naval Science 4 broadens a cadet’s understanding of leadership as a key component in a Navy career and its impact on American citizenship. (a) Learn leadership responsibilities through opportunities within the NJROTC unit. (b) Provide professionally guided independent study on leadership and citizenship. (c) Use selected readings in Naval Leadership resources to broaden understanding of the basic theory of leadership, details of responsibilities of leadership and qualities that outstanding leader’s exhibit.",
-      "Subject": ["Career Academies"]
+      "Subject": ["Career Academies", "Wellness"]
     },
     {
       "Name": "NJROTC V CP",
       "GPA": "0",
       "Length": ["Semester"],
-      "Credits": ["1.0"],
+      "Credits": ["1.0", "1.0"],
       "Prerequisites": "NJROTC IV",
       "Notes": "Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.  Successful completion of 3 years of JROTC substitutes for ½ credit of Personal Finance and ½ credit of U.S. Government.",
       "Description": "Naval Science 5 broadens a cadet’s understanding of leadership as a key component in a Navy career and its impact on American citizenship. (a) Learn leadership responsibilities through opportunities within the NJROTC unit. (b) Provide professionally guided independent study on leadership and citizenship. (c) Use selected readings in Naval Leadership resources to broaden understanding of the basic theory of leadership, details of responsibilities of leadership and qualities that outstanding leader’s exhibit.",
-      "Subject": ["Career Academies"]
+      "Subject": ["Career Academies", "Wellness"]
     },
     {
       "Name": "NJROTC VI CP",
       "GPA": "0",
       "Length": ["Semester"],
-      "Credits": ["1.0"],
+      "Credits": ["1.0", "1.0"],
       "Prerequisites": "NJROTC V",
       "Notes": "Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.  Successful completion of 3 years of JROTC substitutes for ½ credit of Personal Finance and ½ credit of U.S. Government.",
       "Description": "Naval Science 6 broadens a cadet’s understanding of leadership as a key component in a Navy career and its impact on American citizenship. (a) Learn leadership responsibilities through opportunities within the NJROTC unit. (b) Provide professionally guided independent study on leadership and citizenship. (c) Use selected readings in Naval Leadership resources to broaden understanding of the basic theory of leadership, details of responsibilities of leadership and qualities that outstanding leader’s exhibit.",
-      "Subject": ["Career Academies"]
+      "Subject": ["Career Academies", "Wellness"]
     },
     {
       "Name": "NJROTC VII CP",
       "GPA": "0",
       "Length": ["Semester"],
-      "Credits": ["1.0"],
+      "Credits": ["1.0", "1.0"],
       "Prerequisites": "NJROTC V",
       "Notes": "Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.  Successful completion of 3 years of JROTC substitutes for ½ credit of Personal Finance and ½ credit of U.S. Government.",
       "Description": "Naval Science 7 broadens a cadet’s understanding of leadership as a key component in a Navy career and its impact on American citizenship. (a) Learn leadership responsibilities through opportunities within the NJROTC unit. (b) Provide professionally guided independent study on leadership and citizenship. (c) Use selected readings in Naval Leadership resources to broaden understanding of the basic theory of leadership, details of responsibilities of leadership and qualities that outstanding leader’s exhibit.",
-      "Subject": ["Career Academies"]
+      "Subject": ["Career Academies", "Wellness"]
     },
     {
       "Name": "NJROTC VIII CP",
       "GPA": "0",
       "Length": ["Semester"],
-      "Credits": ["1.0"],
+      "Credits": ["1.0", "1.0"],
       "Prerequisites": "NJROTC V",
       "Notes": "Two (2) full credits of NJROTC fulfill the Wellness B and Wellness C graduation requirements in addition to fulfilling two credits toward an Area of Focus.  Successful completion of 3 years of JROTC substitutes for ½ credit of Personal Finance and ½ credit of U.S. Government.",
       "Description": "Naval Science 8 broadens a cadet’s understanding of leadership as a key component in a Navy career and its impact on American citizenship. (a) Learn leadership responsibilities through opportunities within the NJROTC unit. (b) Provide professionally guided independent study on leadership and citizenship. (c) Use selected readings in Naval Leadership resources to broaden understanding of the basic theory of leadership, details of responsibilities of leadership and qualities that outstanding leader’s exhibit.",
-      "Subject": ["Career Academies"]
+      "Subject": ["Career Academies", "Wellness"]
     }
   ],
   "STEM": [
@@ -1235,7 +1235,7 @@
       "Subject": ["Math"]
     },
     {
-      "Name": "Precalculus BC SDC S, T, E, M",
+      "Name": "Precalculus BC SDC",
       "GPA": "1.0",
       "Length": ["Semester"],
       "Credits": ["1.0"],

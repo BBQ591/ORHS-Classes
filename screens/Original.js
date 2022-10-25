@@ -8,6 +8,18 @@ import {
 } from "react-native";
 
 export default function Original({ navigation, route }) {
+  var dict = require("../subjectDict.json");
+  const academies = [
+    "Advanced Manufacturing",
+    "Arts & A/V Communications",
+    "Business",
+    "Early Childhood Education",
+    "Government and Public Administration",
+    "Health Science",
+    "Information Technology and Cyber Security",
+    "STEM",
+    "Transportation",
+  ];
   const people = [
     "Career Academies",
     "English",
@@ -65,16 +77,53 @@ export default function Original({ navigation, route }) {
     }
   };
   return (
-    <ScrollView>
+    <ScrollView style={{ backgroundColor: "#6a9495" }}>
       <View style={{ backgroundColor: "#6a9495", alignItems: "center" }}>
         {people.map((item) => {
-          return (
-            <TouchableOpacity onPress={() => pressHandler(item)}>
-              <View style={styles.items}>
-                <Text style={{ fontSize: 25, fontWeight: "bold" }}>{item}</Text>
-              </View>
-            </TouchableOpacity>
-          );
+          if (item == "Career Academies") {
+            console.log();
+            var count = 0;
+            academies.map((academy) => {
+              if (
+                dict[academy].filter((currClass) =>
+                  currClass.Length.includes(add)
+                ).length != 0
+              ) {
+                count += 1;
+              }
+            });
+            if (count > 0) {
+              return (
+                <TouchableOpacity onPress={() => pressHandler(item)}>
+                  <View style={styles.items}>
+                    <Text style={{ fontSize: 25, fontWeight: "bold" }}>
+                      {item}
+                    </Text>
+                  </View>
+                </TouchableOpacity>
+              );
+            }
+          } else {
+            if (
+              dict[item].filter((currClass) => currClass.Length.includes(add))
+                .length != 0
+            ) {
+              console.log(
+                dict[item].filter((currClass) => currClass.Length.includes(add))
+                  .length,
+                item
+              );
+              return (
+                <TouchableOpacity onPress={() => pressHandler(item)}>
+                  <View style={styles.items}>
+                    <Text style={{ fontSize: 25, fontWeight: "bold" }}>
+                      {item}
+                    </Text>
+                  </View>
+                </TouchableOpacity>
+              );
+            }
+          }
         })}
       </View>
     </ScrollView>

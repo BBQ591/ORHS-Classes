@@ -47,25 +47,33 @@ export default function CAacademies({ navigation, route }) {
       number,
     });
   };
+  var dict = require("../subjectDict.json");
+
   return (
-    <ScrollView>
+    <ScrollView style={{ backgroundColor: "#d1d1d1" }}>
       <View style={{ backgroundColor: "#d1d1d1", alignItems: "center" }}>
         {academies.map((item) => {
-          return (
-            <TouchableOpacity onPress={() => pressHandler(item)}>
-              <View style={styles.items}>
-                <Text
-                  style={{
-                    fontSize: 20,
-                    color: "white",
-                    fontWeight: "bold",
-                  }}
-                >
-                  {item}
-                </Text>
-              </View>
-            </TouchableOpacity>
-          );
+          if (
+            dict[item].filter((currClass) => currClass.Length.includes(add))
+              .length != 0
+          ) {
+            return (
+              <TouchableOpacity onPress={() => pressHandler(item)}>
+                <View style={styles.items}>
+                  <Text
+                    style={{
+                      fontSize: 20,
+                      color: "white",
+                      fontWeight: "bold",
+                      textAlign: "center",
+                    }}
+                  >
+                    {item}
+                  </Text>
+                </View>
+              </TouchableOpacity>
+            );
+          }
         })}
       </View>
     </ScrollView>
@@ -81,7 +89,7 @@ const styles = StyleSheet.create({
     padding: 30,
     backgroundColor: "#6a9495",
     fontSize: 40,
-    height: 85,
+    // height: 110,
     borderRadius: 15,
   },
 });
