@@ -10,12 +10,15 @@ import ChooseLength from "./screens/ChooseLength";
 import React from "react";
 import CustomClass from "./screens/CustomClass";
 import CustomYear from "./screens/CustomYear";
+import SearchScreen from "./screens/SearchScreen";
+// blue part of import is the function name
 const Stack = createNativeStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Year" component={ChooseYear} />
+        <Stack.Screen name="Search Class" component={SearchScreen} />
 
         <Stack.Screen name="Class Taken" component={CustomYear} />
         <Stack.Screen name="Add Class" component={CustomClass} />
@@ -24,7 +27,7 @@ export default function App() {
         <Stack.Screen name="Classes" component={Home} />
         <Stack.Screen name="Description" component={Description} />
         <Stack.Screen name="Academies" component={CAacademies} />
-        <Stack.Screen name="Pick Action" component={ChooseLength} />
+        <Stack.Screen name="Pick Length" component={ChooseLength} />
       </Stack.Navigator>
     </NavigationContainer>
   );

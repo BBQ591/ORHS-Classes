@@ -438,7 +438,7 @@ function Schedule({ navigation, route }) {
   }
   const chooseL = (item, item2, number) => {
     // Direction is true if we need to delete up, false if we need to delete down
-    navigation.navigate("Pick Action", {
+    navigation.navigate("Pick Length", {
       FS: FS,
       Class: item2,
       fall: fall,

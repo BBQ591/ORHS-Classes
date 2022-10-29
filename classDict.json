@@ -1647,7 +1647,7 @@
     "Subject": ["Special Programs"]
   },
   "English 12": {
-    "GPA": "4.0",
+    "GPA": "0",
     "Credits": ["1.0"],
     "Subject": ["English"],
     "Length": ["Semester"],
@@ -1656,7 +1656,7 @@
     "Counseling Notes": "None"
   },
   "English 12 CP": {
-    "GPA": "4.0",
+    "GPA": "0",
     "Credits": ["1.0"],
     "Subject": ["English"],
     "Length": ["Semester"],
@@ -1665,7 +1665,7 @@
     "Counseling Notes": "None"
   },
   "AP English Literature and Composition": {
-    "GPA": "5.0",
+    "GPA": "1.0",
     "Credits": ["1.0"],
     "Subject": ["English"],
     "Length": ["Semester"],
@@ -1674,7 +1674,7 @@
     "Counseling Notes": "Students are encouraged to take the AP English Literature exam at the end of the year."
   },
   "Creative Writing": {
-    "GPA": "4.0",
+    "GPA": "0",
     "Credits": ["1.0"],
     "Subject": ["English"],
     "Length": ["Semester"],
@@ -1683,7 +1683,7 @@
     "Counseling Notes": "None"
   },
   "Technical Writing": {
-    "GPA": "4.0",
+    "GPA": "0",
     "Credits": ["1.0"],
     "Subject": ["English"],
     "Length": ["Semester"],
@@ -1692,7 +1692,7 @@
     "Counseling Notes": "None"
   },
   "Journalism I and II- Oak Log": {
-    "GPA": "4.0",
+    "GPA": "0",
     "Credits": ["2.0"],
     "Subject": ["English"],
     "Length": ["Year-long on a block"],
@@ -1701,7 +1701,7 @@
     "Counseling Notes": "*Students are encouraged to take this course both semesters.  However, students who only register for one semester must take Journalism in the fall.  The fall semester is a prerequisite for the spring semester."
   },
   "English Language Development 9, 10,11, 12": {
-    "GPA": "4.0",
+    "GPA": "0",
     "Credits": ["2.0"],
     "Subject": ["English"],
     "Length": ["Year-long on a block"],
@@ -1710,7 +1710,7 @@
     "Counseling Notes": "This course may serve as either an elective or English credit. It may be taken one or two times per year as determined by language proficiency assessment scores.  This course can also count towards a humanities area of focus."
   },
   "Detective Fiction and Mystery Literature": {
-    "GPA": "4.0",
+    "GPA": "0",
     "Credits": ["0.5"],
     "Subject": ["English"],
     "Length": ["Term"],
@@ -1719,7 +1719,7 @@
     "Counseling Notes": "None"
   },
   "World Mythology": {
-    "GPA": "4.0",
+    "GPA": "0",
     "Credits": ["0.5"],
     "Subject": ["English"],
     "Length": ["Term"],

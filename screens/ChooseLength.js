@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, ScrollView } from "react-native";
 import Button from "react-native-flat-button";
 
 const styles = require("./style");
@@ -22,6 +22,7 @@ export default function ChooseLength({ navigation, route }) {
     "Add Semester",
     "Add Block Year Long",
     "Add Term",
+    "Search",
     "View Description",
   ];
 
@@ -68,6 +69,19 @@ export default function ChooseLength({ navigation, route }) {
         number,
       });
     }
+    if (item == "Search") {
+      navigation.navigate("Search Class", {
+        FS: FS,
+        fall: fall,
+        spring: spring,
+        time: time,
+        lunchClass: lunchClass,
+        requirements: requirements,
+        year: year,
+        Class: Class,
+        number: number,
+      });
+    }
     if (item == "View Description" && Class != "Click Here to Add Class!") {
       navigation.navigate("Description", {
         FS,
@@ -92,39 +106,41 @@ export default function ChooseLength({ navigation, route }) {
   };
 
   return (
-    <View
-      style={{
-        backgroundColor: "#d1d1d1",
-        alignItems: "center",
-        flex: 1,
-        justifyContent: "space-evenly",
-      }}
-    >
-      {options.map((item) => {
-        return (
-          // <View style = {styles.items}>
-          <Button
-            type="neutral"
-            containerStyle={StyleSheet.compose(
-              styles.buttonContainer,
-              styles.lengthButton
-            )}
-            onPress={() => pressHandler(item, Class)}
-          >
-            <Text
-              style={{
-                fontSize: 25,
-                fontWeight: "bold",
-                color: "black",
-              }}
+    <ScrollView>
+      <View
+        style={{
+          backgroundColor: "#d1d1d1",
+          alignItems: "center",
+          flex: 1,
+          justifyContent: "space-evenly",
+        }}
+      >
+        {options.map((item) => {
+          return (
+            // <View style = {styles.items}>
+            <Button
+              type="neutral"
+              containerStyle={StyleSheet.compose(
+                styles.buttonContainer,
+                styles.lengthButton
+              )}
+              onPress={() => pressHandler(item, Class)}
             >
-              {item}
-            </Text>
-          </Button>
-          // </View>
-        );
-      })}
-    </View>
+              <Text
+                style={{
+                  fontSize: 25,
+                  fontWeight: "bold",
+                  color: "black",
+                }}
+              >
+                {item}
+              </Text>
+            </Button>
+            // </View>
+          );
+        })}
+      </View>
+    </ScrollView>
   );
 }
 const temp = StyleSheet.create({

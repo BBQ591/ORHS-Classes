@@ -720,7 +720,7 @@
     },
     {
       "Name": "English 12",
-      "GPA": "4.0",
+      "GPA": "0",
       "Credits": ["1.0"],
       "Subject": ["English"],
       "Length": ["Semester"],
@@ -730,7 +730,7 @@
     },
     {
       "Name": "English 12 CP",
-      "GPA": "4.0",
+      "GPA": "0",
       "Credits": ["1.0"],
       "Subject": ["English"],
       "Length": ["Semester"],
@@ -740,7 +740,7 @@
     },
     {
       "Name": "AP English Literature and Composition",
-      "GPA": "5.0",
+      "GPA": "1.0",
       "Credits": ["1.0"],
       "Subject": ["English"],
       "Length": ["Semester"],
@@ -750,7 +750,7 @@
     },
     {
       "Name": "Creative Writing",
-      "GPA": "4.0",
+      "GPA": "0",
       "Credits": ["1.0"],
       "Subject": ["English"],
       "Length": ["Semester"],
@@ -760,7 +760,7 @@
     },
     {
       "Name": "Technical Writing",
-      "GPA": "4.0",
+      "GPA": "0",
       "Credits": ["1.0"],
       "Subject": ["English"],
       "Length": ["Semester"],
@@ -770,7 +770,7 @@
     },
     {
       "Name": "Journalism I and II- Oak Log",
-      "GPA": "4.0",
+      "GPA": "0",
       "Credits": ["2.0"],
       "Subject": ["English"],
       "Length": ["Year-long on a block"],
@@ -780,7 +780,7 @@
     },
     {
       "Name": "English Language Development 9, 10,11, 12",
-      "GPA": "4.0",
+      "GPA": "0",
       "Credits": ["2.0"],
       "Subject": ["English"],
       "Length": ["Year-long on a block"],
@@ -790,7 +790,7 @@
     },
     {
       "Name": "Detective Fiction and Mystery Literature",
-      "GPA": "4.0",
+      "GPA": "0",
       "Credits": ["0.5"],
       "Subject": ["English"],
       "Length": ["Term"],
@@ -800,7 +800,7 @@
     },
     {
       "Name": "World Mythology",
-      "GPA": "4.0",
+      "GPA": "0",
       "Credits": ["0.5"],
       "Subject": ["English"],
       "Length": ["Term"],

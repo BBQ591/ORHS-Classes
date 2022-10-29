@@ -118,7 +118,7 @@ export default function CustomClass({ navigation, route }) {
         onChangeText={(value, index) => pressHandler4(value)}
         value={text}
         placeholder="Please Enter Class Name"
-        placeholderTextColor={"#893940"}
+        placeholderTextColor={"black"}
         fontSize={20}
       />
       <TextInput
@@ -128,7 +128,7 @@ export default function CustomClass({ navigation, route }) {
         placeholder="Please Enter Number of Credits"
         keyboardType="numeric"
         returnKeyType="done"
-        placeholderTextColor={"#893940"}
+        placeholderTextColor={"black"}
         fontSize={20}
       />
       {/* must fix GPA, do the same as the text changes above(with the pressHandler) */}

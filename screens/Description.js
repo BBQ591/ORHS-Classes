@@ -174,70 +174,125 @@ export default function Description({ navigation, route }) {
             opacity: 0.15,
           }}
         />
+
         <Text
           style={{
             fontSize: 30,
             textAlign: "center",
             marginLeft: "5%",
             marginRight: "5%",
+            fontWeight: "bold",
           }}
         >
           {name}
         </Text>
-        <Text
-          style={{
-            fontSize: 20,
-            marginLeft: "5%",
-            marginRight: "5%",
-          }}
-        >
-          {"\n"}Prerequisites: {Prerequisites}
+        <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
+          <Text
+            style={{
+              fontSize: 20,
+              fontWeight: "bold",
+            }}
+          >
+            {"\n"}Prerequisites
+          </Text>
+          <Text
+            style={{
+              fontSize: 20,
+            }}
+          >
+            : {Prerequisites}
+          </Text>
+        </Text>
+        <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
+          <Text
+            style={{
+              fontSize: 20,
+
+              fontWeight: "bold",
+            }}
+          >
+            {"\n"}Credits
+          </Text>
+          <Text
+            style={{
+              fontSize: 20,
+            }}
+          >
+            : {Credits}
+          </Text>
+        </Text>
+        <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
+          <Text
+            style={{
+              fontSize: 20,
+
+              fontWeight: "bold",
+            }}
+          >
+            {"\n"}GPA
+          </Text>
+          <Text
+            style={{
+              fontSize: 20,
+            }}
+          >
+            : {GPA}
+          </Text>
+        </Text>
+        <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
+          <Text
+            style={{
+              fontSize: 20,
+
+              fontWeight: "bold",
+            }}
+          >
+            {"\n"}Length
+          </Text>
+          <Text
+            style={{
+              fontSize: 20,
+            }}
+          >
+            : {Length}
+          </Text>
+        </Text>
+        <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
+          <Text
+            style={{
+              fontSize: 20,
+
+              fontWeight: "bold",
+            }}
+          >
+            {"\n"}Description
+          </Text>
+          <Text
+            style={{
+              fontSize: 20,
+            }}
+          >
+            : {Description}
+          </Text>
         </Text>
         <Text
-          style={{
-            fontSize: 20,
-            marginLeft: "5%",
-            marginRight: "5%",
-          }}
+          style={{ marginLeft: "5%", marginRight: "5%", marginBottom: "10%" }}
         >
-          {"\n"}Credits: {Credits}
-        </Text>
-        <Text
-          style={{
-            fontSize: 20,
-            marginLeft: "5%",
-            marginRight: "5%",
-          }}
-        >
-          {"\n"}GPA: {GPA}
-        </Text>
-        <Text
-          style={{
-            fontSize: 20,
-            marginLeft: "5%",
-            marginRight: "5%",
-          }}
-        >
-          {"\n"}Length: {Length}
-        </Text>
-        <Text
-          style={{
-            fontSize: 20,
-            marginLeft: "5%",
-            marginRight: "5%",
-          }}
-        >
-          {"\n"}Description: {Description}
-        </Text>
-        <Text
-          style={{
-            fontSize: 20,
-            marginLeft: "5%",
-            marginRight: "5%",
-            marginBottom: "10%",
-          }}
-        >
-          {"\n"}Counseling Notes: {Notes}
+          <Text
+            style={{
+              fontSize: 20,
+              fontWeight: "bold",
+            }}
+          >
+            {"\n"}Counseling Notes
+          </Text>
+          <Text
+            style={{
+              fontSize: 20,
+            }}
+          >
+            : {Notes}
+          </Text>
         </Text>
       </View>
     </ScrollView>
