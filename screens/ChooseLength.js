@@ -22,7 +22,7 @@ export default function ChooseLength({ navigation, route }) {
     "Add Semester",
     "Add Block Year Long",
     "Add Term",
-    "Search",
+    "Explore",
     "View Description",
   ];
 
@@ -69,7 +69,7 @@ export default function ChooseLength({ navigation, route }) {
         number,
       });
     }
-    if (item == "Search") {
+    if (item == "Explore") {
       navigation.navigate("Search Class", {
         FS: FS,
         fall: fall,

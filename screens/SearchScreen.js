@@ -63,6 +63,7 @@ export default function SearchScreen({ navigation, route }) {
             year: year,
             Class: Class,
             number: number,
+            inSearchMode: true,
           })
         }
       >

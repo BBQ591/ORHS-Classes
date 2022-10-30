@@ -29,6 +29,7 @@ export default function Description({ navigation, route }) {
     year,
     Class,
     number,
+    inSearchMode,
   } = route.params;
   console.log(FS, "YOUR MAMA");
   console.log(subject, Credits, "poop");
@@ -153,7 +154,7 @@ export default function Description({ navigation, route }) {
       break;
     }
   }
-  if (alreadyAdded == false) {
+  if (alreadyAdded == false && inSearchMode == false) {
     React.useLayoutEffect(() => {
       navigation.setOptions({
         headerRight: () => (
@@ -213,13 +214,47 @@ export default function Description({ navigation, route }) {
           >
             {"\n"}Credits
           </Text>
+          {creditDict[name].Credits.map((item, index) => {
+            if (index == 0) {
+              return (
+                <Text style={{ fontSize: 20 }}>
+                  : {creditDict[name].Credits[0]}
+                </Text>
+              );
+            } else {
+              return (
+                <Text style={{ fontSize: 20 }}>
+                  , {creditDict[name].Credits[index]}
+                </Text>
+              );
+            }
+          })}
+        </Text>
+        <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
           <Text
             style={{
               fontSize: 20,
+
+              fontWeight: "bold",
             }}
           >
-            : {Credits}
+            {"\n"}Subject
           </Text>
+          {creditDict[name].Subject.map((item, index) => {
+            if (index == 0) {
+              return (
+                <Text style={{ fontSize: 20 }}>
+                  : {creditDict[name].Subject[0]}
+                </Text>
+              );
+            } else {
+              return (
+                <Text style={{ fontSize: 20 }}>
+                  , {creditDict[name].Subject[index]}
+                </Text>
+              );
+            }
+          })}
         </Text>
         <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
           <Text
@@ -249,13 +284,21 @@ export default function Description({ navigation, route }) {
           >
             {"\n"}Length
           </Text>
-          <Text
-            style={{
-              fontSize: 20,
-            }}
-          >
-            : {Length}
-          </Text>
+          {creditDict[name].Length.map((item, index) => {
+            if (index == 0) {
+              return (
+                <Text style={{ fontSize: 20 }}>
+                  : {creditDict[name].Length[0]}
+                </Text>
+              );
+            } else {
+              return (
+                <Text style={{ fontSize: 20 }}>
+                  , {creditDict[name].Length[index]}
+                </Text>
+              );
+            }
+          })}
         </Text>
         <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
           <Text

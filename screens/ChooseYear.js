@@ -826,7 +826,7 @@ export default function ChooseYear({ navigation, route }) {
                 fontWeight: "bold",
               }}
             >
-              PLEASE TYPE IN YOUR SKYWARD CREDENTIALS AND GRADUATION YEAR BELOW
+              PLEASE TYPE IN YOUR SKYWARD CREDENTIALS BELOW
             </Text>
             <TextInput
               value={text1}

@@ -41,6 +41,7 @@ export default function Home({ navigation, route }) {
       year: year,
       Class: Class,
       number: number,
+      inSearchMode: false,
     });
   };
   return (
