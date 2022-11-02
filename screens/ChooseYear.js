@@ -459,6 +459,8 @@ export default function ChooseYear({ navigation, route }) {
   var text1 = null;
   var graduationTesting = null;
   const inputting = () => {
+    setisVisible2(true);
+
     username = text1;
     password = text2;
     if (graduationTesting - 2023 == 0) {
@@ -490,7 +492,6 @@ export default function ChooseYear({ navigation, route }) {
       ]);
     }
     if ((username === "demoUsername") & (password === "12345")) {
-      setisVisible2(true);
       convertData(
         ["313102", "323108", "303133", "333108", "313103"],
         graduationTesting
@@ -498,8 +499,6 @@ export default function ChooseYear({ navigation, route }) {
     } else {
       scraper.gettingSessionID(username, password).then((authent) => {
         if (authent != "No username or password or it is invalid") {
-          setisVisible2(true);
-
           scraper.scrapeReport(authent).then(({ raw }) => {
             const recurse = (course1, indexers, corNumID, Graduation) => {
               scraper
@@ -558,12 +557,21 @@ export default function ChooseYear({ navigation, route }) {
             recurse(corNumID[0], 0, corNumID, graduationTesting);
           });
         } else {
-          setisVisible(true);
+          console.log(isVisible2);
           Alert.alert(
             "ERROR",
 
             'PLEASE ENTER VALID SKYWARD CREDENTIALS (USERNAME DOES NOT HAVE "@ORTN.EDU")',
-            [{ text: "OK", onPress: () => console.log("OK Pressed") }]
+            [
+              {
+                text: "OK",
+                onPress: () => {
+                  setisVisible2(false);
+
+                  setisVisible(true);
+                },
+              },
+            ]
           );
         }
       });
@@ -573,6 +581,7 @@ export default function ChooseYear({ navigation, route }) {
   const inputtingGraduation = () => {
     console.log(graduationTesting, "hiiiiiii");
     if ((graduationTesting <= 2027) & (graduationTesting >= 2023)) {
+      console.log("I AM IN MATH CLASS!");
       const _storeData2 = async (takenClasses, credits, graduation) => {
         try {
           await AsyncStorage.setItem("Graduation", JSON.stringify(graduation));
@@ -795,6 +804,7 @@ export default function ChooseYear({ navigation, route }) {
           "Playground",
         ]);
       }
+      console.log("I AM IN MATH CLASS 2");
       setisVisible(true);
     } else {
       Alert.alert(
@@ -904,7 +914,7 @@ export default function ChooseYear({ navigation, route }) {
         </View>
       </Modal>
       <Modal
-        animationType="slide"
+        animationType="fade"
         transparent={true}
         visible={isVisible2}
         // onRequestClose={() => {
