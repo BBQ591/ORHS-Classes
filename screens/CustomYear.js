@@ -109,6 +109,23 @@ function Schedule({ navigation, route }) {
     _storeData();
     setDummy(!dummy);
   };
+  const pressHandler3 = (item) => {
+    navigation.navigate("Description", {
+      FS: "Fall (edit)",
+      name: item[0],
+      GPA: "None",
+      Length: "None",
+      Credits: item[1],
+      Description: "None",
+      Prerequisites: "None",
+      Notes: "None",
+      subject: item[2],
+      fall: fall,
+      spring: [],
+      requirements: requirements,
+      Class: item,
+    });
+  };
   const testing = (index) => {
     let swipeBtns = [
       {
@@ -144,17 +161,19 @@ function Schedule({ navigation, route }) {
         } else {
           return (
             <Swipeout right={testing(index)}>
-              <View style={styles.overall}>
-                <Text
-                  style={{
-                    fontSize: 20,
-                    color: "white",
-                    textAlign: "center",
-                  }}
-                >
-                  {item[0]}
-                </Text>
-              </View>
+              <TouchableOpacity onPress={() => pressHandler3(item)}>
+                <View style={styles.overall}>
+                  <Text
+                    style={{
+                      fontSize: 20,
+                      color: "white",
+                      textAlign: "center",
+                    }}
+                  >
+                    {item[0]}
+                  </Text>
+                </View>
+              </TouchableOpacity>
             </Swipeout>
           );
         }

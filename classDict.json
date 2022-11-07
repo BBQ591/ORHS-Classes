@@ -65,11 +65,11 @@
   "NIC Digital Arts & Design I": {
     "GPA": "1",
     "Length": ["Semester"],
-    "Credits": ["1.0"],
+    "Credits": ["1.0", "1.0"],
     "Prerequisites": "None",
     "Notes": "This is an introductory course to the Digital Arts & Design pathway. Students who wish to CCTE concentrator status must take 3 courses in a single pathway. Only this Digital Arts class can satisfy the fine art graduation requirement and count toward an Arts and A/V Communication area of focus simultaneously.",
     "Description": "This is a foundational course in the Arts, A/V Technology & Communications academy for students interested in art and design professions. The primary aim of this course is to build a strong understanding of the principles and elements of design and the design process. Upon completion of this course, proficient students will be able to utilize industry tools to conceptualize and create communications solutions which effectively reach targeted audiences. Students will acquire basic skills in illustration, typography, and photography. Standards in this course include career exploration, an overview of the history of design, basic business management, and legal issues. Skills learned in this path of study translate well into other STEM design applications, such as CAD.",
-    "Subject": ["Career Academies"]
+    "Subject": ["Career Academies", "Fine Arts"]
   },
   "NIC Digital Arts & Design II": {
     "GPA": "1",
@@ -542,7 +542,7 @@
   "English 9 Honors and AP United States Government & Politics: Combined Studies": {
     "GPA": ".75",
     "Length": ["Year-long on a block"],
-    "Credits": ["1.0", "1.0"],
+    "Credits": ["1.0", "1"],
     "Prerequisites": "To enroll in English 9 Honors: Combined Studies, students must have a teacher recommendation and/or grade of B or higher in an English 8 Course. Students should be “On Track” or “Mastered” on the most recent TCAP assessment, and students’ reading level should be at grade level. \n For this AP United States Government & Politics, students should have a teacher recommendation and/or grade of B or higher in the preceding social studies course. Students should be “On Track” or “Mastered” on the most recent social studies TCAP assessment.,",
     "Notes": "English: *This course is taken in conjunction with AP US Government and Politics.  It will meet all year for ½ of a block period. \n AP United States Government & Politics: All students are expected to take the AP exam. Students will receive .5 credit in AP US Government and .5 credit in Personal Finance CP.  *This course is taken in conjunction with English 9 Honors Combined Studies.  It will meet all year for ½ of a block period.",
     "Description": "Combined Studies is a team-taught AP/Honors course in Unites States Government and Politics and literature. This course is designed for students with above-average reading and writing abilities and/or teacher recommendations. Students taking this course practice thinking and writing skills necessary for success in English class and on the paired course Advanced Placement U.S. Government and Politics Exam. Students complete an extensive literary research project and are expected to complete most reading and writing assignments out of class. \n AP United States Government & Politics: The Advanced Placement course in United States Government and Politics is a year-long course designed to give students a critical perspective on politics and government. This course involves both the study of general concepts used to interpret U. S. politics and an examination of the various institutions, groups, beliefs, and ideas that make up the American political system. Students will develop understanding of the typical patterns of political processes and behavior and apply reasoning to assess the causes and consequences of political events. Students will examine, analyze, and interpret basic data relevant to U.S. government and politics. This class will meet the State graduation requirement for one-half credit in U.S. government and prepare the student for the AP examination in United States Government and Politics. Depending on the score received on the AP examination, students can receive college credits; therefore, the course is taught with college-level textbooks and rigor.",

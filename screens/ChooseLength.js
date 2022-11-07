@@ -16,7 +16,9 @@ export default function ChooseLength({ navigation, route }) {
     requirements,
     year,
     number,
+    isCurr,
   } = route.params;
+  console.log(isCurr, "IN LENGTH");
   console.log(FS, "daks;ljla;dkjsljdfsalaj;kfds");
   const options = [
     "Add Semester",
@@ -26,7 +28,7 @@ export default function ChooseLength({ navigation, route }) {
     "View Description",
   ];
 
-  const pressHandler = (item, Class) => {
+  const pressHandler = (item, Class, isCurr) => {
     if (item == "Add Semester") {
       navigation.navigate("Subjects", {
         FS: FS,
@@ -82,26 +84,52 @@ export default function ChooseLength({ navigation, route }) {
         number: number,
       });
     }
-    if (item == "View Description" && Class != "Click Here to Add Class!") {
-      navigation.navigate("Description", {
-        FS,
-        name: Class,
-        GPA: creditDict[Class].GPA,
-        Length: creditDict[Class].Length,
-        Credits: creditDict[Class].Credits,
-        Description: creditDict[Class].Description,
-        Prerequisites: creditDict[Class].Prerequisites,
-        Notes: creditDict[Class].Notes,
-        subject: creditDict[Class].Subject,
-        fall,
-        spring,
-        time,
-        lunchClass,
-        requirements,
-        year,
-        Class,
-        number,
-      });
+    if (isCurr == false) {
+      console.log(isCurr, "is false");
+      if (item == "View Description" && Class != "Click Here to Add Class!") {
+        navigation.navigate("Description", {
+          FS,
+          name: Class[0],
+          GPA: creditDict[Class[0]].GPA,
+          Length: creditDict[Class[0]].Length,
+          Credits: creditDict[Class[0]].Credits,
+          Description: creditDict[Class[0]].Description,
+          Prerequisites: creditDict[Class[0]].Prerequisites,
+          Notes: creditDict[Class[0]].Notes,
+          subject: creditDict[Class[0]].Subject,
+          fall,
+          spring,
+          time,
+          lunchClass,
+          requirements,
+          year,
+          Class,
+          number,
+        });
+      }
+    } else {
+      if (item == "View Description" && Class != "Click Here to Add Class!") {
+        console.log("is true");
+        navigation.navigate("Description", {
+          FS,
+          name: Class[0],
+          GPA: "None",
+          Length: "None",
+          Credits: Class[1],
+          Description: "None",
+          Prerequisites: "None",
+          Notes: "None",
+          subject: Class[2],
+          fall,
+          spring,
+          time,
+          lunchClass,
+          requirements,
+          year,
+          Class,
+          number,
+        });
+      }
     }
   };
 
@@ -124,7 +152,7 @@ export default function ChooseLength({ navigation, route }) {
                 styles.buttonContainer,
                 styles.lengthButton
               )}
-              onPress={() => pressHandler(item, Class)}
+              onPress={() => pressHandler(item, Class, isCurr)}
             >
               <Text
                 style={{

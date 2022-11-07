@@ -46,47 +46,47 @@ export default function Description({ navigation, route }) {
     addition = -1;
   }
   const pressHandler = () => {
-    for (let i = 0; i < subject.length; i++) {
-      requirements[subject[i]] += parseFloat(Credits[i]);
-    }
     if (Length == "Year-long on a block") {
-      schedule[number] = name;
-      schedule[number + addition] = name;
-      oSchedule[number] = name;
-      oSchedule[number + addition] = name;
+      schedule[number] = [name, Credits, subject];
+      schedule[number + addition] = [name, Credits, subject];
+      oSchedule[number] = [name, Credits, subject];
+      oSchedule[number + addition] = [name, Credits, subject];
     }
     if (Length == "Semester") {
-      if (Class == oSchedule[number] && Class == oSchedule[number + addition]) {
-        oSchedule[number] = "Click Here to Add Class!";
-        oSchedule[number + addition] = "Click Here to Add Class!";
+      if (
+        Class[0] == oSchedule[number][0] &&
+        Class[0] == oSchedule[number + addition][0]
+      ) {
+        oSchedule[number][0] = ["Click Here to Add Class!"];
+        oSchedule[number + addition][0] = ["Click Here to Add Class!"];
       }
-      if (Class == oSchedule[number]) {
-        oSchedule[number] = "Click Here to Add Class!";
+      if (Class[0] == oSchedule[number][0]) {
+        oSchedule[number] = ["Click Here to Add Class!"];
       }
-      if (schedule[number + addition] == oSchedule[number + addition]) {
-        oSchedule[number + addition] = "Click Here to Add Class!";
+      if (schedule[number + addition][0] == oSchedule[number + addition][0]) {
+        oSchedule[number + addition][0] = ["Click Here to Add Class!"];
       }
-      schedule[number] = name;
-      schedule[number + addition] = name;
+      schedule[number] = [name, Credits, subject];
+      schedule[number + addition] = [name, Credits, subject];
     }
     if (Length == "Term") {
       if (
-        oSchedule[number + addition] == oSchedule[number] &&
-        schedule[number + addition] == oSchedule[number]
+        oSchedule[number + addition][0] == oSchedule[number][0] &&
+        schedule[number + addition][0] == oSchedule[number][0]
       ) {
         // is a block
-        oSchedule[number] = "Click Here to Add Class!";
-        oSchedule[number + addition] = "Click Here to Add Class!";
-        schedule[number + addition] = "Click Here to Add Class!";
+        oSchedule[number] = ["Click Here to Add Class!"];
+        oSchedule[number + addition] = ["Click Here to Add Class!"];
+        schedule[number + addition] = ["Click Here to Add Class!"];
       }
-      if (Class == schedule[number + addition]) {
+      if (Class[0] == schedule[number + addition][0]) {
         // is a semester
-        schedule[number + addition] = "Click Here to Add Class!";
+        schedule[number + addition] = ["Click Here to Add Class!"];
       }
-      if (oSchedule[number] == Class) {
-        oSchedule[number] = "Click Here to Add Class!";
+      if (oSchedule[number][0] == Class[0]) {
+        oSchedule[number] = ["Click Here to Add Class!"];
       }
-      schedule[number] = name;
+      schedule[number] = [name, Credits, subject];
     }
     var old;
     if (Length == "Year-long skinny at lunch") {
@@ -103,31 +103,40 @@ export default function Description({ navigation, route }) {
     var difference = ["", "", "", ""];
     var index = 0;
     for (let i = 0; i < 8; i++) {
-      if (fall[i] != tempFall[i]) {
+      if (fall[i][0] != tempFall[i][0]) {
         difference[index] = tempFall[i];
         index += 1;
       }
-      if (spring[i] != tempSpring[i]) {
+      if (spring[i][0] != tempSpring[i][0]) {
         difference[index] = tempSpring[i];
         index += 1;
       }
     }
     var visited = ["", "", "", ""];
-    for (let i = 0; i < 4; i++) {
-      if (difference[i] == "") {
-        continue;
+    console.log(difference, "DIFFERENTIAL");
+    if (
+      difference[0] != "" ||
+      difference[1] != "" ||
+      difference[2] != "" ||
+      difference[3] != ""
+    ) {
+      for (let i = 0; i < subject.length; i++) {
+        requirements[subject[i]] += parseFloat(Credits[i]);
       }
-      if (visited.indexOf(difference[i]) != -1) {
-        continue;
-      }
-      if (difference[i] == "Click Here to Add Class!") {
-        continue;
-      }
-      visited[i] = difference[i];
-      for (let j = 0; j < creditDict[difference[i]].Subject.length; j++) {
-        requirements[creditDict[difference[i]].Subject[j]] -= parseFloat(
-          creditDict[difference[i]].Credits[j]
-        );
+      for (let i = 0; i < 4; i++) {
+        if (difference[i] == "") {
+          continue;
+        }
+        if (visited.indexOf(difference[i][0]) != -1) {
+          continue;
+        }
+        if (difference[i][0] == "Click Here to Add Class!") {
+          continue;
+        }
+        visited[i] = difference[i][0];
+        for (let j = 0; j < difference[i][1].length; j++) {
+          requirements[difference[i][2][j]] -= parseFloat(difference[i][1][j]);
+        }
       }
     }
     console.log(difference, "adsj;fljl;kdafsljk;fdsljk;dfaslj;");
@@ -187,23 +196,26 @@ export default function Description({ navigation, route }) {
         >
           {name}
         </Text>
-        <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
-          <Text
-            style={{
-              fontSize: 20,
-              fontWeight: "bold",
-            }}
-          >
-            {"\n"}Prerequisites
+        {Prerequisites != "None" && (
+          <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
+            <Text
+              style={{
+                fontSize: 20,
+                fontWeight: "bold",
+              }}
+            >
+              {"\n"}Prerequisites
+            </Text>
+            <Text
+              style={{
+                fontSize: 20,
+              }}
+            >
+              : {Prerequisites}
+            </Text>
           </Text>
-          <Text
-            style={{
-              fontSize: 20,
-            }}
-          >
-            : {Prerequisites}
-          </Text>
-        </Text>
+        )}
+
         <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
           <Text
             style={{
@@ -214,19 +226,11 @@ export default function Description({ navigation, route }) {
           >
             {"\n"}Credits
           </Text>
-          {creditDict[name].Credits.map((item, index) => {
+          {Credits.map((item, index) => {
             if (index == 0) {
-              return (
-                <Text style={{ fontSize: 20 }}>
-                  : {creditDict[name].Credits[0]}
-                </Text>
-              );
+              return <Text style={{ fontSize: 20 }}>: {Credits[0]}</Text>;
             } else {
-              return (
-                <Text style={{ fontSize: 20 }}>
-                  , {creditDict[name].Credits[index]}
-                </Text>
-              );
+              return <Text style={{ fontSize: 20 }}>, {Credits[index]}</Text>;
             }
           })}
         </Text>
@@ -240,103 +244,103 @@ export default function Description({ navigation, route }) {
           >
             {"\n"}Subject
           </Text>
-          {creditDict[name].Subject.map((item, index) => {
+          {subject.map((item, index) => {
             if (index == 0) {
-              return (
-                <Text style={{ fontSize: 20 }}>
-                  : {creditDict[name].Subject[0]}
-                </Text>
-              );
+              return <Text style={{ fontSize: 20 }}>: {subject[0]}</Text>;
             } else {
-              return (
-                <Text style={{ fontSize: 20 }}>
-                  , {creditDict[name].Subject[index]}
-                </Text>
-              );
+              return <Text style={{ fontSize: 20 }}>, {subject[index]}</Text>;
             }
           })}
         </Text>
-        <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
-          <Text
-            style={{
-              fontSize: 20,
+        {GPA != "None" && (
+          <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
+            <Text
+              style={{
+                fontSize: 20,
 
-              fontWeight: "bold",
-            }}
-          >
-            {"\n"}GPA
+                fontWeight: "bold",
+              }}
+            >
+              {"\n"}GPA
+            </Text>
+            <Text
+              style={{
+                fontSize: 20,
+              }}
+            >
+              : {GPA}
+            </Text>
           </Text>
-          <Text
-            style={{
-              fontSize: 20,
-            }}
-          >
-            : {GPA}
-          </Text>
-        </Text>
-        <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
-          <Text
-            style={{
-              fontSize: 20,
+        )}
+        {Length != "None" && (
+          <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
+            <Text
+              style={{
+                fontSize: 20,
 
-              fontWeight: "bold",
-            }}
-          >
-            {"\n"}Length
+                fontWeight: "bold",
+              }}
+            >
+              {"\n"}Length
+            </Text>
+            {creditDict[name].Length.map((item, index) => {
+              if (index == 0) {
+                return (
+                  <Text style={{ fontSize: 20 }}>
+                    : {creditDict[name].Length[0]}
+                  </Text>
+                );
+              } else {
+                return (
+                  <Text style={{ fontSize: 20 }}>
+                    , {creditDict[name].Length[index]}
+                  </Text>
+                );
+              }
+            })}
           </Text>
-          {creditDict[name].Length.map((item, index) => {
-            if (index == 0) {
-              return (
-                <Text style={{ fontSize: 20 }}>
-                  : {creditDict[name].Length[0]}
-                </Text>
-              );
-            } else {
-              return (
-                <Text style={{ fontSize: 20 }}>
-                  , {creditDict[name].Length[index]}
-                </Text>
-              );
-            }
-          })}
-        </Text>
-        <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
-          <Text
-            style={{
-              fontSize: 20,
+        )}
+        {Description != "None" && (
+          <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
+            <Text
+              style={{
+                fontSize: 20,
 
-              fontWeight: "bold",
-            }}
-          >
-            {"\n"}Description
+                fontWeight: "bold",
+              }}
+            >
+              {"\n"}Description
+            </Text>
+            <Text
+              style={{
+                fontSize: 20,
+              }}
+            >
+              : {Description}
+            </Text>
           </Text>
+        )}
+        {Notes != "None" && (
           <Text
-            style={{
-              fontSize: 20,
-            }}
+            style={{ marginLeft: "5%", marginRight: "5%", marginBottom: "10%" }}
           >
-            : {Description}
+            <Text
+              style={{
+                fontSize: 20,
+                fontWeight: "bold",
+              }}
+            >
+              {"\n"}Counseling Notes
+            </Text>
+            <Text
+              style={{
+                fontSize: 20,
+              }}
+            >
+              : {Notes}
+            </Text>
           </Text>
-        </Text>
-        <Text
-          style={{ marginLeft: "5%", marginRight: "5%", marginBottom: "10%" }}
-        >
-          <Text
-            style={{
-              fontSize: 20,
-              fontWeight: "bold",
-            }}
-          >
-            {"\n"}Counseling Notes
-          </Text>
-          <Text
-            style={{
-              fontSize: 20,
-            }}
-          >
-            : {Notes}
-          </Text>
-        </Text>
+        )}
       </View>
     </ScrollView>
   );

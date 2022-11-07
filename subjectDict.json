@@ -76,11 +76,11 @@
       "Name": "NIC Digital Arts & Design I",
       "GPA": "1",
       "Length": ["Semester"],
-      "Credits": ["1.0"],
+      "Credits": ["1.0", "1.0"],
       "Prerequisites": "None",
       "Notes": "This is an introductory course to the Digital Arts & Design pathway. Students who wish to CCTE concentrator status must take 3 courses in a single pathway. Only this Digital Arts class can satisfy the fine art graduation requirement and count toward an Arts and A/V Communication area of focus simultaneously.",
       "Description": "This is a foundational course in the Arts, A/V Technology & Communications academy for students interested in art and design professions. The primary aim of this course is to build a strong understanding of the principles and elements of design and the design process. Upon completion of this course, proficient students will be able to utilize industry tools to conceptualize and create communications solutions which effectively reach targeted audiences. Students will acquire basic skills in illustration, typography, and photography. Standards in this course include career exploration, an overview of the history of design, basic business management, and legal issues. Skills learned in this path of study translate well into other STEM design applications, such as CAD.",
-      "Subject": ["Career Academies"]
+      "Subject": ["Career Academies", "Fine Arts"]
     },
     {
       "Name": "NIC Digital Arts & Design II",
@@ -996,7 +996,7 @@
       "Name": "AP United States Government & Politics",
       "GPA": "1.0",
       "Length": ["Semester"],
-      "Credits": ["1"],
+      "Credits": ["1.0"],
       "Prerequisites": "For this AP course, students should have a teacher recommendation and/or grade of B or higher in the preceding social studies course. Students should be “On Track” or “Mastered” on the most recent social studies TCAP assessment.",
       "Notes": "All students are expected to take the AP exam. Students will receive .5 credit in AP US Government and .5 credit in Personal Finance CP",
       "Description": "The Advanced Placement course in United States Government and Politics is a year-long course designed to give students a critical perspective on politics and government. This course involves both the study of general concepts used to interpret U. S. politics and an examination of the various institutions, groups, beliefs, and ideas that make up the American political system. Students will develop understanding of the typical patterns of political processes and behavior and apply reasoning to assess the causes and consequences of political events. Students will examine, analyze, and interpret basic data relevant to U.S. government and politics. This class will meet the State graduation requirement for one-half credit in U.S. government and prepare the student for the AP examination in United States Government and Politics. Depending on the score received on the AP examination, students can receive college credits; therefore, the course is taught with college-level textbooks and rigor.",

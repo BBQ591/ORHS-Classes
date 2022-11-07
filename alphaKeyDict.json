@@ -212,7 +212,7 @@
   "323199": {
     "name": "DE Linear Algebra",
     "GPA": "5.0",
-    "Credits": ["1.0"],
+    "Credits": ["1"],
     "Subject": ["Math"],
     "Length": ["Semester"],
     "Description": "An introductory course in matrix algebra for mathematics, science and engineering students along with appropriate applications. Topics covered include Systems of linear equations, matrix algebra, inverses, matrix factorizations, determinants, vector spaces and dimension, rank, linear transformations, eigenvalues and eigenvectors, inner product, orthogonal projections. This course is equivalent to MATH 2010 at Tennessee Tech University and students have the opportunity for dual enrollment.",
@@ -222,7 +222,7 @@
   "343199": {
     "name": "DE Multivariable Calculus",
     "GPA": "5.0",
-    "Credits": ["1.0"],
+    "Credits": ["1"],
     "Subject": ["Math"],
     "Length": ["Term"],
     "Description": "This course covers typical topics from Calculus 3 including analytic geometry and vectors, differential calculus of functions of several variables, multiple integration, and topics from vector calculus. This course is equivalent to MATH 2110 at Tennessee Tech University and students have the opportunity for dual enrollment.",
@@ -232,7 +232,7 @@
   "363199": {
     "name": "DE Differential Equations",
     "GPA": "5.0",
-    "Credits": ["1.0"],
+    "Credits": ["1"],
     "Subject": ["Math"],
     "Length": ["Term"],
     "Description": "An introductory course in differential equations. Topics covered include an introduction to Differential Equations and Terminology, First Order Differential Equations, Higher Order Homogeneous Linear Equations with Constant Coefficients, Cauchy-Euler Equations, The Laplace Transform method of solving Initial-Value Problems, Solutions of Linear Equations, Systems of Linear Differential Equations. This course is equivalent to MATH 2120 at Tennessee Tech University and students have the opportunity for dual enrollment.",
@@ -542,8 +542,8 @@
   "615759": {
     "name": "Digital Arts & Design 1",
     "GPA": "4.0",
-    "Credits": ["1.0"],
-    "Subject": ["Career Academies"],
+    "Credits": ["1.0", "1.0"],
+    "Subject": ["Career Academies", "Fine Arts"],
     "Length": ["Semester"],
     "Description": "This is a foundational course in the Arts, A/V Technology & Communications academy for students interested in art and design professions. The primary aim of this course is to build a strong understanding of the principles and elements of design and the design process. Upon completion of this course, proficient students will be able to utilize industry tools to conceptualize and create communications solutions which effectively reach targeted audiences. Students will acquire basic skills in illustration, typography, and photography. Standards in this course include career exploration, an overview of the history of design, basic business management, and legal issues. Skills learned in this path of study translate well into other STEM design applications, such as CAD.",
     "Prerequisites": "None",
@@ -1062,7 +1062,7 @@
   "703446": {
     "name": "AP United States Government & Politics Combined Studies",
     "GPA": "5.0",
-    "Credits": ["1.0"],
+    "Credits": ["1"],
     "Subject": ["Social Studies"],
     "Length": ["Year-long skinny on a block*"],
     "Description": "The Advanced Placement course in United States Government and Politics is a year-long course designed to give students a critical perspective on politics and government. This course involves both the study of general concepts used to interpret U. S. politics and an examination of the various institutions, groups, beliefs, and ideas that make up the American political system. Students will develop understanding of the typical patterns of political processes and behavior and apply reasoning to assess the causes and consequences of political events. Students will examine, analyze, and interpret basic data relevant to U.S. government and politics. This class will meet the State graduation requirement for one-half credit in U.S. government and prepare the student for the AP examination in United States Government and Politics. Depending on the score received on the AP examination, students can receive college credits; therefore, the course is taught with college-level textbooks and rigor.",
@@ -1095,7 +1095,7 @@
     "Counseling Notes": "* This course is a co-requisite of English 10 Honors CS.  It will meet all year for ½ of a block period."
   },
   "703445": {
-    "name": "AP United States Government & Politics (with personal finance)",
+    "name": "AP United States Government",
     "GPA": "5.0",
     "Credits": ["1"],
     "Subject": ["Social Studies"],
@@ -1893,5 +1893,15 @@
     "Description": "Mythology is the study of a (usually older) culture’s search for answers about “life, the Universe, and everything” (Douglas Adams). This can range from questions about earth and humanity’s origins, to explanations of natural phenomena, to stories about human behavior (and misbehavior), to when and how existence ends. The best place to begin is with a refresher on Greek myth and its Roman counterparts. Those will serve as a point of comparison as the course examines the myths and cultures of the Egyptians, the Hindu, the Irish, and the Norse. As time allows, study will shift to Central/South American and Asian mythologies. Students will also be expected to complete an independent research project on a Native American myth. Goals of the course will be for students to learn the major figures and stories of each older culture’s myths, to understand how environment and culture influence a society’s view of the world, and to look past superficial differences in order to realize the common origins and elements that connect all humans.",
     "Prerequisites": "English 9",
     "Counseling Notes": "None"
+  },
+  "733401": {
+    "name": "Ancient History",
+    "Credits": ["1.0"],
+    "Subject": ["Social Studies"]
+  },
+  "723407": {
+    "name": "Contemporary Issues",
+    "Credits": ["0.5"],
+    "Subject": ["Social Studies"]
   }
 }
