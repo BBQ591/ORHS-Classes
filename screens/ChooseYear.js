@@ -183,7 +183,7 @@ export default function ChooseYear({ navigation, route }) {
       }
       currYearCredits[key] = closestCredits;
       currYearSubjects[key] = closestSubject;
-      currYearNames[key] = closestName;
+      currYearNames[key] = names[key];
     }
     console.log(currYearCredits);
     for (let i = 0; i < currAlphaKeys.length; i++) {
@@ -1004,7 +1004,8 @@ export default function ChooseYear({ navigation, route }) {
               periods,
               currAlphaKeys,
               lengths,
-              raw
+              raw,
+              names
             ) => {
               scraper
                 .scrapeGradebook(
@@ -1050,6 +1051,8 @@ export default function ChooseYear({ navigation, route }) {
                   } else {
                     // if (currAlphaKeys.indexOf(data[0]) == -1) {
                     // problem here already: if there is a repeat, then it won't account for the repeat, and will assign the same value to the same place in currAlphaKeys twice
+                    names[sortedcurrScheduleCorNumID.indexOf(course1)] =
+                      data[2];
                     currAlphaKeys[sortedcurrScheduleCorNumID.indexOf(course1)] =
                       data[0];
                     lengths[sortedcurrScheduleCorNumID.indexOf(course1)] =
@@ -1067,7 +1070,8 @@ export default function ChooseYear({ navigation, route }) {
                       sortedcurrScheduleCorNumID,
                       periods,
                       currAlphaKeys,
-                      lengths
+                      lengths,
+                      names
                     );
                   }
                   recurse(
@@ -1079,7 +1083,8 @@ export default function ChooseYear({ navigation, route }) {
                     periods,
                     currAlphaKeys,
                     lengths,
-                    raw
+                    raw,
+                    names
                   );
                 });
             };
@@ -1203,7 +1208,8 @@ export default function ChooseYear({ navigation, route }) {
                 periods,
                 [],
                 [],
-                raw3
+                raw3,
+                names
               );
             });
           });
