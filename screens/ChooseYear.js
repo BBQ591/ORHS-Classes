@@ -10,6 +10,7 @@ import {
   ActivityIndicator,
   Button,
 } from "react-native";
+import { StringUtils } from "turbocommons-ts";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 export default function ChooseYear({ navigation, route }) {
   const [isVisible, setisVisible] = useState(false);
@@ -72,11 +73,17 @@ export default function ChooseYear({ navigation, route }) {
     sortedcurrScheduleCorNumID,
     periods,
     currAlphaKeys,
-    lengths
+    lengths,
+    names
   ) => {
     console.log(periods, lengths, currAlphaKeys, "INFORMATIONNNNNNN");
     var theList;
+    var closestName;
+    var closestCredits;
+    var closestSubject;
+    var currClose;
     for (const key in alphaKeys) {
+      currClose = Infinity;
       for (const [key2, value2] of Object.entries(alphaKeyDict)) {
         theList = key2.split(/\s+/);
         if (theList.includes(alphaKeys[key])) {
@@ -85,26 +92,16 @@ export default function ChooseYear({ navigation, route }) {
               alphaKeyDict[key2].Credits[index1]
             );
           }
-          if (
-            JSON.stringify(takenClasses).indexOf(
-              JSON.stringify([
-                alphaKeyDict[key2].name,
-                alphaKeyDict[key2].Credits,
-                alphaKeyDict[key2].Subject,
-              ])
-            ) == -1
-          ) {
-            for (const index1 in alphaKeyDict[key2].Subject) {
-              takenCredits[alphaKeyDict[key2].Subject[index1]] +=
-                alphaKeyDict[key2].Credits[index1];
-            }
-
-            takenClasses.push([
-              alphaKeyDict[key2].name,
-              alphaKeyDict[key2].Credits,
-              alphaKeyDict[key2].Subject,
-            ]);
+          for (const index1 in alphaKeyDict[key2].Subject) {
+            takenCredits[alphaKeyDict[key2].Subject[index1]] +=
+              alphaKeyDict[key2].Credits[index1];
           }
+
+          takenClasses.push([
+            alphaKeyDict[key2].name,
+            alphaKeyDict[key2].Credits,
+            alphaKeyDict[key2].Subject,
+          ]);
         }
       }
     }
@@ -131,28 +128,68 @@ export default function ChooseYear({ navigation, route }) {
     var currYearCredits = [];
     var currYearSubjects = [];
     var currYearNames = [];
+    for (let i = 0; i < currAlphaKeys.length; i++) {
+      currYearNames.push("Click Here to Add Class!");
+      currYearSubjects.push("Special Programs");
+      currYearCredits.push(0);
+    }
+    var currClosest;
+    var currClosestNum;
+    console.log(currAlphaKeys, "NAMES");
     for (const key in currAlphaKeys) {
+      currClose = Infinity;
+      currClosestNum = Infinity;
       for (const [key2, value2] of Object.entries(alphaKeyDict)) {
         theList = key2.split(/\s+/);
-        if (theList.includes(currAlphaKeys[key])) {
-          for (const index1 in alphaKeyDict[key2].Subject) {
-            alphaKeyDict[key2].Credits[index1] = parseFloat(
-              alphaKeyDict[key2].Credits[index1]
-            );
-          }
+        currClosestNum = Infinity;
 
-          for (const index1 in alphaKeyDict[key2].Subject) {
-            takenCredits[alphaKeyDict[key2].Subject[index1]] +=
-              alphaKeyDict[key2].Credits[index1];
+        for (let i = 0; i < theList.length; i++) {
+          if (
+            StringUtils.compareByLevenshtein(theList[i], currAlphaKeys[key]) <
+            currClosestNum
+          ) {
+            currClosestNum = StringUtils.compareByLevenshtein(
+              theList[i],
+              currAlphaKeys[key]
+            );
+            currClosest = theList[i];
           }
-          currYearCredits.push(alphaKeyDict[key2].Credits);
-          currYearSubjects.push(alphaKeyDict[key2].Subject);
-          currYearNames.push(alphaKeyDict[key2].name);
         }
+        if (currClosestNum < currClose) {
+          currClose = currClosestNum;
+          closestName = alphaKeyDict[key2].name;
+          closestCredits = alphaKeyDict[key2].Credits;
+          closestSubject = alphaKeyDict[key2].Subject;
+        }
+        // theList = key2.split(/\s+/);
+        // if (theList.includes(currAlphaKeys[key])) {
+        //   for (const index1 in alphaKeyDict[key2].Subject) {
+        //     alphaKeyDict[key2].Credits[index1] = parseFloat(
+        //       alphaKeyDict[key2].Credits[index1]
+        //     );
+        //   }
+
+        //   for (const index1 in alphaKeyDict[key2].Subject) {
+        //     takenCredits[alphaKeyDict[key2].Subject[index1]] +=
+        //       alphaKeyDict[key2].Credits[index1];
+        //   }
+
+        // }
       }
+      for (const index1 in closestSubject) {
+        takenCredits[closestSubject[index1]] += parseFloat(
+          closestCredits[index1]
+        );
+      }
+      currYearCredits[key] = closestCredits;
+      currYearSubjects[key] = closestSubject;
+      currYearNames[key] = closestName;
     }
     console.log(currYearCredits);
     for (let i = 0; i < currAlphaKeys.length; i++) {
+      if (currYearNames[i] == "Click Here to Add Class!") {
+        continue;
+      }
       if (periods[i] == "1") {
         if (lengths[i] == "Term") {
           if (currYearFall[0][0] == "Click Here to Add Class!") {
@@ -988,6 +1025,7 @@ export default function ChooseYear({ navigation, route }) {
                     var currIndex;
                     var isClass = false;
                     var numberOfCurly;
+                    // you may possibly need to account for if the student has taken the same class
                     for (let i = 0; i < classIndex.length; i++) {
                       numberOfCurly = 0;
                       currIndex = classIndex[i] + data[2].length;
@@ -1003,18 +1041,21 @@ export default function ChooseYear({ navigation, route }) {
                         }
                       }
                     }
-                    if (alphaKeys.indexOf(data[0]) == -1 && isClass) {
+                    if (isClass && alphaKeys.indexOf(data[0]) == -1) {
                       alphaKeys.push(data[0]);
                     }
+                    // if (alphaKeys.indexOf(data[0]) == -1 && isClass) {
+                    //   alphaKeys.push(data[0]);
+                    // }
                   } else {
-                    if (currAlphaKeys.indexOf(data[0]) == -1) {
-                      currAlphaKeys[
-                        sortedcurrScheduleCorNumID.indexOf(course1)
-                      ] = data[0];
-                      lengths[sortedcurrScheduleCorNumID.indexOf(course1)] =
-                        data[1];
-                      console.log("IN THE ELSE");
-                    }
+                    // if (currAlphaKeys.indexOf(data[0]) == -1) {
+                    // problem here already: if there is a repeat, then it won't account for the repeat, and will assign the same value to the same place in currAlphaKeys twice
+                    currAlphaKeys[sortedcurrScheduleCorNumID.indexOf(course1)] =
+                      data[0];
+                    lengths[sortedcurrScheduleCorNumID.indexOf(course1)] =
+                      data[1];
+                    //   console.log("IN THE ELSE");
+                    // }
                   }
 
                   indexers += 1;
@@ -1069,16 +1110,37 @@ export default function ChooseYear({ navigation, route }) {
             // now has all of the cornumid's
             scraper.gettinggradebook(authent).then(({ raw }) => {
               var currScheduleCorNumID = [];
-              for (var index in corNumID) {
+              const sstr = raw;
+              const indexes = [];
+              for (let index = 0; index < sstr.length; index++) {
                 if (
-                  (raw.indexOf("'" + JSON.stringify(corNumID[index]) + "'") !=
-                    -1) &
-                  (currScheduleCorNumID.indexOf(corNumID[index]) == -1)
+                  sstr.substring(index, index + 10).indexOf("'cornumid'") != -1
                 ) {
-                  currScheduleCorNumID.push(corNumID[index]);
+                  indexes.push(index);
                 }
               }
-              console.log(currScheduleCorNumID);
+              var letter;
+              var currNum;
+              var ind;
+              for (var curr in indexes) {
+                ind = 13;
+                currNum = "";
+                letter = raw[indexes[curr] + ind];
+                while (letter != "'") {
+                  currNum = currNum + letter;
+                  ind += 1;
+                  letter = raw[indexes[curr] + ind];
+                }
+                currScheduleCorNumID.push(parseInt(currNum));
+              }
+              // for (var index in corNumID) {
+              //   if (
+              //     raw.indexOf("'" + JSON.stringify(corNumID[index]) + "'") != -1
+              //   ) {
+              //     currScheduleCorNumID.push(corNumID[index]);
+              //   }
+              // }
+              console.log(currScheduleCorNumID, "CURR CORNUMID");
               // gets the corNumID's of the current schedule
               var sortedcurrScheduleCorNumID = [];
               var minimum;
@@ -1091,11 +1153,12 @@ export default function ChooseYear({ navigation, route }) {
                 minimum = Infinity;
                 for (var index2 in currScheduleCorNumID) {
                   if (
-                    raw.indexOf(JSON.stringify(currScheduleCorNumID[index2])) <
-                    minimum
+                    raw.indexOf(
+                      "_" + JSON.stringify(currScheduleCorNumID[index2]) + "_"
+                    ) < minimum
                   ) {
                     minimum = raw.indexOf(
-                      JSON.stringify(currScheduleCorNumID[index2])
+                      "_" + JSON.stringify(currScheduleCorNumID[index2]) + "_"
                     );
                     minimumCorNumID = currScheduleCorNumID[index2];
                   }
@@ -1108,7 +1171,10 @@ export default function ChooseYear({ navigation, route }) {
               // sorts the currScheduleCorNumID
               var periods = [];
               for (let letter = 0; letter < raw.length; letter += 1) {
-                if (raw.substring(letter, letter + 6).indexOf("Period") != -1) {
+                if (
+                  raw.substring(letter, letter + 6).indexOf("Period") != -1 &&
+                  isNaN(raw.substring(letter + 14, letter + 15)) == false
+                ) {
                   periods.push(raw.substring(letter + 14, letter + 15));
                 }
               }
@@ -1116,9 +1182,11 @@ export default function ChooseYear({ navigation, route }) {
               // gets the respective periods of each class
               var currAlphaKeys = [];
               var lengths = [];
+              var names = [];
               for (let i = 0; i < periods.length; i++) {
                 currAlphaKeys.push("");
                 lengths.push("");
+                names.push("");
               }
               var raw3 = "";
               for (let i = 0; i < raw2.length; i++) {

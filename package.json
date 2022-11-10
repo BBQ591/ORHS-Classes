@@ -30,7 +30,8 @@
     "react-native-safe-area-context": "4.3.1",
     "react-native-screens": "~3.15.0",
     "react-native-swipeout": "^2.3.6",
-    "skyward-rest": "^1.0.1"
+    "skyward-rest": "^1.0.1",
+    "turbocommons-ts": "^3.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"

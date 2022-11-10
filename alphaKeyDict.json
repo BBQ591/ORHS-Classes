@@ -1095,7 +1095,7 @@
     "Counseling Notes": "* This course is a co-requisite of English 10 Honors CS.  It will meet all year for ½ of a block period."
   },
   "703445": {
-    "name": "AP United States Government",
+    "name": "AP United States Government & Politics",
     "GPA": "5.0",
     "Credits": ["1"],
     "Subject": ["Social Studies"],
@@ -1903,5 +1903,30 @@
     "name": "Contemporary Issues",
     "Credits": ["0.5"],
     "Subject": ["Social Studies"]
+  },
+  "906104 916104 936104 946104": {
+    "name": "Service Learning",
+    "Credits": ["0.5"],
+    "Subject": ["Special Programs"]
+  },
+  "801000": {
+    "name": "ACT Preparation",
+    "Credits": ["0.5"],
+    "Subject": ["Special Programs"]
+  },
+  "843081 853081 853082 863081 863082 873081": {
+    "name": "AVID/Wildcat Scholars",
+    "Credits": ["1.0"],
+    "Subject": ["Special Programs"]
+  },
+  "816316 816315": {
+    "name": "ESL Support 9,10,11,12",
+    "Credits": ["1.0"],
+    "Subject": ["Special Programs"]
+  },
+  "823081": {
+    "name": "ROAR",
+    "Credits": ["0"],
+    "Subject": ["Special Programs"]
   }
 }
