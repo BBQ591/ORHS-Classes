@@ -104,7 +104,7 @@ export default function CustomClass({ navigation, route }) {
   }, [navigation]);
   var place;
   return (
-    <View style={{ flexDirection: "column" }}>
+    <View style={{ flexDirection: "column", paddingTop: 100 }}>
       <Image
         source={require("../ORHS.png")}
         style={{
@@ -173,13 +173,15 @@ const styles = StyleSheet.create({
     margin: 12,
     borderWidth: 1,
     padding: 10,
-    height: "30%",
+    height: "25%",
+    borderRadius: 10,
   },
   input2: {
     margin: 12,
     borderWidth: 1,
     padding: 10,
-    height: "30%",
+    height: "25%",
+    borderRadius: 10,
   },
   input3: {
     margin: 12,

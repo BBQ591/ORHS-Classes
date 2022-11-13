@@ -5,12 +5,13 @@ import {
   Button,
   Image,
   ScrollView,
+  ImageBackground,
 } from "react-native";
 import React from "react";
 
 export default function Description({ navigation, route }) {
   var creditDict = require("../classDict.json");
-
+  const image = require("../ORHS.png");
   const {
     FS,
     name,
@@ -174,85 +175,67 @@ export default function Description({ navigation, route }) {
   }
 
   return (
-    <ScrollView>
-      <View style={styles.container}>
-        <Image
-          source={require("../ORHS.png")}
-          style={{
-            width: "100%",
-            position: "absolute",
-            opacity: 0.15,
-          }}
-        />
-
-        <Text
-          style={{
-            fontSize: 30,
-            textAlign: "center",
-            marginLeft: "5%",
-            marginRight: "5%",
-            fontWeight: "bold",
-          }}
-        >
-          {name}
-        </Text>
-        {Prerequisites != "None" && (
-          <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
-            <Text
-              style={{
-                fontSize: 20,
-                fontWeight: "bold",
-              }}
-            >
-              {"\n"}Prerequisites
-            </Text>
-            <Text
-              style={{
-                fontSize: 20,
-              }}
-            >
-              : {Prerequisites}
-            </Text>
-          </Text>
-        )}
-
-        <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
+    <ImageBackground
+      source={image}
+      style={{ alignItems: "center" }}
+      imageStyle={{ opacity: 0.15 }}
+    >
+      <ScrollView
+        style={{ paddingTop: 90 }}
+        contentContainerStyle={{ paddingBottom: 120 }}
+      >
+        <View style={styles.container}>
           <Text
             style={{
-              fontSize: 20,
-
+              fontSize: 30,
+              textAlign: "center",
+              marginLeft: "5%",
+              marginRight: "5%",
               fontWeight: "bold",
+              paddingBottom: 20,
             }}
           >
-            {"\n"}Credits
+            {name}
           </Text>
-          {Credits.map((item, index) => {
-            if (index == 0) {
-              return <Text style={{ fontSize: 20 }}>: {Credits[0]}</Text>;
-            } else {
-              return <Text style={{ fontSize: 20 }}>, {Credits[index]}</Text>;
-            }
-          })}
-        </Text>
-        <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
-          <Text
-            style={{
-              fontSize: 20,
-
-              fontWeight: "bold",
-            }}
-          >
-            {"\n"}Subject
-          </Text>
-          {subject.map((item, index) => {
-            if (index == 0) {
-              return <Text style={{ fontSize: 20 }}>: {subject[0]}</Text>;
-            } else {
-              return <Text style={{ fontSize: 20 }}>, {subject[index]}</Text>;
-            }
-          })}
-        </Text>
-        {GPA != "None" && (
+          {Prerequisites != "None" && (
+            <View
+              style={{
+                backgroundColor: "rgba(255,255,255, .6)",
+                shadowColor: "rgba(0,0,0, .4)", // IOS
+                shadowOffset: { height: 5, width: 5 }, // IOS
+                shadowOpacity: 1, // IOS
+                elevation: 10,
+                borderRadius: 20,
+                paddingLeft: 20,
+                paddingRight: 20,
+              }}
+            >
+              <Text
+                style={{
+                  marginLeft: "5%",
+                  marginRight: "5%",
+                  opacity: 1,
+                  marginBottom: "5%",
+                }}
+              >
+                <Text
+                  style={{
+                    fontSize: 20,
+                    fontWeight: "bold",
+                  }}
+                >
+                  {"\n"}Prerequisites
+                </Text>
+                <Text
+                  style={{
+                    fontSize: 20,
+                  }}
+                >
+                  : {Prerequisites}
+                </Text>
+              </Text>
+            </View>
+          )}
           <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
             <Text
               style={{
@@ -261,46 +244,16 @@ export default function Description({ navigation, route }) {
                 fontWeight: "bold",
               }}
             >
-              {"\n"}GPA
+              {"\n"}Credits
             </Text>
-            <Text
-              style={{
-                fontSize: 20,
-              }}
-            >
-              : {GPA}
-            </Text>
-          </Text>
-        )}
-        {Length != "None" && (
-          <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
-            <Text
-              style={{
-                fontSize: 20,
-
-                fontWeight: "bold",
-              }}
-            >
-              {"\n"}Length
-            </Text>
-            {creditDict[name].Length.map((item, index) => {
+            {Credits.map((item, index) => {
               if (index == 0) {
-                return (
-                  <Text style={{ fontSize: 20 }}>
-                    : {creditDict[name].Length[0]}
-                  </Text>
-                );
+                return <Text style={{ fontSize: 20 }}>: {Credits[0]}</Text>;
               } else {
-                return (
-                  <Text style={{ fontSize: 20 }}>
-                    , {creditDict[name].Length[index]}
-                  </Text>
-                );
+                return <Text style={{ fontSize: 20 }}>, {Credits[index]}</Text>;
               }
             })}
           </Text>
-        )}
-        {Description != "None" && (
           <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
             <Text
               style={{
@@ -309,46 +262,117 @@ export default function Description({ navigation, route }) {
                 fontWeight: "bold",
               }}
             >
-              {"\n"}Description
+              {"\n"}Subject
             </Text>
-            <Text
-              style={{
-                fontSize: 20,
-              }}
-            >
-              : {Description}
-            </Text>
+            {subject.map((item, index) => {
+              if (index == 0) {
+                return <Text style={{ fontSize: 20 }}>: {subject[0]}</Text>;
+              } else {
+                return <Text style={{ fontSize: 20 }}>, {subject[index]}</Text>;
+              }
+            })}
           </Text>
-        )}
-        {Notes != "None" && (
-          <Text
-            style={{ marginLeft: "5%", marginRight: "5%", marginBottom: "10%" }}
-          >
+          {GPA != "None" && (
+            <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
+              <Text
+                style={{
+                  fontSize: 20,
+
+                  fontWeight: "bold",
+                }}
+              >
+                {"\n"}GPA
+              </Text>
+              <Text
+                style={{
+                  fontSize: 20,
+                }}
+              >
+                : {GPA}
+              </Text>
+            </Text>
+          )}
+          {Length != "None" && (
+            <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
+              <Text
+                style={{
+                  fontSize: 20,
+
+                  fontWeight: "bold",
+                }}
+              >
+                {"\n"}Length
+              </Text>
+              {creditDict[name].Length.map((item, index) => {
+                if (index == 0) {
+                  return (
+                    <Text style={{ fontSize: 20 }}>
+                      : {creditDict[name].Length[0]}
+                    </Text>
+                  );
+                } else {
+                  return (
+                    <Text style={{ fontSize: 20 }}>
+                      , {creditDict[name].Length[index]}
+                    </Text>
+                  );
+                }
+              })}
+            </Text>
+          )}
+          {Description != "None" && (
+            <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
+              <Text
+                style={{
+                  fontSize: 20,
+
+                  fontWeight: "bold",
+                }}
+              >
+                {"\n"}Description
+              </Text>
+              <Text
+                style={{
+                  fontSize: 20,
+                }}
+              >
+                : {Description}
+              </Text>
+            </Text>
+          )}
+          {Notes != "None" && (
             <Text
               style={{
-                fontSize: 20,
-                fontWeight: "bold",
+                marginLeft: "5%",
+                marginRight: "5%",
+                marginBottom: "10%",
               }}
             >
-              {"\n"}Counseling Notes
+              <Text
+                style={{
+                  fontSize: 20,
+                  fontWeight: "bold",
+                }}
+              >
+                {"\n"}Counseling Notes
+              </Text>
+              <Text
+                style={{
+                  fontSize: 20,
+                }}
+              >
+                : {Notes}
+              </Text>
             </Text>
-            <Text
-              style={{
-                fontSize: 20,
-              }}
-            >
-              : {Notes}
-            </Text>
-          </Text>
-        )}
-      </View>
-    </ScrollView>
+          )}
+        </View>
+      </ScrollView>
+    </ImageBackground>
   );
 }
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
   },

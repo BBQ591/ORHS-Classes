@@ -9,12 +9,16 @@ import {
   View,
   TouchableOpacity,
   ScrollView,
+  ImageBackground,
+  Button,
+  Alert,
 } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 function Credits({ navigation, route }) {
+  const image2 = require("../page10.png");
   const requirements = route.params.requirements;
   const requirement = [
     "Career Academies",
@@ -30,36 +34,38 @@ function Credits({ navigation, route }) {
   const number = ["0", "4", "1", "3.5", "4", "3", "1.5", "2", "0"];
   return (
     <ScrollView>
-      <View style={styles.creditWord}>
-        <Text
-          style={{
-            fontSize: 40,
-            fontStyle: "italic",
-            fontWeight: "bold",
-          }}
-        >
-          TOTAL CREDITS
-        </Text>
-      </View>
-      {requirement.map((item, i) => {
-        if (requirements[item] >= number[i]) {
-          return (
-            <View style={styles.credits}>
-              <Text style={{ fontSize: 20, color: "green" }}>
-                {item}: {requirements[item]} / {number[i]}
-              </Text>
-            </View>
-          );
-        } else {
-          return (
-            <View style={styles.credits}>
-              <Text style={{ fontSize: 20 }}>
-                {item}: {requirements[item]} / {number[i]}
-              </Text>
-            </View>
-          );
-        }
-      })}
+      <ImageBackground source={image2}>
+        <View style={styles.creditWord}>
+          <Text
+            style={{
+              fontSize: 40,
+              fontStyle: "italic",
+              fontWeight: "bold",
+            }}
+          >
+            TOTAL CREDITS
+          </Text>
+        </View>
+        {requirement.map((item, i) => {
+          if (requirements[item] >= number[i]) {
+            return (
+              <View style={styles.credits}>
+                <Text style={{ fontSize: 20, color: "green" }}>
+                  {item}: {requirements[item]} / {number[i]}
+                </Text>
+              </View>
+            );
+          } else {
+            return (
+              <View style={styles.credits}>
+                <Text style={{ fontSize: 20 }}>
+                  {item}: {requirements[item]} / {number[i]}
+                </Text>
+              </View>
+            );
+          }
+        })}
+      </ImageBackground>
     </ScrollView>
   );
 }
@@ -145,7 +151,20 @@ function Schedule({ navigation, route }) {
         if (item[0] == "Click Here to Add Previously Taken Classes!") {
           return (
             <TouchableOpacity onPress={() => pressHandler()}>
-              <View style={styles.overall}>
+              <View
+                style={{
+                  justifyContent: "center",
+                  width: "100%",
+                  height: 80,
+                  marginTop: 0,
+                  backgroundColor: "grey",
+                  padding: 0,
+                  borderBottomColor: "white",
+                  borderBottomWidth: 1,
+                  alignItems: "center",
+                  opacity: 0.9,
+                }}
+              >
                 <Text
                   style={{
                     fontSize: 20,
@@ -160,7 +179,7 @@ function Schedule({ navigation, route }) {
           );
         } else {
           return (
-            <Swipeout right={testing(index)}>
+            <Swipeout right={testing(index)} style={{ opacity: 0.9 }}>
               <TouchableOpacity onPress={() => pressHandler3(item)}>
                 <View style={styles.overall}>
                   <Text
@@ -269,6 +288,7 @@ const styles = StyleSheet.create({
     borderBottomColor: "white",
     borderBottomWidth: 1,
     alignItems: "center",
+    opacity: 1,
   },
   credits: {
     alignItems: "center",
@@ -279,6 +299,7 @@ const styles = StyleSheet.create({
     padding: "0%",
     borderTopColor: "black",
     borderTopWidth: 1,
+    opacity: 0.9,
   },
   creditWord: {
     alignItems: "center",
@@ -288,6 +309,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#f3b60c",
     padding: "0%",
     top: 0,
+    opacity: 0.9,
   },
   overall5: {
     // alignItems: 'center',

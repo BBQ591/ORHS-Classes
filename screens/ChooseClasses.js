@@ -11,6 +11,7 @@ import {
   View,
   TouchableOpacity,
   ScrollView,
+  ImageBackground,
 } from "react-native";
 import Swipeout from "react-native-swipeout";
 const creditDict = require("../classDict.json");
@@ -41,7 +42,11 @@ function Overview({ navigation, route }) {
   console.log(tempFall);
   console.log(tempSpring);
   return (
-    <ScrollView style={{ backgroundColor: "#893940" }}>
+    <ScrollView
+      style={{
+        backgroundColor: "#893940",
+      }}
+    >
       <View
         style={{
           flexDirection: "row",
@@ -377,6 +382,7 @@ function Overview({ navigation, route }) {
 }
 
 function Credits({ navigation, route }) {
+  const image = require("../page10.png");
   const requirements = route.params.requirements;
   const requirement = [
     "Career Academies",
@@ -392,36 +398,38 @@ function Credits({ navigation, route }) {
   const number = ["0", "4", "1", "3.5", "4", "3", "1.5", "2", "0"];
   return (
     <ScrollView>
-      <View style={styles.creditWord}>
-        <Text
-          style={{
-            fontSize: 40,
-            fontStyle: "italic",
-            fontWeight: "bold",
-          }}
-        >
-          TOTAL CREDITS
-        </Text>
-      </View>
-      {requirement.map((item, i) => {
-        if (requirements[item] >= number[i]) {
-          return (
-            <View style={styles.credits}>
-              <Text style={{ fontSize: 20, color: "green" }}>
-                {item}: {requirements[item]} / {number[i]}
-              </Text>
-            </View>
-          );
-        } else {
-          return (
-            <View style={styles.credits}>
-              <Text style={{ fontSize: 20 }}>
-                {item}: {requirements[item]} / {number[i]}
-              </Text>
-            </View>
-          );
-        }
-      })}
+      <ImageBackground source={image}>
+        <View style={styles.creditWord}>
+          <Text
+            style={{
+              fontSize: 40,
+              fontStyle: "italic",
+              fontWeight: "bold",
+            }}
+          >
+            CREDITS
+          </Text>
+        </View>
+        {requirement.map((item, i) => {
+          if (requirements[item] >= number[i]) {
+            return (
+              <View style={styles.credits}>
+                <Text style={{ fontSize: 20, color: "green" }}>
+                  {item}: {requirements[item]} / {number[i]}
+                </Text>
+              </View>
+            );
+          } else {
+            return (
+              <View style={styles.credits}>
+                <Text style={{ fontSize: 20 }}>
+                  {item}: {requirements[item]} / {number[i]}
+                </Text>
+              </View>
+            );
+          }
+        })}
+      </ImageBackground>
     </ScrollView>
   );
 }
@@ -654,6 +662,7 @@ function Schedule({ navigation, route }) {
           alignItems: "center",
           backgroundColor: "#893940",
           height: 80,
+
           // flexDirection: 'row',
           // flexWrap: 'wrap',
           // alignItems: 'flex-start',
@@ -1041,6 +1050,7 @@ const styles = StyleSheet.create({
     padding: "0%",
     borderTopColor: "black",
     borderTopWidth: 1,
+    opacity: 0.9,
   },
   creditWord: {
     alignItems: "center",
@@ -1050,6 +1060,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#f3b60c",
     padding: "0%",
     top: 0,
+    opacity: 0.9,
   },
   text: { textAlign: "center" },
   same: {

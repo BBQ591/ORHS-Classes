@@ -1,10 +1,17 @@
 import React from "react";
-import { StyleSheet, Text, View, ScrollView } from "react-native";
-import Button from "react-native-flat-button";
+import {
+  StyleSheet,
+  Text,
+  View,
+  ScrollView,
+  TouchableOpacity,
+  ImageBackground,
+} from "react-native";
 
 const styles = require("./style");
 
 export default function ChooseLength({ navigation, route }) {
+  const image = require("../APG.png");
   const creditDict = require("../classDict.json");
   const {
     FS,
@@ -134,48 +141,73 @@ export default function ChooseLength({ navigation, route }) {
   };
 
   return (
-    <ScrollView>
+    <ImageBackground
+      source={image}
+      style={{
+        justifyContent: "space-evenly",
+        flex: 1,
+        width: "100%",
+        alignItems: "center",
+      }}
+      imageStyle={{ opacity: 0.5 }}
+      resizeMode="cover"
+    >
       <View
         style={{
-          backgroundColor: "#d1d1d1",
           alignItems: "center",
           flex: 1,
           justifyContent: "space-evenly",
+          paddingTop: 70,
         }}
       >
         {options.map((item) => {
           return (
             // <View style = {styles.items}>
-            <Button
-              type="neutral"
-              containerStyle={StyleSheet.compose(
-                styles.buttonContainer,
-                styles.lengthButton
-              )}
+            <TouchableOpacity
               onPress={() => pressHandler(item, Class, isCurr)}
+              activeOpacity={0.7}
             >
-              <Text
+              <View
                 style={{
-                  fontSize: 25,
-                  fontWeight: "bold",
-                  color: "black",
+                  shadowColor: "rgba(0,0,0, .4)", // IOS
+                  shadowOffset: { height: 5, width: 5 }, // IOS
+                  shadowOpacity: 1, // IOS
+                  elevation: 10,
+                  // top: 80,
+                  // flexGrow: 0.3,
+                  flex: 0,
+                  height: 110,
+                  justifyContent: "center",
+                  width: 350,
+                  backgroundColor: "#6a9495",
+                  // fontSize: 50,
+                  alignItems: "center",
+                  borderRadius: 20,
+                  opacity: 0.9,
                 }}
               >
-                {item}
-              </Text>
-            </Button>
-            // </View>
+                <Text
+                  style={{
+                    fontSize: 25,
+                    fontWeight: "bold",
+                    color: "black",
+                  }}
+                >
+                  {item}
+                </Text>
+              </View>
+            </TouchableOpacity> // </View>
           );
         })}
       </View>
-    </ScrollView>
+    </ImageBackground>
   );
 }
 const temp = StyleSheet.create({
   buttonContainer: {
     flex: 0,
     width: "80%",
-    height: 100,
+    height: 40,
     marginVertical: 20,
     backgroundColor: "#88A9AA",
     borderColor: "#6a9495",

@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  ImageBackground,
   ScrollView,
   StyleSheet,
   Text,
@@ -8,6 +9,7 @@ import {
 } from "react-native";
 
 export default function CAacademies({ navigation, route }) {
+  const image = require("../combined.png");
   const academies = [
     "Advanced Manufacturing",
     "Arts & A/V Communications",
@@ -50,33 +52,57 @@ export default function CAacademies({ navigation, route }) {
   var dict = require("../subjectDict.json");
 
   return (
-    <ScrollView style={{ backgroundColor: "#d1d1d1" }}>
-      <View style={{ backgroundColor: "#d1d1d1", alignItems: "center" }}>
-        {academies.map((item) => {
-          if (
-            dict[item].filter((currClass) => currClass.Length.includes(add))
-              .length != 0
-          ) {
-            return (
-              <TouchableOpacity onPress={() => pressHandler(item)}>
-                <View style={styles.items}>
-                  <Text
-                    style={{
-                      fontSize: 20,
-                      color: "white",
-                      fontWeight: "bold",
-                      textAlign: "center",
-                    }}
-                  >
-                    {item}
-                  </Text>
-                </View>
-              </TouchableOpacity>
-            );
-          }
-        })}
-      </View>
-    </ScrollView>
+    <ImageBackground
+      source={image}
+      style={{
+        flex: 1,
+        width: "100%",
+        justifyContent: "space-evenly",
+        alignItems: "center",
+      }}
+      imageStyle={{ opacity: 0.5 }}
+      resizeMode="cover"
+    >
+      <ScrollView
+        style={{ paddingTop: 80 }}
+        contentContainerStyle={{ paddingBottom: 120 }}
+      >
+        <View style={{ alignItems: "center" }}>
+          {academies.map((item) => {
+            if (
+              dict[item].filter((currClass) => currClass.Length.includes(add))
+                .length != 0
+            ) {
+              return (
+                <TouchableOpacity
+                  onPress={() => pressHandler(item)}
+                  style={{
+                    shadowColor: "rgba(0,0,0, .4)", // IOS
+                    shadowOffset: { height: 5, width: 5 }, // IOS
+                    shadowOpacity: 1, // IOS
+                    elevation: 10,
+                    opacity: 0.9,
+                  }}
+                >
+                  <View style={styles.items}>
+                    <Text
+                      style={{
+                        fontSize: 20,
+                        color: "white",
+                        fontWeight: "bold",
+                        textAlign: "center",
+                      }}
+                    >
+                      {item}
+                    </Text>
+                  </View>
+                </TouchableOpacity>
+              );
+            }
+          })}
+        </View>
+      </ScrollView>
+    </ImageBackground>
   );
 }
 

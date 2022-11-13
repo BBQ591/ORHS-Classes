@@ -9,10 +9,38 @@ import {
   Alert,
   ActivityIndicator,
   Button,
+  ImageBackground,
 } from "react-native";
+// import LinearGradient from "react-native-linear-gradient";
 import { StringUtils } from "turbocommons-ts";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 export default function ChooseYear({ navigation, route }) {
+  const image = require("../ORHS2.png");
+  const pressHandler10 = () => {
+    Alert.alert(
+      "WARNING",
+
+      "ARE YOU SURE YOU WANT TO RESET ALL OF YOUR CLASSES?",
+      [
+        { text: "CANCEL", onPress: () => console.log("OK Pressed") },
+        {
+          text: "YES",
+          onPress: () => {
+            AsyncStorage.clear();
+            setYears(["Freshman", "Sophomore", "Junior", "Senior"]);
+            setisVisible3(true);
+          },
+        },
+      ]
+    );
+  };
+  React.useLayoutEffect(() => {
+    navigation.setOptions({
+      headerRight: () => (
+        <Button onPress={() => pressHandler10()} title="Reset" />
+      ),
+    });
+  }, [navigation]);
   const [isVisible, setisVisible] = useState(false);
   const [isVisible2, setisVisible2] = useState(false);
   const [isVisible3, setisVisible3] = useState(false);
@@ -42,31 +70,7 @@ export default function ChooseYear({ navigation, route }) {
     "Career Academies": 0,
     "Special Programs": 0,
   };
-  React.useLayoutEffect(() => {
-    navigation.setOptions({
-      headerRight: () => (
-        <Button onPress={() => pressHandler10()} title="Reset" />
-      ),
-    });
-  }, [navigation]);
-  const pressHandler10 = () => {
-    Alert.alert(
-      "WARNING",
 
-      "ARE YOU SURE YOU WANT TO RESET ALL OF YOUR CLASSES?",
-      [
-        { text: "CANCEL", onPress: () => console.log("OK Pressed") },
-        {
-          text: "YES",
-          onPress: () => {
-            AsyncStorage.clear();
-            setisVisible3(true);
-            setYears(["Freshman", "Sophomore", "Junior", "Senior"]);
-          },
-        },
-      ]
-    );
-  };
   const convertData = (
     alphaKeys,
     graduation,
@@ -85,8 +89,8 @@ export default function ChooseYear({ navigation, route }) {
     for (const key in alphaKeys) {
       currClose = Infinity;
       for (const [key2, value2] of Object.entries(alphaKeyDict)) {
-        theList = key2.split(/\s+/);
-        if (theList.includes(alphaKeys[key])) {
+        theList = key2.split(" ");
+        if (theList.indexOf(alphaKeys[key]) != -1) {
           for (const index1 in alphaKeyDict[key2].Subject) {
             alphaKeyDict[key2].Credits[index1] = parseFloat(
               alphaKeyDict[key2].Credits[index1]
@@ -900,9 +904,7 @@ export default function ChooseYear({ navigation, route }) {
     "Junior",
     "Senior",
   ]);
-  console.log(years, "hi");
   useEffect(() => {
-    console.log("HIIIIIIII");
     const _retrieveData = async () => {
       // AsyncStorage.clear();
       try {
@@ -919,6 +921,7 @@ export default function ChooseYear({ navigation, route }) {
       console.log(graduationYear);
       if (graduationYear[0] == true) {
         setisVisible3(true);
+        setYears(["Freshmen", "Sophomore", "Junior", "Senior"]);
       }
       var currYears;
       if (graduationYear[0] == false) {
@@ -1473,79 +1476,152 @@ export default function ChooseYear({ navigation, route }) {
   };
   var text2 = null;
   return (
-    <View style={styles.container}>
-      <Modal
-        animationType="slide"
-        transparent={true}
-        visible={isVisible}
-        // onRequestClose={() => {
-        //     Alert.alert('Modal has been closed.');
-        //     isVisible(!isVisible);
-        // }}
-      >
-        <View style={styles.centeredView}>
-          <View style={styles.modalView}>
-            <Text
-              style={{
-                textAlign: "center",
-                fontSize: 20,
-                fontWeight: "bold",
-              }}
-            >
-              PLEASE TYPE IN YOUR SKYWARD CREDENTIALS BELOW
-            </Text>
-            <TextInput
-              value={text1}
-              placeholder="Username (without @ortn.edu)"
-              autoCapitalize="none"
-              onChangeText={(value, index) => (text1 = value)}
-              fontSize={20}
-              returnKeyType="done"
-            />
-            <TextInput
-              value={text2}
-              placeholder="Password"
-              onChangeText={(value, index) => (text2 = value)}
-              keyboardType="numeric"
-              returnKeyType="done"
-              fontSize={20}
-              secureTextEntry={true}
-            />
-
-            <View style={{ flexDirection: "row" }}>
-              <TouchableOpacity
-                onPress={() => {
-                  setisVisible(false);
-
-                  cancelling();
+    <ImageBackground source={image} resizeMode="cover" style={styles.image}>
+      <View style={styles.container}>
+        <Modal
+          animationType="slide"
+          transparent={true}
+          visible={isVisible}
+          // onRequestClose={() => {
+          //     Alert.alert('Modal has been closed.');
+          //     isVisible(!isVisible);
+          // }}
+        >
+          <View style={styles.centeredView}>
+            <View style={styles.modalView}>
+              <Text
+                style={{
+                  textAlign: "center",
+                  fontSize: 20,
+                  fontWeight: "bold",
                 }}
-                style={{ flex: 2 }}
               >
-                <View
-                  style={{
-                    backgroundColor: "#d1d1d1",
-                    height: 50,
-                    width: 100,
-                    justifyContent: "center",
-                    borderRadius: 20,
+                PLEASE TYPE IN YOUR SKYWARD CREDENTIALS BELOW
+              </Text>
+              <TextInput
+                value={text1}
+                placeholder="Username (without @ortn.edu)"
+                autoCapitalize="none"
+                onChangeText={(value, index) => (text1 = value)}
+                fontSize={20}
+                returnKeyType="done"
+              />
+              <TextInput
+                value={text2}
+                placeholder="Password"
+                onChangeText={(value, index) => (text2 = value)}
+                keyboardType="numeric"
+                returnKeyType="done"
+                fontSize={20}
+                secureTextEntry={true}
+              />
+
+              <View style={{ flexDirection: "row" }}>
+                <TouchableOpacity
+                  onPress={() => {
+                    setisVisible(false);
+
+                    cancelling();
                   }}
+                  style={{ flex: 2 }}
                 >
-                  <Text
+                  <View
                     style={{
-                      textAlign: "center",
+                      backgroundColor: "#d1d1d1",
+                      height: 50,
+                      width: 100,
+                      justifyContent: "center",
+                      borderRadius: 20,
                     }}
                   >
-                    Skip
-                  </Text>
-                </View>
-              </TouchableOpacity>
+                    <Text
+                      style={{
+                        textAlign: "center",
+                      }}
+                    >
+                      Skip
+                    </Text>
+                  </View>
+                </TouchableOpacity>
+                <TouchableOpacity
+                  onPress={() => {
+                    setisVisible(false);
+
+                    inputting();
+                  }}
+                  style={{ flex: 1 }}
+                >
+                  <View
+                    style={{
+                      backgroundColor: "#d1d1d1",
+                      height: 50,
+                      width: 100,
+                      justifyContent: "center",
+                      borderRadius: 20,
+                    }}
+                  >
+                    <Text
+                      style={{
+                        textAlign: "center",
+                      }}
+                    >
+                      Enter
+                    </Text>
+                  </View>
+                </TouchableOpacity>
+              </View>
+            </View>
+          </View>
+        </Modal>
+        <Modal
+          animationType="fade"
+          transparent={true}
+          visible={isVisible2}
+          // onRequestClose={() => {
+          //     Alert.alert('Modal has been closed.');
+          //     isVisible(!isVisible);
+          // }}
+        >
+          <View style={styles.centeredView}>
+            <View style={styles.modalView2}>
+              <ActivityIndicator size="large" />
+            </View>
+          </View>
+        </Modal>
+        <Modal
+          animationType="slide"
+          transparent={true}
+          visible={isVisible3}
+          // onRequestClose={() => {
+          //     Alert.alert('Modal has been closed.');
+          //     isVisible(!isVisible);
+          // }}
+        >
+          <View style={styles.centeredView}>
+            <View style={styles.modalView3}>
+              <Text
+                style={{
+                  textAlign: "center",
+                  fontSize: 20,
+                  fontWeight: "bold",
+                }}
+              >
+                PLEASE TYPE IN YOUR GRADUATION YEAR BELOW
+              </Text>
+              <TextInput
+                value={text1}
+                placeholder="Graduation Year"
+                onChangeText={(value, index) => (graduationTesting = value)}
+                keyboardType="numeric"
+                fontSize={20}
+                returnKeyType="done"
+              />
               <TouchableOpacity
                 onPress={() => {
-                  setisVisible(false);
+                  setisVisible3(false);
 
-                  inputting();
+                  inputtingGraduation();
                 }}
-                style={{ flex: 1 }}
               >
                 <View
                   style={{
@@ -1567,96 +1643,32 @@ export default function ChooseYear({ navigation, route }) {
               </TouchableOpacity>
             </View>
           </View>
-        </View>
-      </Modal>
-      <Modal
-        animationType="fade"
-        transparent={true}
-        visible={isVisible2}
-        // onRequestClose={() => {
-        //     Alert.alert('Modal has been closed.');
-        //     isVisible(!isVisible);
-        // }}
-      >
-        <View style={styles.centeredView}>
-          <View style={styles.modalView2}>
-            <ActivityIndicator size="large" />
-          </View>
-        </View>
-      </Modal>
-      <Modal
-        animationType="slide"
-        transparent={true}
-        visible={isVisible3}
-        // onRequestClose={() => {
-        //     Alert.alert('Modal has been closed.');
-        //     isVisible(!isVisible);
-        // }}
-      >
-        <View style={styles.centeredView}>
-          <View style={styles.modalView3}>
-            <Text
-              style={{
-                textAlign: "center",
-                fontSize: 20,
-                fontWeight: "bold",
-              }}
-            >
-              PLEASE TYPE IN YOUR GRADUATION YEAR BELOW
-            </Text>
-            <TextInput
-              value={text1}
-              placeholder="Graduation Year"
-              onChangeText={(value, index) => (graduationTesting = value)}
-              keyboardType="numeric"
-              fontSize={20}
-              returnKeyType="done"
-            />
-            <TouchableOpacity
-              onPress={() => {
-                setisVisible3(false);
-
-                inputtingGraduation();
-              }}
-            >
-              <View
+        </Modal>
+        {years.map((user) => (
+          <TouchableOpacity
+            onPress={() => pressHandler(user)}
+            activeOpacity={0.6}
+          >
+            <View style={styles.items}>
+              {/* <LinearGradient colors={["#004d40", "#009688"]} style={styles.items}> */}
+              <Text
                 style={{
-                  backgroundColor: "#d1d1d1",
-                  height: 50,
-                  width: 100,
-                  justifyContent: "center",
-                  borderRadius: 20,
+                  fontSize: 38,
+                  color: "black",
+                  fontWeight: "bold",
+                  textAlign: "center",
+                  opacity: 1,
                 }}
               >
-                <Text
-                  style={{
-                    textAlign: "center",
-                  }}
-                >
-                  Enter
-                </Text>
-              </View>
-            </TouchableOpacity>
-          </View>
-        </View>
-      </Modal>
-      {years.map((user) => (
-        <TouchableOpacity onPress={() => pressHandler(user)}>
-          <View style={styles.items}>
-            <Text
-              style={{
-                fontSize: 38,
-                color: "white",
-                fontWeight: "bold",
-                textAlign: "center",
-              }}
-            >
-              {user}
-            </Text>
-          </View>
-        </TouchableOpacity>
-      ))}
-    </View>
+                {user}
+              </Text>
+              {/* </LinearGradient> */}
+            </View>
+          </TouchableOpacity>
+        ))}
+      </View>
+    </ImageBackground>
+
     // </ScrollView>
   );
 }
@@ -1715,12 +1727,16 @@ const styles = StyleSheet.create({
   },
   container: {
     flex: 1,
-    backgroundColor: "#d1d1d1",
     alignItems: "center",
     justifyContent: "space-evenly",
     flexDirection: "column",
+    paddingTop: 70,
   },
   items: {
+    shadowColor: "rgba(0,0,0, .4)", // IOS
+    shadowOffset: { height: 5, width: 5 }, // IOS
+    shadowOpacity: 1, // IOS
+    elevation: 10,
     // top: 80,
     // flexGrow: 0.3,
     flex: 0,
@@ -1731,5 +1747,13 @@ const styles = StyleSheet.create({
     // fontSize: 50,
     alignItems: "center",
     borderRadius: 20,
+    opacity: 0.9,
+  },
+  image: {
+    flex: 1,
+    justifyContent: "center",
+    width: "100%",
+    justifyContent: "space-evenly",
+    alignItems: "center",
   },
 });

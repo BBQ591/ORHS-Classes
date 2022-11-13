@@ -5,10 +5,12 @@ import {
   View,
   TouchableOpacity,
   ScrollView,
+  ImageBackground,
 } from "react-native";
 
 export default function Original({ navigation, route }) {
   var dict = require("../subjectDict.json");
+  const image = require("../combined2.png");
   const academies = [
     "Advanced Manufacturing",
     "Arts & A/V Communications",
@@ -77,56 +79,75 @@ export default function Original({ navigation, route }) {
     }
   };
   return (
-    <ScrollView style={{ backgroundColor: "#6a9495" }}>
-      <View style={{ backgroundColor: "#6a9495", alignItems: "center" }}>
-        {people.map((item) => {
-          if (item == "Career Academies") {
-            console.log();
-            var count = 0;
-            academies.map((academy) => {
-              if (
-                dict[academy].filter((currClass) =>
-                  currClass.Length.includes(add)
-                ).length != 0
-              ) {
-                count += 1;
+    <ImageBackground
+      source={image}
+      style={{
+        flex: 1,
+        width: "100%",
+        justifyContent: "space-evenly",
+        alignItems: "center",
+      }}
+      imageStyle={{ opacity: 0.5 }}
+      resizeMode="cover"
+    >
+      <ScrollView
+        style={{ paddingTop: 80 }}
+        contentContainerStyle={{ paddingBottom: 120 }}
+      >
+        <View style={{ alignItems: "center" }}>
+          {people.map((item) => {
+            if (item == "Career Academies") {
+              console.log();
+              var count = 0;
+              academies.map((academy) => {
+                if (
+                  dict[academy].filter((currClass) =>
+                    currClass.Length.includes(add)
+                  ).length != 0
+                ) {
+                  count += 1;
+                }
+              });
+              if (count > 0) {
+                return (
+                  <TouchableOpacity
+                    onPress={() => pressHandler(item)}
+                    activeOpacity={0.7}
+                  >
+                    <View style={styles.items}>
+                      <Text style={{ fontSize: 25, fontWeight: "bold" }}>
+                        {item}
+                      </Text>
+                    </View>
+                  </TouchableOpacity>
+                );
               }
-            });
-            if (count > 0) {
-              return (
-                <TouchableOpacity onPress={() => pressHandler(item)}>
-                  <View style={styles.items}>
-                    <Text style={{ fontSize: 25, fontWeight: "bold" }}>
-                      {item}
-                    </Text>
-                  </View>
-                </TouchableOpacity>
-              );
-            }
-          } else {
-            if (
-              dict[item].filter((currClass) => currClass.Length.includes(add))
-                .length != 0
-            ) {
-              console.log(
+            } else {
+              if (
                 dict[item].filter((currClass) => currClass.Length.includes(add))
-                  .length,
-                item
-              );
-              return (
-                <TouchableOpacity onPress={() => pressHandler(item)}>
-                  <View style={styles.items}>
-                    <Text style={{ fontSize: 25, fontWeight: "bold" }}>
-                      {item}
-                    </Text>
-                  </View>
-                </TouchableOpacity>
-              );
+                  .length != 0
+              ) {
+                console.log(
+                  dict[item].filter((currClass) =>
+                    currClass.Length.includes(add)
+                  ).length,
+                  item
+                );
+                return (
+                  <TouchableOpacity onPress={() => pressHandler(item)}>
+                    <View style={styles.items}>
+                      <Text style={{ fontSize: 25, fontWeight: "bold" }}>
+                        {item}
+                      </Text>
+                    </View>
+                  </TouchableOpacity>
+                );
+              }
             }
-          }
-        })}
-      </View>
-    </ScrollView>
+          })}
+        </View>
+      </ScrollView>
+    </ImageBackground>
   );
 }
 const styles = StyleSheet.create({
@@ -139,5 +160,10 @@ const styles = StyleSheet.create({
     backgroundColor: "#d1d1d1",
     fontSize: 40,
     borderRadius: 15,
+    shadowColor: "rgba(0,0,0, .4)", // IOS
+    shadowOffset: { height: 5, width: 5 }, // IOS
+    shadowOpacity: 1, // IOS
+    elevation: 10,
+    opacity: 0.9,
   },
 });
