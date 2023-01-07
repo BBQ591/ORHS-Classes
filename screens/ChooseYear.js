@@ -169,7 +169,7 @@ export default function ChooseYear({ navigation, route }) {
         sendEmail(
           reciever,
           soup[0] + "'s Schedule",
-          "Taken Classes: " +
+          "Classes Taken: " +
             takenCl +
             "\n" +
             "\n" +
@@ -283,7 +283,7 @@ export default function ChooseYear({ navigation, route }) {
         sendEmail(
           reciever,
           soup[0] + "'s Schedule",
-          "Taken Classes: " +
+          "Classes Taken: " +
             takenCl +
             "\n" +
             "\n" +
@@ -369,7 +369,7 @@ export default function ChooseYear({ navigation, route }) {
         sendEmail(
           reciever,
           soup[0] + "'s Schedule",
-          "Taken Classes: " +
+          "Classes Taken: " +
             takenCl +
             "\n" +
             "\n" +
@@ -428,7 +428,7 @@ export default function ChooseYear({ navigation, route }) {
         sendEmail(
           reciever,
           soup[0] + "'s Schedule",
-          "Taken Classes: " +
+          "Classes Taken: " +
             takenCl +
             "\n" +
             "\n" +
