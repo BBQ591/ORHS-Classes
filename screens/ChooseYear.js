@@ -75,7 +75,9 @@ export default function ChooseYear({ navigation, route }) {
         takenCl += soup[2][i][0] + "; ";
         console.log(soup[2][i][0]);
       }
-
+      if (takenCl == "") {
+        takenCl = "None";
+      }
       for (let i = 0; i < soup[11].length; i++) {
         if (soup[11][i][0] == "Click Here to Add Class!") {
           currentClFall += " Empty;";
@@ -143,11 +145,11 @@ export default function ChooseYear({ navigation, route }) {
           }
           seniorSpring += soup[10][i][0] + "; ";
         }
-        var freshmanLunch = "";
-        var sophomoreLunch = "";
-        var juniorLunch = "";
-        var seniorLunch = "";
-        var currentLunch = "";
+        var freshmanLunch = "Empty";
+        var sophomoreLunch = "Empty";
+        var juniorLunch = "Empty";
+        var seniorLunch = "Empty";
+        var currentLunch = "Empty";
 
         if (soup[13] != "Click Here to Add Class!") {
           freshmanLunch = soup[13];
@@ -170,38 +172,54 @@ export default function ChooseYear({ navigation, route }) {
           "Taken Classes: " +
             takenCl +
             "\n" +
+            "\n" +
+            "\n" +
             "Current Schedule Fall: " +
             currentClFall +
+            "\n" +
             "\n" +
             "Current Schedule Spring: " +
             currentClSpring +
             "\n" +
+            "\n" +
             "Current Year Lunch: " +
             currentLunch +
+            "\n" +
+            "\n" +
             "\n" +
             "Sophomore Fall: " +
             sophomoreFall +
             "\n" +
+            "\n" +
             "Sophomore Spring: " +
             sophomoreSpring +
             "\n" +
-            "Sophomore Lunch" +
+            "\n" +
+            "Sophomore Lunch: " +
             sophomoreLunch +
+            "\n" +
+            "\n" +
             "\n" +
             "Junior Fall: " +
             juniorFall +
             "\n" +
+            "\n" +
             "Junior Spring: " +
             juniorSpring +
             "\n" +
-            "Junior Lunch" +
+            "\n" +
+            "Junior Lunch: " +
             juniorLunch +
+            "\n" +
+            "\n" +
             "\n" +
             "Senior Fall: " +
             seniorFall +
             "\n" +
+            "\n" +
             "Senior Spring: " +
             seniorSpring +
+            "\n" +
             "\n" +
             "Senior Lunch: " +
             seniorLunch
@@ -241,11 +259,11 @@ export default function ChooseYear({ navigation, route }) {
           seniorSpring += soup[10][i][0] + "; ";
         }
         console.log(seniorSpring, soup[10]);
-        var freshmanLunch = "";
-        var sophomoreLunch = "";
-        var juniorLunch = "";
-        var seniorLunch = "";
-        var currentLunch = "";
+        var freshmanLunch = "Empty";
+        var sophomoreLunch = "Empty";
+        var juniorLunch = "Empty";
+        var seniorLunch = "Empty";
+        var currentLunch = "Empty";
 
         if (soup[13] != "Click Here to Add Class!") {
           freshmanLunch = soup[13];
@@ -268,29 +286,41 @@ export default function ChooseYear({ navigation, route }) {
           "Taken Classes: " +
             takenCl +
             "\n" +
+            "\n" +
+            "\n" +
             "Current Schedule Fall: " +
             currentClFall +
+            "\n" +
             "\n" +
             "Current Schedule Spring: " +
             currentClSpring +
             "\n" +
+            "\n" +
             "Current Year Lunch: " +
             currentLunch +
+            "\n" +
+            "\n" +
             "\n" +
             "Junior Fall: " +
             juniorFall +
             "\n" +
+            "\n" +
             "Junior Spring: " +
             juniorSpring +
             "\n" +
-            "Junior Lunch" +
+            "\n" +
+            "Junior Lunch: " +
             juniorLunch +
+            "\n" +
+            "\n" +
             "\n" +
             "Senior Fall: " +
             seniorFall +
             "\n" +
+            "\n" +
             "Senior Spring: " +
             seniorSpring +
+            "\n" +
             "\n" +
             "Senior Lunch: " +
             seniorLunch
@@ -315,11 +345,11 @@ export default function ChooseYear({ navigation, route }) {
           }
           seniorSpring += soup[10][i][0] + "; ";
         }
-        var freshmanLunch = "";
-        var sophomoreLunch = "";
-        var juniorLunch = "";
-        var seniorLunch = "";
-        var currentLunch = "";
+        var freshmanLunch = "Empty";
+        var sophomoreLunch = "Empty";
+        var juniorLunch = "Empty";
+        var seniorLunch = "Empty";
+        var currentLunch = "Empty";
 
         if (soup[13] != "Click Here to Add Class!") {
           freshmanLunch = soup[13];
@@ -342,20 +372,28 @@ export default function ChooseYear({ navigation, route }) {
           "Taken Classes: " +
             takenCl +
             "\n" +
+            "\n" +
+            "\n" +
             "Current Schedule Fall: " +
             currentClFall +
+            "\n" +
             "\n" +
             "Current Schedule Spring: " +
             currentClSpring +
             "\n" +
+            "\n" +
             "Current Year Lunch: " +
             currentLunch +
+            "\n" +
+            "\n" +
             "\n" +
             "Senior Fall: " +
             seniorFall +
             "\n" +
+            "\n" +
             "Senior Spring: " +
             seniorSpring +
+            "\n" +
             "\n" +
             "Senior Lunch: " +
             seniorLunch
@@ -366,11 +404,11 @@ export default function ChooseYear({ navigation, route }) {
       }
       if (graduation - soup[1] == 4) {
         reciever = "bottinger@ortn.edu";
-        var freshmanLunch = "";
-        var sophomoreLunch = "";
-        var juniorLunch = "";
-        var seniorLunch = "";
-        var currentLunch = "";
+        var freshmanLunch = "Empty";
+        var sophomoreLunch = "Empty";
+        var juniorLunch = "Empty";
+        var seniorLunch = "Empty";
+        var currentLunch = "Empty";
 
         if (soup[13] != "Click Here to Add Class!") {
           freshmanLunch = soup[13];
@@ -393,11 +431,15 @@ export default function ChooseYear({ navigation, route }) {
           "Taken Classes: " +
             takenCl +
             "\n" +
+            "\n" +
+            "\n" +
             "Current Schedule Fall: " +
             currentClFall +
             "\n" +
+            "\n" +
             "Current Schedule Spring: " +
             currentClSpring +
+            "\n" +
             "\n" +
             "Current Year Lunch: " +
             currentLunch
