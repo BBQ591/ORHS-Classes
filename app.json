@@ -2,7 +2,7 @@
   "expo": {
     "name": "ORHS Scheduling",
     "slug": "ORHS-Classes",
-    "version": "8.1.0",
+    "version": "8.6.0",
     "orientation": "portrait",
     "icon": "./wildcats.png",
     "userInterfaceStyle": "light",
@@ -25,7 +25,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "versionCode": 110
+      "versionCode": 116
     },
     "web": {
       "favicon": "./assets/favicon.png"

@@ -165,7 +165,7 @@ export default function ChooseLength({ navigation, route }) {
             // <View style = {styles.items}>
             <TouchableOpacity
               onPress={() => pressHandler(item, Class, isCurr)}
-              activeOpacity={0.7}
+              activeOpacity={0.6}
             >
               <View
                 style={{

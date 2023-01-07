@@ -177,8 +177,9 @@ export default function Description({ navigation, route }) {
   return (
     <ImageBackground
       source={image}
-      style={{ alignItems: "center" }}
+      style={{ alignItems: "center", flex: 1 }}
       imageStyle={{ opacity: 0.15 }}
+      resizeMode="cover"
     >
       <ScrollView
         style={{ paddingTop: 90 }}
@@ -204,18 +205,18 @@ export default function Description({ navigation, route }) {
                 shadowColor: "rgba(0,0,0, .4)", // IOS
                 shadowOffset: { height: 5, width: 5 }, // IOS
                 shadowOpacity: 1, // IOS
-                elevation: 10,
                 borderRadius: 20,
-                paddingLeft: 20,
-                paddingRight: 20,
+                marginLeft: 20,
+                marginRight: 20,
               }}
             >
               <Text
                 style={{
-                  marginLeft: "5%",
-                  marginRight: "5%",
+                  marginLeft: "7%",
+                  marginRight: "7%",
                   opacity: 1,
-                  marginBottom: "5%",
+                  marginBottom: "7%",
+                  textAlign: "center",
                 }}
               >
                 <Text
@@ -321,7 +322,13 @@ export default function Description({ navigation, route }) {
             </Text>
           )}
           {Description != "None" && (
-            <Text style={{ marginLeft: "5%", marginRight: "5%" }}>
+            <Text
+              style={{
+                marginLeft: "5%",
+                marginRight: "5%",
+                textAlign: "center",
+              }}
+            >
               <Text
                 style={{
                   fontSize: 20,
@@ -346,6 +353,7 @@ export default function Description({ navigation, route }) {
                 marginLeft: "5%",
                 marginRight: "5%",
                 marginBottom: "10%",
+                textAlign: "center",
               }}
             >
               <Text

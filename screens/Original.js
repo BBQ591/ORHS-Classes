@@ -91,7 +91,7 @@ export default function Original({ navigation, route }) {
       resizeMode="cover"
     >
       <ScrollView
-        style={{ paddingTop: 80 }}
+        style={{ paddingTop: 80, width: "100%" }}
         contentContainerStyle={{ paddingBottom: 120 }}
       >
         <View style={{ alignItems: "center" }}>
@@ -112,7 +112,7 @@ export default function Original({ navigation, route }) {
                 return (
                   <TouchableOpacity
                     onPress={() => pressHandler(item)}
-                    activeOpacity={0.7}
+                    activeOpacity={0.6}
                   >
                     <View style={styles.items}>
                       <Text style={{ fontSize: 25, fontWeight: "bold" }}>
@@ -134,7 +134,10 @@ export default function Original({ navigation, route }) {
                   item
                 );
                 return (
-                  <TouchableOpacity onPress={() => pressHandler(item)}>
+                  <TouchableOpacity
+                    onPress={() => pressHandler(item)}
+                    activeOpacity={0.6}
+                  >
                     <View style={styles.items}>
                       <Text style={{ fontSize: 25, fontWeight: "bold" }}>
                         {item}

@@ -64,7 +64,7 @@ export default function CAacademies({ navigation, route }) {
       resizeMode="cover"
     >
       <ScrollView
-        style={{ paddingTop: 80 }}
+        style={{ paddingTop: 80, width: "100%" }}
         contentContainerStyle={{ paddingBottom: 120 }}
       >
         <View style={{ alignItems: "center" }}>
@@ -83,6 +83,7 @@ export default function CAacademies({ navigation, route }) {
                     elevation: 10,
                     opacity: 0.9,
                   }}
+                  activeOpacity={0.6}
                 >
                   <View style={styles.items}>
                     <Text

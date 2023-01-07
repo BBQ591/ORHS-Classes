@@ -11,11 +11,406 @@ import {
   Button,
   ImageBackground,
 } from "react-native";
+import { sendEmail } from "./sendEmail";
 // import LinearGradient from "react-native-linear-gradient";
 import { StringUtils } from "turbocommons-ts";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 export default function ChooseYear({ navigation, route }) {
   const image = require("../ORHS2.png");
+  var nameTesting = "";
+  const graduation = 2027;
+  // AsyncStorage.clear();
+
+  const send = () => {
+    const _retrieveData2 = async () => {
+      try {
+        var name = await AsyncStorage.getItem("Name");
+        var graduation = await AsyncStorage.getItem("Graduation");
+        var CurrentYear = await AsyncStorage.getItem("PlaygroundFall");
+        var CurrentYear2 = await AsyncStorage.getItem("PlaygroundSpring");
+        var lunchSen = await AsyncStorage.getItem("lunchSen");
+        var lunchJun = await AsyncStorage.getItem("lunchJun");
+        var lunchSoph = await AsyncStorage.getItem("lunchSoph");
+        var lunchFresh = await AsyncStorage.getItem("lunchFresh");
+        var Senior = await AsyncStorage.getItem("SeniorFall");
+        var Senior2 = await AsyncStorage.getItem("SeniorSpring");
+        var Junior = await AsyncStorage.getItem("JuniorFall");
+        var Junior2 = await AsyncStorage.getItem("JuniorSpring");
+        var Sophomore = await AsyncStorage.getItem("SophomoreFall");
+        var Sophomore2 = await AsyncStorage.getItem("SophomoreSpring");
+        var Freshman = await AsyncStorage.getItem("FreshmanFall");
+        var Freshman2 = await AsyncStorage.getItem("FreshmanSpring");
+        var lunchPlay = await AsyncStorage.getItem("lunchPlay");
+        var taken = await AsyncStorage.getItem("takenClasses");
+        return [
+          name,
+          JSON.parse(graduation),
+          JSON.parse(taken),
+          JSON.parse(Freshman),
+          JSON.parse(Freshman2),
+          JSON.parse(Sophomore),
+          JSON.parse(Sophomore2),
+          JSON.parse(Junior),
+          JSON.parse(Junior2),
+          JSON.parse(Senior),
+          JSON.parse(Senior2),
+          JSON.parse(CurrentYear),
+          JSON.parse(CurrentYear2),
+          lunchFresh,
+          lunchSoph,
+          lunchJun,
+          lunchSen,
+          lunchPlay,
+        ];
+      } catch (error) {}
+    };
+    _retrieveData2().then((soup) => {
+      var takenCl = "";
+      var currentClFall = "";
+      var currentClSpring = "";
+      for (let i = 0; i < soup[2].length; i++) {
+        if (soup[2][i][0] == "Click Here to Add Previously Taken Classes!") {
+          continue;
+        }
+        takenCl += soup[2][i][0] + "; ";
+        console.log(soup[2][i][0]);
+      }
+
+      for (let i = 0; i < soup[11].length; i++) {
+        if (soup[11][i][0] == "Click Here to Add Class!") {
+          currentClFall += " Empty;";
+          continue;
+        }
+        currentClFall += soup[11][i][0] + "; ";
+      }
+      for (let i = 0; i < soup[12].length; i++) {
+        if (soup[12][i][0] == "Click Here to Add Class!") {
+          currentClSpring += " Empty;";
+          continue;
+        }
+        currentClSpring += soup[12][i][0] + "; ";
+      }
+      var reciever;
+      var freshmanFall = "";
+      var freshmanSpring = "";
+      var sophomoreFall = "";
+      var sophomoreSpring = "";
+      var juniorFall = "";
+      var juniorSpring = "";
+      var seniorFall = "";
+      var seniorSpring = "";
+      if (graduation - soup[1] == 1) {
+        reciever = "hptaylor@ortn.edu";
+        for (let i = 0; i < soup[5].length; i++) {
+          if (soup[5][i][0] == "Click Here to Add Class!") {
+            sophomoreFall += " Empty;";
+            continue;
+          }
+          sophomoreFall += "; " + soup[5][i][0];
+        }
+        for (let i = 0; i < soup[6].length; i++) {
+          if (soup[6][i][0] == "Click Here to Add Class!") {
+            sophomoreSpring += " Empty;";
+            continue;
+          }
+          sophomoreSpring += soup[6][i][0] + "; ";
+        }
+        for (let i = 0; i < soup[7].length; i++) {
+          if (soup[7][i][0] == "Click Here to Add Class!") {
+            juniorFall += " Empty;";
+            continue;
+          }
+          juniorFall += soup[7][i][0] + "; ";
+        }
+        for (let i = 0; i < soup[8].length; i++) {
+          if (soup[8][i][0] == "Click Here to Add Class!") {
+            juniorSpring += " Empty;";
+            continue;
+          }
+          juniorSpring += soup[8][i][0] + "; ";
+        }
+        for (let i = 0; i < soup[9].length; i++) {
+          if (soup[9][i][0] == "Click Here to Add Class!") {
+            seniorFall += " Empty;";
+            continue;
+          }
+          seniorFall += soup[9][i][0] + "; ";
+        }
+        for (let i = 0; i < soup[10].length; i++) {
+          if (soup[10][i][0] == "Click Here to Add Class!") {
+            seniorSpring += " Empty;";
+            continue;
+          }
+          seniorSpring += soup[10][i][0] + "; ";
+        }
+        var freshmanLunch = "";
+        var sophomoreLunch = "";
+        var juniorLunch = "";
+        var seniorLunch = "";
+        var currentLunch = "";
+
+        if (soup[13] != "Click Here to Add Class!") {
+          freshmanLunch = soup[13];
+        }
+        if (soup[14] != "Click Here to Add Class!") {
+          sophomoreLunch = soup[14];
+        }
+        if (soup[15] != "Click Here to Add Class!") {
+          juniorLunch = soup[15];
+        }
+        if (soup[16] != "Click Here to Add Class!") {
+          seniorLunch = soup[16];
+        }
+        if (soup[17] != "Click Here to Add Class!") {
+          currentLunch = soup[17];
+        }
+        sendEmail(
+          reciever,
+          soup[0] + "'s Schedule",
+          "Taken Classes: " +
+            takenCl +
+            "\n" +
+            "Current Schedule Fall: " +
+            currentClFall +
+            "\n" +
+            "Current Schedule Spring: " +
+            currentClSpring +
+            "\n" +
+            "Current Year Lunch: " +
+            currentLunch +
+            "\n" +
+            "Sophomore Fall: " +
+            sophomoreFall +
+            "\n" +
+            "Sophomore Spring: " +
+            sophomoreSpring +
+            "\n" +
+            "Sophomore Lunch" +
+            sophomoreLunch +
+            "\n" +
+            "Junior Fall: " +
+            juniorFall +
+            "\n" +
+            "Junior Spring: " +
+            juniorSpring +
+            "\n" +
+            "Junior Lunch" +
+            juniorLunch +
+            "\n" +
+            "Senior Fall: " +
+            seniorFall +
+            "\n" +
+            "Senior Spring: " +
+            seniorSpring +
+            "\n" +
+            "Senior Lunch: " +
+            seniorLunch
+          //  { cc: 'user@domain.com; user2@domain.com; userx@domain1.com' }
+        ).then(() => {
+          console.log("Your message was successfully sent!");
+        });
+      }
+      if (graduation - soup[1] == 2) {
+        reciever = "abennewitz@ortn.edu";
+        for (let i = 0; i < soup[7].length; i++) {
+          if (soup[7][i][0] == "Click Here to Add Class!") {
+            juniorFall += " Empty;";
+            continue;
+          }
+          juniorFall += soup[7][i][0] + "; ";
+        }
+        for (let i = 0; i < soup[8].length; i++) {
+          if (soup[8][i][0] == "Click Here to Add Class!") {
+            juniorSpring += " Empty;";
+            continue;
+          }
+          juniorSpring += soup[8][i][0] + "; ";
+        }
+        for (let i = 0; i < soup[9].length; i++) {
+          if (soup[9][i][0] == "Click Here to Add Class!") {
+            seniorFall += " Empty;";
+            continue;
+          }
+          seniorFall += soup[9][i][0] + "; ";
+        }
+        for (let i = 0; i < soup[10].length; i++) {
+          if (soup[10][i][0] == "Click Here to Add Class!") {
+            seniorSpring += " Empty;";
+            continue;
+          }
+          seniorSpring += soup[10][i][0] + "; ";
+        }
+        console.log(seniorSpring, soup[10]);
+        var freshmanLunch = "";
+        var sophomoreLunch = "";
+        var juniorLunch = "";
+        var seniorLunch = "";
+        var currentLunch = "";
+
+        if (soup[13] != "Click Here to Add Class!") {
+          freshmanLunch = soup[13];
+        }
+        if (soup[14] != "Click Here to Add Class!") {
+          sophomoreLunch = soup[14];
+        }
+        if (soup[15] != "Click Here to Add Class!") {
+          juniorLunch = soup[15];
+        }
+        if (soup[16] != "Click Here to Add Class!") {
+          seniorLunch = soup[16];
+        }
+        if (soup[17] != "Click Here to Add Class!") {
+          currentLunch = soup[17];
+        }
+        sendEmail(
+          reciever,
+          soup[0] + "'s Schedule",
+          "Taken Classes: " +
+            takenCl +
+            "\n" +
+            "Current Schedule Fall: " +
+            currentClFall +
+            "\n" +
+            "Current Schedule Spring: " +
+            currentClSpring +
+            "\n" +
+            "Current Year Lunch: " +
+            currentLunch +
+            "\n" +
+            "Junior Fall: " +
+            juniorFall +
+            "\n" +
+            "Junior Spring: " +
+            juniorSpring +
+            "\n" +
+            "Junior Lunch" +
+            juniorLunch +
+            "\n" +
+            "Senior Fall: " +
+            seniorFall +
+            "\n" +
+            "Senior Spring: " +
+            seniorSpring +
+            "\n" +
+            "Senior Lunch: " +
+            seniorLunch
+          //  { cc: 'user@domain.com; user2@domain.com; userx@domain1.com' }
+        ).then(() => {
+          console.log("Your message was successfully sent!");
+        });
+      }
+      if (graduation - soup[1] == 3) {
+        reciever = "hafoster@ortn.edu";
+        for (let i = 0; i < soup[9].length; i++) {
+          if (soup[9][i][0] == "Click Here to Add Class!") {
+            seniorFall += " Empty;";
+            continue;
+          }
+          seniorFall += soup[9][i][0] + "; ";
+        }
+        for (let i = 0; i < soup[10].length; i++) {
+          if (soup[10][i][0] == "Click Here to Add Class!") {
+            seniorSpring += " Empty;";
+            continue;
+          }
+          seniorSpring += soup[10][i][0] + "; ";
+        }
+        var freshmanLunch = "";
+        var sophomoreLunch = "";
+        var juniorLunch = "";
+        var seniorLunch = "";
+        var currentLunch = "";
+
+        if (soup[13] != "Click Here to Add Class!") {
+          freshmanLunch = soup[13];
+        }
+        if (soup[14] != "Click Here to Add Class!") {
+          sophomoreLunch = soup[14];
+        }
+        if (soup[15] != "Click Here to Add Class!") {
+          juniorLunch = soup[15];
+        }
+        if (soup[16] != "Click Here to Add Class!") {
+          seniorLunch = soup[16];
+        }
+        if (soup[17] != "Click Here to Add Class!") {
+          currentLunch = soup[17];
+        }
+        sendEmail(
+          reciever,
+          soup[0] + "'s Schedule",
+          "Taken Classes: " +
+            takenCl +
+            "\n" +
+            "Current Schedule Fall: " +
+            currentClFall +
+            "\n" +
+            "Current Schedule Spring: " +
+            currentClSpring +
+            "\n" +
+            "Current Year Lunch: " +
+            currentLunch +
+            "\n" +
+            "Senior Fall: " +
+            seniorFall +
+            "\n" +
+            "Senior Spring: " +
+            seniorSpring +
+            "\n" +
+            "Senior Lunch: " +
+            seniorLunch
+          //  { cc: 'user@domain.com; user2@domain.com; userx@domain1.com' }
+        ).then(() => {
+          console.log("Your message was successfully sent!");
+        });
+      }
+      if (graduation - soup[1] == 4) {
+        reciever = "bottinger@ortn.edu";
+        var freshmanLunch = "";
+        var sophomoreLunch = "";
+        var juniorLunch = "";
+        var seniorLunch = "";
+        var currentLunch = "";
+
+        if (soup[13] != "Click Here to Add Class!") {
+          freshmanLunch = soup[13];
+        }
+        if (soup[14] != "Click Here to Add Class!") {
+          sophomoreLunch = soup[14];
+        }
+        if (soup[15] != "Click Here to Add Class!") {
+          juniorLunch = soup[15];
+        }
+        if (soup[16] != "Click Here to Add Class!") {
+          seniorLunch = soup[16];
+        }
+        if (soup[17] != "Click Here to Add Class!") {
+          currentLunch = soup[17];
+        }
+        sendEmail(
+          reciever,
+          soup[0] + "'s Schedule",
+          "Taken Classes: " +
+            takenCl +
+            "\n" +
+            "Current Schedule Fall: " +
+            currentClFall +
+            "\n" +
+            "Current Schedule Spring: " +
+            currentClSpring +
+            "\n" +
+            "Current Year Lunch: " +
+            currentLunch
+          //  { cc: 'user@domain.com; user2@domain.com; userx@domain1.com' }
+        ).then(() => {
+          console.log("Your message was successfully sent!");
+        });
+      }
+      if (graduation - soup[1] == 0) {
+        console.log("poop");
+      }
+    });
+  };
   const pressHandler10 = () => {
     Alert.alert(
       "WARNING",
@@ -39,6 +434,11 @@ export default function ChooseYear({ navigation, route }) {
       headerRight: () => (
         <Button onPress={() => pressHandler10()} title="Reset" />
       ),
+    });
+  }, [navigation]);
+  React.useLayoutEffect(() => {
+    navigation.setOptions({
+      headerLeft: () => <Button onPress={() => send()} title="Upload" />,
     });
   }, [navigation]);
   const [isVisible, setisVisible] = useState(false);
@@ -73,14 +473,14 @@ export default function ChooseYear({ navigation, route }) {
 
   const convertData = (
     alphaKeys,
-    graduation,
+    graduation2,
     sortedcurrScheduleCorNumID,
     periods,
     currAlphaKeys,
     lengths,
-    names
+    names,
+    raw2
   ) => {
-    console.log(periods, lengths, currAlphaKeys, "INFORMATIONNNNNNN");
     var theList;
     var closestName;
     var closestCredits;
@@ -613,13 +1013,43 @@ export default function ChooseYear({ navigation, route }) {
     }
     console.log(currYearFall, currYearSpring);
     console.log(takenClasses);
+    var pFinance = false;
+    var wC = false;
+    if (raw2.indexOf("Personal Finance CP") != -1) {
+      pFinance = true;
+    }
+    if (raw2.indexOf("Wellness C") != -1) {
+      wC = true;
+    }
+    for (let i = 0; i < currYearFall.length; i++) {
+      if (currYearFall[i][0].indexOf("Personal Finance CP") != -1) {
+        pFinance = false;
+      }
+      if (currYearSpring[i][0].indexOf("Personal Finance CP") != -1) {
+        pFinance = false;
+      }
+      if (currYearFall[i][0].indexOf("Wellness C") != -1) {
+        pFinance = false;
+      }
+      if (currYearSpring[i][0].indexOf("Wellness C") != -1) {
+        pFinance = false;
+      }
+    }
+    if (pFinance) {
+      takenClasses.push(["Personal Finance", ["0.5"], ["Social Studies"]]);
+    }
+    if (wC) {
+      takenClasses.push(["Wellness C", ["0.5"], ["Wellness"]]);
+    }
     takenClasses.push(["Click Here to Add Previously Taken Classes!", 0, 0]);
+
     const _storeData2 = async (
       takenClasses,
       credits,
-      graduation,
+      graduation2,
       currYearFall,
-      currYearSpring
+      currYearSpring,
+      graduation
     ) => {
       try {
         await AsyncStorage.setItem(
@@ -636,7 +1066,7 @@ export default function ChooseYear({ navigation, route }) {
           JSON.stringify(currYearSpring)
         );
         await AsyncStorage.setItem("lunchPlay", "Click Here to Add Class!");
-        if (graduation - 2023 >= 1) {
+        if (graduation - graduation2 <= 3) {
           await AsyncStorage.setItem(
             "SeniorFall",
             JSON.stringify([
@@ -664,7 +1094,7 @@ export default function ChooseYear({ navigation, route }) {
               ["Click Here to Add Class!"],
             ])
           );
-          if (graduation - 2023 >= 2) {
+          if (graduation - graduation2 <= 2) {
             await AsyncStorage.setItem(
               "JuniorFall",
               JSON.stringify([
@@ -692,7 +1122,7 @@ export default function ChooseYear({ navigation, route }) {
                 ["Click Here to Add Class!"],
               ])
             );
-            if (graduation - 2023 >= 3) {
+            if (graduation - graduation2 <= 1) {
               await AsyncStorage.setItem(
                 "SophomoreFall",
                 JSON.stringify([
@@ -723,7 +1153,7 @@ export default function ChooseYear({ navigation, route }) {
                   ["Click Here to Add Class!"],
                 ])
               );
-              if (graduation - 2023 == 4) {
+              if (graduation - graduation2 == 0) {
                 await AsyncStorage.setItem(
                   "FreshmanFall",
                   JSON.stringify([
@@ -767,9 +1197,10 @@ export default function ChooseYear({ navigation, route }) {
     _storeData2(
       takenClasses,
       takenCredits,
-      graduation,
+      graduation2,
       currYearFall,
-      currYearSpring
+      currYearSpring,
+      graduation
     );
     setisVisible(false);
     setisVisible2(false);
@@ -924,17 +1355,18 @@ export default function ChooseYear({ navigation, route }) {
         setYears(["Freshmen", "Sophomore", "Junior", "Senior"]);
       }
       var currYears;
+      console.log(graduation, "YEARSSSSSSSSSS");
       if (graduationYear[0] == false) {
-        if (graduationYear[1] - 2023 == 0) {
+        if (graduation - graduationYear[1] == 4) {
           currYears = ["Classes Taken", "Current Year"];
         }
-        if (graduationYear[1] - 2023 == 1) {
+        if (graduation - graduationYear[1] == 3) {
           currYears = ["Classes Taken", "Current Year", "Senior"];
         }
-        if (graduationYear[1] - 2023 == 2) {
+        if (graduation - graduationYear[1] == 2) {
           currYears = ["Classes Taken", "Current Year", "Junior", "Senior"];
         }
-        if (graduationYear[1] - 2023 == 3) {
+        if (graduation - graduationYear[1] == 1) {
           currYears = [
             "Classes Taken",
             "Current Year",
@@ -943,7 +1375,7 @@ export default function ChooseYear({ navigation, route }) {
             "Senior",
           ];
         }
-        if (graduationYear[1] - 2023 == 4) {
+        if (graduationYear[1] - graduation == 0) {
           currYears = [
             "Classes Taken",
             "Freshman",
@@ -965,16 +1397,16 @@ export default function ChooseYear({ navigation, route }) {
 
     username = text1;
     password = text2;
-    if (graduationTesting - 2023 == 0) {
+    if (graduation - graduationTesting == 4) {
       setYears(["Classes Taken", "Current Year"]);
     }
-    if (graduationTesting - 2023 == 1) {
+    if (graduation - graduationTesting == 3) {
       setYears(["Classes Taken", "Current Year", "Senior"]);
     }
-    if (graduationTesting - 2023 == 2) {
+    if (graduation - graduationTesting == 2) {
       setYears(["Classes Taken", "Current Year", "Junior", "Senior"]);
     }
-    if (graduationTesting - 2023 == 3) {
+    if (graduation - graduationTesting == 1) {
       setYears([
         "Classes Taken",
         "Current Year",
@@ -985,7 +1417,7 @@ export default function ChooseYear({ navigation, route }) {
         "Senior",
       ]);
     }
-    if (graduationTesting - 2023 == 4) {
+    if (graduation - graduationTesting == 0) {
       setYears(["Classes Taken", "Freshman", "Sophomore", "Junior", "Senior"]);
     }
     if ((username === "demoUsername") & (password === "12345")) {
@@ -998,6 +1430,7 @@ export default function ChooseYear({ navigation, route }) {
         if (authent != "No username or password or it is invalid") {
           scraper.scrapeReport(authent).then(({ raw }) => {
             const raw2 = raw;
+            console.log(raw.indexOf("Wellness B"), "hello");
             const recurse = (
               course1,
               indexers,
@@ -1008,7 +1441,8 @@ export default function ChooseYear({ navigation, route }) {
               currAlphaKeys,
               lengths,
               raw,
-              names
+              names,
+              raw2
             ) => {
               scraper
                 .scrapeGradebook(
@@ -1074,7 +1508,8 @@ export default function ChooseYear({ navigation, route }) {
                       periods,
                       currAlphaKeys,
                       lengths,
-                      names
+                      names,
+                      raw2
                     );
                   }
                   recurse(
@@ -1087,7 +1522,8 @@ export default function ChooseYear({ navigation, route }) {
                     currAlphaKeys,
                     lengths,
                     raw,
-                    names
+                    names,
+                    raw2
                   );
                 });
             };
@@ -1212,7 +1648,8 @@ export default function ChooseYear({ navigation, route }) {
                 [],
                 [],
                 raw3,
-                names
+                names,
+                raw2
               );
             });
           });
@@ -1241,9 +1678,11 @@ export default function ChooseYear({ navigation, route }) {
     console.log(graduationTesting, "hiiiiiii");
     if ((graduationTesting <= 2027) & (graduationTesting >= 2023)) {
       console.log("I AM IN MATH CLASS!");
-      const _storeData2 = async (takenClasses, credits, graduation) => {
+      const _storeData2 = async (takenClasses, credits, graduation2) => {
         try {
-          await AsyncStorage.setItem("Graduation", JSON.stringify(graduation));
+          await AsyncStorage.setItem("Name", nameTesting);
+
+          await AsyncStorage.setItem("Graduation", JSON.stringify(graduation2));
           await AsyncStorage.setItem(
             "takenClasses",
             JSON.stringify(takenClasses)
@@ -1289,7 +1728,7 @@ export default function ChooseYear({ navigation, route }) {
               ["Click Here to Add Class!"],
             ])
           );
-          if (graduation - 2023 >= 1) {
+          if (graduation - graduation2 <= 3) {
             await AsyncStorage.setItem(
               "SeniorFall",
               JSON.stringify([
@@ -1317,7 +1756,7 @@ export default function ChooseYear({ navigation, route }) {
                 ["Click Here to Add Class!"],
               ])
             );
-            if (graduation - 2023 >= 2) {
+            if (graduation - graduation2 <= 2) {
               await AsyncStorage.setItem(
                 "JuniorFall",
                 JSON.stringify([
@@ -1348,7 +1787,7 @@ export default function ChooseYear({ navigation, route }) {
                   ["Click Here to Add Class!"],
                 ])
               );
-              if (graduation - 2023 >= 3) {
+              if (graduation - graduation2 >= 1) {
                 await AsyncStorage.setItem(
                   "SophomoreFall",
                   JSON.stringify([
@@ -1379,7 +1818,7 @@ export default function ChooseYear({ navigation, route }) {
                     ["Click Here to Add Class!"],
                   ])
                 );
-                if (graduation - 2023 == 4) {
+                if (graduation - graduation2 == 0) {
                   await AsyncStorage.setItem(
                     "FreshmanFall",
                     JSON.stringify([
@@ -1435,16 +1874,16 @@ export default function ChooseYear({ navigation, route }) {
         takenCredits,
         graduationTesting
       );
-      if (graduationTesting - 2023 == 0) {
+      if (graduation - graduationTesting == 4) {
         setYears(["Classes Taken", "Current Year"]);
       }
-      if (graduationTesting - 2023 == 1) {
+      if (graduation - graduationTesting == 3) {
         setYears(["Classes Taken", "Current Year", "Senior"]);
       }
-      if (graduationTesting - 2023 == 2) {
+      if (graduation - graduationTesting == 2) {
         setYears(["Classes Taken", "Current Year", "Junior", , "Senior"]);
       }
-      if (graduationTesting - 2023 == 3) {
+      if (graduation - graduationTesting == 1) {
         setYears([
           "Classes Taken",
           "Current Year",
@@ -1454,7 +1893,7 @@ export default function ChooseYear({ navigation, route }) {
           "Senior",
         ]);
       }
-      if (graduationTesting - 2023 == 4) {
+      if (graduation - graduationTesting == 0) {
         setYears([
           "Classes Taken",
           "Freshman",
@@ -1616,6 +2055,22 @@ export default function ChooseYear({ navigation, route }) {
                 fontSize={20}
                 returnKeyType="done"
               />
+              <Text
+                style={{
+                  textAlign: "center",
+                  fontSize: 20,
+                  fontWeight: "bold",
+                }}
+              >
+                PLEASE TYPE IN YOUR FULL NAME BELOW
+              </Text>
+              <TextInput
+                value={text1}
+                placeholder="Full Name"
+                onChangeText={(value, index) => (nameTesting = value)}
+                fontSize={20}
+                returnKeyType="done"
+              />
               <TouchableOpacity
                 onPress={() => {
                   setisVisible3(false);
@@ -1657,7 +2112,6 @@ export default function ChooseYear({ navigation, route }) {
                   color: "black",
                   fontWeight: "bold",
                   textAlign: "center",
-                  opacity: 1,
                 }}
               >
                 {user}
@@ -1721,7 +2175,7 @@ const styles = StyleSheet.create({
       width: 0,
       height: 2,
     },
-    height: "30%",
+    height: "50%",
     width: "90%",
     justifyContent: "space-evenly",
   },
@@ -1733,10 +2187,9 @@ const styles = StyleSheet.create({
     paddingTop: 70,
   },
   items: {
-    shadowColor: "rgba(0,0,0, .4)", // IOS
+    shadowColor: "rgba(0,0,0, 0.4)", // IOS
     shadowOffset: { height: 5, width: 5 }, // IOS
     shadowOpacity: 1, // IOS
-    elevation: 10,
     // top: 80,
     // flexGrow: 0.3,
     flex: 0,

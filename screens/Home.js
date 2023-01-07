@@ -59,14 +59,17 @@ export default function Home({ navigation, route }) {
       }}
     >
       <ScrollView
-        style={{ paddingTop: 80 }}
+        style={{ paddingTop: 80, width: "100%" }}
         contentContainerStyle={{ paddingBottom: 120 }}
       >
         <View style={styles.container}>
           {dict[name].map((item) => {
             if (item.Length.indexOf(length) != -1) {
               return (
-                <TouchableOpacity onPress={() => pressHandler(item)}>
+                <TouchableOpacity
+                  onPress={() => pressHandler(item)}
+                  activeOpacity={0.6}
+                >
                   <View style={styles.items}>
                     <Text
                       style={{
