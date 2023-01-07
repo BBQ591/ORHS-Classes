@@ -1079,9 +1079,11 @@ export default function ChooseYear({ navigation, route }) {
     }
     if (pFinance) {
       takenClasses.push(["Personal Finance", ["0.5"], ["Social Studies"]]);
+      takenCredits["Social Studies"] += 0.5;
     }
     if (wC) {
       takenClasses.push(["Wellness C", ["0.5"], ["Wellness"]]);
+      takenCredits["Wellness"] += 0.5;
     }
     takenClasses.push(["Click Here to Add Previously Taken Classes!", 0, 0]);
 

@@ -2,7 +2,7 @@
   "expo": {
     "name": "ORHS Scheduling",
     "slug": "ORHS-Classes",
-    "version": "8.8.0",
+    "version": "8.9.0",
     "orientation": "portrait",
     "icon": "./wildcats.png",
     "userInterfaceStyle": "light",
