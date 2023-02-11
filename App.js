@@ -46,7 +46,7 @@ export default function App() {
         />
         <Stack.Screen name="Search Class" component={SearchScreen} />
 
-        <Stack.Screen name="Class Taken" component={CustomYear} />
+        <Stack.Screen name="Classes Taken" component={CustomYear} />
         <Stack.Screen
           name="Add Class"
           component={CustomClass}

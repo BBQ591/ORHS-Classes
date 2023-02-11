@@ -1311,7 +1311,7 @@ export default function ChooseYear({ navigation, route }) {
     };
     _retrieveData2().then((soup) => {
       if (year == "Classes Taken") {
-        navigation.navigate("Class Taken", {
+        navigation.navigate("Classes Taken", {
           fall: soup[0],
           requirements: soup[12],
         });
