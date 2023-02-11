@@ -65,13 +65,9 @@ export default function App() {
         <Stack.Screen
           name="Schedule"
           component={ChooseClasses}
-          options={{
-            headerStyle: {
-              backgroundColor: "white",
-            },
-            // headerTintColor: "black",
-            headerShown: true,
-          }}
+          options={({ route }) => ({
+            title: route.params.year,
+          })}
         />
         <Stack.Screen
           name="Subjects"
