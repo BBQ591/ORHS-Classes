@@ -7,7 +7,6 @@ const body = ({ user, pass }) => {
 module.exports = (axios, skywardURL) => (credentials) => {
   if (!axios || !skywardURL)
     throw new TypeError("axios & skywardURL are required");
-  console.log(credentials);
   return axios({
     url: "../skyporthttp.w",
     baseURL: skywardURL,

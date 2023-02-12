@@ -27,7 +27,6 @@ function Overview({ navigation, route }) {
   }
   var tempFall = Array.from(fall);
   var tempSpring = Array.from(spring);
-  console.log(fall, "FALL", tempFall);
   for (let i = 0; i < 8; i++) {
     if (fall[i][0] == "Click Here to Add Class!") {
       tempFall[i] = ["No Class Here"];
@@ -39,8 +38,6 @@ function Overview({ navigation, route }) {
   var Fblock = false;
   var Sblock = false;
   var year = false;
-  console.log(tempFall);
-  console.log(tempSpring);
   return (
     <ScrollView
       style={{
@@ -98,7 +95,6 @@ function Overview({ navigation, route }) {
         Sblock = false;
         year = false;
         // remember to do i+1 at the end
-        console.log("loop iteration", i);
 
         if (i % 2 == 0) {
           if (
@@ -449,10 +445,8 @@ function Schedule({ navigation, route }) {
     title = "Spring";
     schedule = spring;
   }
-  console.log(isCurr, "HIIIII");
   const chooseL = (item, item2, number, isCurr) => {
     // Direction is true if we need to delete up, false if we need to delete down
-    console.log(isCurr, "Hello");
     navigation.navigate("Pick Length", {
       FS: FS,
       Class: item2,
@@ -580,7 +574,6 @@ function Schedule({ navigation, route }) {
         creditDict[Class].Credits[i]
       );
     }
-    console.log("hi");
     lunchClass[0] = ["Click Here to Add Class!"];
     const _storeData = async () => {
       try {
@@ -846,20 +839,9 @@ const Tab = createBottomTabNavigator();
 
 export default function ChooseClasses({ navigation, route }) {
   const { fall, spring, lunchClass, requirements, year, isCurr } = route.params;
-  console.log(
-    "STARTTTTTTT",
-    fall,
-    spring,
-    lunchClass,
-    requirements,
-    year,
-    "HIIIIIIIIIIII"
-  );
   const _storeData = async () => {
     try {
       if (year == "Freshman") {
-        console.log("SAVING TO FRESHMAN", fall, spring, "ENDDDD");
-
         await AsyncStorage.setItem("FreshmanFall", JSON.stringify(fall)),
           await AsyncStorage.setItem("FreshmanSpring", JSON.stringify(spring)),
           await AsyncStorage.setItem("lunchFresh", lunchClass[0]),

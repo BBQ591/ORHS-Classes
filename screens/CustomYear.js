@@ -95,9 +95,7 @@ function Schedule({ navigation, route }) {
       for (const indexer in fall[index][1]) {
         requirements[fall[index][2][indexer]] -= fall[index][1][indexer];
       }
-      console.log("hi");
     } else {
-      console.log("hihi", typeof fall[index][1]);
       requirements[fall[index][2]] -= fall[index][1];
     }
     fall.splice(index, 1);

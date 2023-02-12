@@ -47,7 +47,6 @@ export default function Original({ navigation, route }) {
     number,
   } = route.params;
   const pressHandler = (items) => {
-    console.log(number, "poooop");
     if (items != "Career Academies") {
       navigation.navigate("Classes", {
         FS: FS,
@@ -127,12 +126,6 @@ export default function Original({ navigation, route }) {
                 dict[item].filter((currClass) => currClass.Length.includes(add))
                   .length != 0
               ) {
-                console.log(
-                  dict[item].filter((currClass) =>
-                    currClass.Length.includes(add)
-                  ).length,
-                  item
-                );
                 return (
                   <TouchableOpacity
                     onPress={() => pressHandler(item)}

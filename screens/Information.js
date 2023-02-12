@@ -13,13 +13,10 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { Picker } from "@react-native-picker/picker";
 export default function information({ navigation }) {
   // useEffect(() => {
-  //     console.log(poop);
   // }, [poop]);
   const windowWidth = Dimensions.get("window").width;
   const windowHeight = Dimensions.get("window").height;
-  console.log(windowHeight);
   var [country, setCountry] = useState();
-  console.log(country, "YOUR MOM IS FAT");
   const pressHandler10 = (country) => {
     Alert.alert("Graduation Year", "Please Select Graduation Year First", [
       {
@@ -35,7 +32,6 @@ export default function information({ navigation }) {
 
   const pressHandler3 = (value) => {
     setCountry(value);
-    console.log(value, "this is different");
     AsyncStorage.clear();
 
     const _storeData = async (country) => {
@@ -69,12 +65,10 @@ export default function information({ navigation }) {
     if (value == null) {
       return "Click Here to Select Your Graduation Year";
     }
-    console.log(country, value, "sadness");
     return JSON.parse(value);
   };
   _retrieveData(country).then((soup) => {
     setCountry(soup);
-    console.log(country);
   });
   return (
     // <ScrollView>

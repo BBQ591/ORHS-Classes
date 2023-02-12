@@ -32,8 +32,6 @@ export default function Description({ navigation, route }) {
     number,
     inSearchMode,
   } = route.params;
-  console.log(FS, "YOUR MAMA");
-  console.log(subject, Credits, "poop");
   var schedule = spring;
   var oSchedule = fall;
   if (FS == "Fall (edit)") {
@@ -114,7 +112,6 @@ export default function Description({ navigation, route }) {
       }
     }
     var visited = ["", "", "", ""];
-    console.log(difference, "DIFFERENTIAL");
     if (
       difference[0] != "" ||
       difference[1] != "" ||
@@ -140,10 +137,6 @@ export default function Description({ navigation, route }) {
         }
       }
     }
-    console.log(difference, "adsj;fljl;kdafsljk;fdsljk;dfaslj;");
-    console.log(fall, tempFall);
-    console.log(spring, tempSpring);
-
     navigation.navigate("Schedule", {
       FS: FS,
       fall: fall,

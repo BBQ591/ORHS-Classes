@@ -25,8 +25,6 @@ export default function ChooseLength({ navigation, route }) {
     number,
     isCurr,
   } = route.params;
-  console.log(isCurr, "IN LENGTH");
-  console.log(FS, "daks;ljla;dkjsljdfsalaj;kfds");
   const options = [
     "Add Semester",
     "Add Block Year Long",
@@ -92,7 +90,6 @@ export default function ChooseLength({ navigation, route }) {
       });
     }
     if (isCurr == false) {
-      console.log(isCurr, "is false");
       if (item == "View Description" && Class != "Click Here to Add Class!") {
         navigation.navigate("Description", {
           FS,
@@ -116,7 +113,6 @@ export default function ChooseLength({ navigation, route }) {
       }
     } else {
       if (item == "View Description" && Class != "Click Here to Add Class!") {
-        console.log("is true");
         navigation.navigate("Description", {
           FS,
           name: Class[0],

@@ -73,7 +73,6 @@ export default function ChooseYear({ navigation, route }) {
           continue;
         }
         takenCl += soup[2][i][0] + "; ";
-        console.log(soup[2][i][0]);
       }
       if (takenCl == "") {
         takenCl = "None";
@@ -258,7 +257,6 @@ export default function ChooseYear({ navigation, route }) {
           }
           seniorSpring += soup[10][i][0] + "; ";
         }
-        console.log(seniorSpring, soup[10]);
         var freshmanLunch = "Empty";
         var sophomoreLunch = "Empty";
         var juniorLunch = "Empty";
@@ -448,9 +446,6 @@ export default function ChooseYear({ navigation, route }) {
           console.log("Your message was successfully sent!");
         });
       }
-      if (graduation - soup[1] == 0) {
-        console.log("poop");
-      }
     });
   };
   const pressHandler10 = () => {
@@ -581,7 +576,6 @@ export default function ChooseYear({ navigation, route }) {
     }
     var currClosest;
     var currClosestNum;
-    console.log(currAlphaKeys, "NAMES");
     for (const key in currAlphaKeys) {
       currClose = Infinity;
       currClosestNum = Infinity;
@@ -631,7 +625,6 @@ export default function ChooseYear({ navigation, route }) {
       currYearSubjects[key] = closestSubject;
       currYearNames[key] = names[key];
     }
-    console.log(currYearCredits);
     for (let i = 0; i < currAlphaKeys.length; i++) {
       if (currYearNames[i] == "Click Here to Add Class!") {
         continue;
@@ -1053,8 +1046,6 @@ export default function ChooseYear({ navigation, route }) {
         }
       }
     }
-    console.log(currYearFall, currYearSpring);
-    console.log(takenClasses);
     var pFinance = false;
     var wC = false;
     if (raw2.indexOf("Personal Finance CP") != -1) {
@@ -1237,7 +1228,6 @@ export default function ChooseYear({ navigation, route }) {
         console.log("error saving data");
       }
     };
-    console.log(takenCredits);
     _storeData2(
       takenClasses,
       takenCredits,
@@ -1384,7 +1374,6 @@ export default function ChooseYear({ navigation, route }) {
       // AsyncStorage.clear();
       try {
         var graduation = await AsyncStorage.getItem("Graduation");
-        console.log(graduation);
         if (graduation != null) {
           return [false, JSON.parse(graduation)];
         } else {
@@ -1393,13 +1382,11 @@ export default function ChooseYear({ navigation, route }) {
       } catch (error) {}
     };
     _retrieveData().then((graduationYear) => {
-      console.log(graduationYear);
       if (graduationYear[0] == true) {
         setisVisible3(true);
         setYears(["Freshmen", "Sophomore", "Junior", "Senior"]);
       }
       var currYears;
-      console.log(graduation, "YEARSSSSSSSSSS");
       if (graduationYear[0] == false) {
         if (graduation - graduationYear[1] == 4) {
           currYears = ["Classes Taken", "Current Year"];
@@ -1474,7 +1461,6 @@ export default function ChooseYear({ navigation, route }) {
         if (authent != "No username or password or it is invalid") {
           scraper.scrapeReport(authent).then(({ raw }) => {
             const raw2 = raw;
-            console.log(raw.indexOf("Wellness B"), "hello");
             const recurse = (
               course1,
               indexers,
@@ -1538,7 +1524,6 @@ export default function ChooseYear({ navigation, route }) {
                       data[0];
                     lengths[sortedcurrScheduleCorNumID.indexOf(course1)] =
                       data[1];
-                    //   console.log("IN THE ELSE");
                     // }
                   }
 
@@ -1628,16 +1613,13 @@ export default function ChooseYear({ navigation, route }) {
               //     currScheduleCorNumID.push(corNumID[index]);
               //   }
               // }
-              console.log(currScheduleCorNumID, "CURR CORNUMID");
               // gets the corNumID's of the current schedule
               var sortedcurrScheduleCorNumID = [];
               var minimum;
               var minimumCorNumID;
               var testing1;
               var currlength = currScheduleCorNumID.length;
-              console.log(currlength);
               for (let index1 = 0; index1 < currlength; index1 += 1) {
-                console.log("hi");
                 minimum = Infinity;
                 for (var index2 in currScheduleCorNumID) {
                   if (
@@ -1655,7 +1637,6 @@ export default function ChooseYear({ navigation, route }) {
                 currScheduleCorNumID.splice(testing1, 1);
                 sortedcurrScheduleCorNumID.push(minimumCorNumID);
               }
-              console.log(sortedcurrScheduleCorNumID);
               // sorts the currScheduleCorNumID
               var periods = [];
               for (let letter = 0; letter < raw.length; letter += 1) {
@@ -1666,7 +1647,6 @@ export default function ChooseYear({ navigation, route }) {
                   periods.push(raw.substring(letter + 14, letter + 15));
                 }
               }
-              console.log(periods);
               // gets the respective periods of each class
               var currAlphaKeys = [];
               var lengths = [];
@@ -1719,9 +1699,7 @@ export default function ChooseYear({ navigation, route }) {
   };
   const cancelling = () => {};
   const inputtingGraduation = () => {
-    console.log(graduationTesting, "hiiiiiii");
     if ((graduationTesting <= 2027) & (graduationTesting >= 2023)) {
-      console.log("I AM IN MATH CLASS!");
       const _storeData2 = async (takenClasses, credits, graduation2) => {
         try {
           await AsyncStorage.setItem("Name", nameTesting);
@@ -1946,7 +1924,6 @@ export default function ChooseYear({ navigation, route }) {
           "Senior",
         ]);
       }
-      console.log("I AM IN MATH CLASS 2");
       setisVisible(true);
     } else {
       Alert.alert(

@@ -24,7 +24,6 @@ export default function Home({ navigation, route }) {
     number,
   } = route.params;
   const pressHandler = (items) => {
-    console.log(number);
     navigation.navigate("Description", {
       FS: FS,
       name: items.Name,

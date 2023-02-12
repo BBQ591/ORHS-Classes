@@ -26,7 +26,6 @@ export default function CustomClass({ navigation, route }) {
     };
     _storeData(value);
     text = value;
-    console.log(text);
     // fall[fall.length - 1][0] = value;
   };
   const pressHandler5 = (value) => {
@@ -65,7 +64,6 @@ export default function CustomClass({ navigation, route }) {
       return [value3, value4, value5];
     };
     _retrieveData().then((soup) => {
-      console.log(value, number, soup);
       fall[fall.length - 1][1] = soup[2];
       fall[fall.length - 1][0] = soup[1];
 
