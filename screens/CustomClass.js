@@ -87,9 +87,10 @@ export default function CustomClass({ navigation, route }) {
         }
       };
       _storeData();
-      navigation.navigate("Class Taken", {
+      navigation.navigate("Classes Taken", {
         fall,
         requirements,
+        year: "Classes Taken",
       });
     });
   };

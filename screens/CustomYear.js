@@ -71,7 +71,6 @@ function Credits({ navigation, route }) {
 }
 function Schedule({ navigation, route }) {
   const { fall, requirements } = route.params;
-  console.log(typeof fall);
 
   const isFocused = useIsFocused();
   const [dummy, setDummy] = useState(false);
